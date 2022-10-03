@@ -1,0 +1,26 @@
+.fav-info-container {
+  justify-content: center;
+  flex-direction: column;
+}
+.fav-info-container p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+}
+.fav-star-container {
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.fav-info-container .date {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--text-white);
+  opacity: 0.5;
+}
+.favorites-card-container {
+  background: var(--card-background);
+  height: 60px;
+  border-bottom: 1px solid var(--btn-close-bg);
+}

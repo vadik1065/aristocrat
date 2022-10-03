@@ -1,0 +1,478 @@
+/* .desktop-left-bar {
+  height: 98%;
+  margin: 0px 10px;
+  width: 250px;
+  min-width: 250px;
+  background: var(--left-bar-background);
+  border-radius: 5px;
+} */
+
+.desktop-left-bar-wrapper {
+  width: 270px;
+  min-width: 270px;
+  height: 100%;
+  padding: 10px;
+}
+
+.desktop-left-bar {
+  height: 100%;
+  border-radius: 5px;
+  background: var(--left-bar-background);
+  box-shadow: var(--shadow);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-bar-header {
+  height: 50px;
+  justify-content: center;
+  border-radius: 5px 5px 0px 0px;
+  background: var(--inner-header-background);
+}
+.menu-sport-select-btn {
+  margin: 15px auto;
+  margin-bottom: 0px;
+  padding: 0 12px;
+  cursor: pointer;
+  min-width: 220px;
+  width: 30%;
+  height: 44px;
+  border-radius: 50px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  background: var(--second-background);
+  box-shadow: var(--shadow);
+  z-index: 3;
+  position: relative;
+}
+.menu-sport-select-btn p {
+  margin-right: auto;
+}
+.menu-sport-select-btn.open .pic-right {
+  transform: rotate(180deg);
+}
+.left-menu-selected-container .dropdown-menu {
+  margin: 0 auto;
+  margin-bottom: -33px;
+  padding-top: 36px;
+  position: relative;
+  min-width: 220px;
+  width: 30%;
+  height: auto;
+  background-color: var(--ul-background);
+  box-shadow: 0px 0.5px 4px rgb(0 0 0 / 12%), 0px 6px 13px rgb(0 0 0 / 12%);
+  border-radius: 25px;
+  top: -33px;
+  z-index: 2;
+  overflow: hidden;
+  -webkit-animation: 2s linear 0s openmenu;
+          animation: 2s linear 0s openmenu;
+}
+
+@-webkit-keyframes openmenu { from { max-height: 0px; } to { max-height: 3000px; }  }
+@keyframes openmenu { from { max-height: 0px; } to { max-height: 3000px; }  }
+
+.dropdown-menu li {
+  padding: 0 12px;
+  align-items: center;
+  cursor: pointer;
+}
+.dropdown-menu li.not-active {
+  opacity: .5;
+}
+.hor-line {
+  width: 100%;
+  border-bottom: 1px solid var(--card-background);
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+.dropdown-menu li p {
+  margin: 12px 0px;
+}
+.desktop-left-bar .desktop-left-bar-list-item,
+.desktop-left-bar .desktop-left-bar-list-item .league-type  {
+  min-height: 40px;
+  height: auto;
+  padding: 0 15px 0 10px;
+  align-items: center;
+  background: var(--left-bar-background);
+  transition: .3s;
+  border-left: 1px solid var(--left-bar-background);
+  cursor: pointer;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.desktop-left-bar .desktop-left-bar-list-item .league-type {
+  flex-direction: row;
+}
+.desktop-left-bar .desktop-left-bar-list-item .sport-type{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding: 0 15px 0 10px;
+  align-items: center;
+}
+.desktop-left-bar .desktop-left-bar-list-item p {
+  font-size: 15px;
+  line-height: 18px;
+  max-width: 65%
+}
+
+.desktop-left-bar .desktop-left-bar-list-item .pic-right {
+  width: 10px;
+  height: 6px;
+  margin-left: auto;
+}
+
+.desktop-left-bar .desktop-left-bar-list-item.choosen {
+  background: var(--inner-header-background);
+  border-color: var(--orange);
+}
+
+.desktop-left-bar .desktop-left-bar-list-item:hover {
+  background: var(--inner-header-background);
+  border-color: var(--orange);
+}
+
+.desktop-left-bar .desktop-left-bar-list-item:hover .pic-right {
+  transform: rotate(-90deg);
+}
+
+.desktop-left-bar .desktop-left-bar-list-item .pic-right.choosen {
+  transform: rotate(-90deg);
+}
+
+.desktop-left-bar ion-list {
+  margin-top: 20px;
+}
+
+.pic-right {
+  margin: 0;
+  transition: .3s;
+  fill: var(--arrow-icon-color);
+}
+
+.left-bar-header {
+  align-items: center;
+}
+
+img.sport-pic {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+ion-popover ion-backdrop {
+  background: none;
+}
+
+/* width */
+
+.popover-content::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+
+.popover-content::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+
+.popover-content::-webkit-scrollbar-thumb {
+  background: #CFCFCF;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+}
+
+/* Handle on hover */
+
+.popover-content::-webkit-scrollbar-thumb:hover {
+  background: #FFF;
+}
+
+.desktop-left-bar .calendar-container {
+  width: 130px;
+  margin: 0 8px 0 0;
+  justify-content: flex-start;
+}
+
+.desktop-left-bar .calendar-container .calendar-label {
+  margin-left: 8px;
+  margin-right: auto;
+}
+
+.doots {
+  margin-right: 18px;
+  margin-left: 20px;
+}
+
+/* Desktop ChatSidebar */
+
+.desktop-left-bar-body {
+  margin-top: 15px;
+}
+
+.desktop-left-bar-element {
+  height: auto;
+  max-height: 50px;
+  overflow: hidden;
+  transition: .3s;
+}
+
+.desktop-left-bar-element.open {
+  height: auto;
+  max-height: 1000px;
+}
+
+.desktop-left-bar-element-list {
+  height: 0;
+}
+
+.open .desktop-left-bar-element-list {
+  height: auto;
+}
+
+.desktop-left-bar-element-header {
+  width: 100%;
+  height: 50px;
+  padding: 0 25px 0 30px;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.desktop-left-bar-element-header-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--sidebar-text-gray);
+}
+
+.desktop-left-bar-element-header .arrow-down {
+  transition: .3s;
+  transform: rotate(180deg);
+}
+
+.open .desktop-left-bar-element-header .arrow-down {
+  transform: rotate(0deg);
+}
+
+.desktop-left-bar-element-list-item {
+  padding: 10px 25px 10px 30px;
+  border-left: 1px solid transparent;
+  font-size: 15px;
+  line-height: 18px;
+  opacity: .5;
+  cursor: pointer;
+}
+
+.desktop-left-bar-element-list-item:hover {
+  background: var(--card-background);
+}
+
+.desktop-left-bar-element-list-item.activated {
+  border-left: 1px solid var(--orange);
+  opacity: 1;
+  background: var(--card-background);
+}
+
+/* 4k */
+
+.desktop-left-bar-wrapper.ultra {
+  width: 500px;
+  min-width: 500px;
+}
+
+.desktop-left-bar-wrapper.ultra .left-bar-header {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  padding: 0 22px 0 34px;
+  justify-content: flex-start;
+}
+
+.desktop-left-bar-wrapper.ultra .doots {
+  width: 4px;
+  height: 28px;
+  margin-left: 0;
+  margin-right: 36px;
+}
+
+.desktop-left-bar-wrapper.ultra .calendar-container {
+  width: 260px;
+  height: 52px;
+  margin: 0 16px 0 0;
+  padding: 0 16px;
+}
+
+.desktop-left-bar-wrapper.ultra .calendar-container .calendar-label {
+  margin-left: 16px;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.desktop-left-bar-wrapper.ultra .calendar-container svg {
+  height: 20px;
+}
+
+.desktop-left-bar-wrapper.ultra .calendar-container svg:first-child {
+  width: 20px;
+}
+
+.desktop-left-bar-wrapper.ultra .home-top-container-btns button {
+  width: 52px;
+  height: 52px;
+}
+
+.desktop-left-bar-wrapper.ultra .home-top-container-btns button svg {
+  width: 22px;
+  height: 22px;
+}
+
+.desktop-left-bar-wrapper.ultra .home-top-container-btns .btn-filter {
+  margin-right: 16px;
+}
+
+.desktop-left-bar-wrapper.ultra ion-list {
+  margin-top: 40px;
+}
+
+.desktop-left-bar-wrapper.ultra ion-list .desktop-left-bar-list-item {
+  min-height: 80px;
+  border-left: 2px solid var(--left-bar-background);
+}
+
+.desktop-left-bar-wrapper.ultra ion-list .desktop-left-bar-list-item:hover {
+  border-color: var(--orange);
+}
+
+.desktop-left-bar-wrapper.ultra ion-list .desktop-left-bar-list-item::part(native) {
+  height: 100%;
+}
+
+.desktop-left-bar-wrapper.ultra ion-list .desktop-left-bar-list-item .sport-pic {
+  width: 36px;
+  height: 36px;
+  max-height: 36px;
+  margin-right: 18px;
+}
+
+.desktop-left-bar-wrapper.ultra ion-list .desktop-left-bar-list-item p {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.desktop-left-bar-wrapper.ultra ion-list .desktop-left-bar-list-item .pic-right {
+  width: 20px;
+  height: 12px;
+}
+
+.desktop-left-bar-wrapper.ultra .desktop-left-bar-element {
+  max-height: 100px;
+}
+
+.desktop-left-bar-wrapper.ultra .desktop-left-bar-element.open {
+  max-height: 1000px;
+}
+
+.desktop-left-bar-wrapper.ultra .desktop-left-bar-element-header {
+  height: 100px;
+  padding: 0 30px;
+}
+
+.desktop-left-bar-wrapper.ultra .desktop-left-bar-element-header-title {
+  font-size: 30px;
+  line-height: 46px;
+}
+
+.desktop-left-bar-wrapper.ultra .desktop-left-bar-element-header .arrow-down {
+  width: 20px;
+  height: 12px;
+}
+
+.desktop-left-bar-wrapper.ultra .desktop-left-bar-element-list-item {
+  padding: 25px 60px;
+  border-left: 2px solid transparent;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.desktop-left-bar-wrapper.ultra .desktop-left-bar-element-list-item.activated {
+  border-left: 2px solid var(--orange);
+}
+
+.desktop-left-bar-wrapper.ultra .menu-sport-select-btn {
+  margin: 40px auto;
+  margin-bottom: 0px;
+  padding: 0 24px;
+  min-width: 440px;
+  height: 88px;
+  border-radius: 50px;
+}
+
+.desktop-left-bar-wrapper.ultra .sport-pic {
+  width: 36px;
+  height: 36px;
+  margin-right: 30px;
+}
+
+.desktop-left-bar-wrapper.ultra .menu-sport-select-btn p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 36px;
+}
+
+.desktop-left-bar-wrapper.ultra .menu-sport-select-btn .pic-right {
+  width: 20px;
+  height: 12px;
+}
+
+.desktop-left-bar-wrapper.ultra .left-menu-selected-container .dropdown-menu {
+  margin: 0 auto;
+  margin-bottom: -66px;
+  padding-top: 72px;
+  min-width: 440px;
+  border-radius: 50px;
+  top: -66px;
+}
+
+.desktop-left-bar-wrapper.ultra .dropdown-menu li {
+  padding: 0 24px;
+}
+
+.desktop-left-bar-wrapper.ultra .dropdown-menu li p {
+  margin: 24px 0px;
+  font-size: 36px;
+}
+
+.desktop-left-bar-wrapper.ultra .hor-line {
+  margin-top: 30px;
+}
+
+.desktop-left-bar-wrapper.ultra .desktop-left-bar .desktop-left-bar-list-item,
+.desktop-left-bar-wrapper.ultra .desktop-left-bar .desktop-left-bar-list-item .league-type  {
+  min-height: 80px;
+  padding: 0 30px 0 20px;
+}
+
+.desktop-left-bar-wrapper.ultra .desktop-left-bar .desktop-left-bar-list-item .sport-type {
+  padding: 0 30px 0 20px;
+}
+
+.desktop-left-bar-wrapper.ultra .desktop-left-bar .desktop-left-bar-list-item p {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.desktop-left-bar-wrapper.ultra .desktop-left-bar .desktop-left-bar-list-item .pic-right {
+  width: 20px;
+  height: 12px;
+}

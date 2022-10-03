@@ -1,0 +1,7 @@
+{
+  "name": "Aristocrat",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

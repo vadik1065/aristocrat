@@ -1,0 +1,88 @@
+.desktop-favorites-main-wrapper {
+  /* flex-wrap: wrap; */
+  padding-left: 10px;
+}
+
+.favorites-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.desktop-favorites-main-wrapper .desktop-live-main-container {
+  /* width: 550px; */
+  /* min-width: 700px; */
+  /* width: 700px; */
+  /* height: 100%; */
+  /* margin-bottom: 20px; */
+  /* margin-right: 10px; */
+}
+.no-games.mobile {
+  background: var(--second-background);
+  border-radius:  0px 0px 5px 5px;
+}
+.desktop-favorites-main-wrapper .desktop-event-cards {
+  height: calc(100% - 62px);
+}
+.favorites-container.mobile {
+  padding-bottom: 10px;
+  background: var(--second-background);
+  border-radius:  0px 0px 5px 5px;
+}
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  margin-left: 18px;
+}
+
+.breadcrumbs .league-logo {
+  margin-right: 6px;
+}
+
+.arrow-right {
+  fill: var(--arrow-right-icon-color);
+}
+
+.breadcrumbs .arrow-right {
+  width: 5px;
+  height: 9px;
+  margin: 0 13px;
+  transform: rotate(-90deg);
+}
+
+/* Tablet */
+.desktop-favorites-main-wrapper .desktop-event-cards.tablet-event-cards {
+  overflow: visible;
+}
+
+.desktop-favorites-main-wrapper .desktop-event-cards.tablet-event-cards .desktop-live-container.event {
+  box-shadow: var(--shadow);
+}
+
+/* 4k */
+/* .desktop-favorites-main-wrapper.ultra .desktop-live-main-container {
+  width: 1100px;
+} */
+
+.ultra .breadcrumbs {
+  margin-left: 35px;
+}
+
+.ultra .breadcrumbs .league-logo {
+  width: 48px;
+  height: 48px;
+  margin-right: 12px;
+}
+
+.ultra .breadcrumbs span {
+  font-size: 30px;
+}
+
+.ultra .breadcrumbs .arrow-right {
+  width: 8px;
+  height: 14px;
+  margin: 0 26px;
+}
+
+.favorites-page .ultra .desktop-event-cards {
+  height: calc(100% - 113px);
+}

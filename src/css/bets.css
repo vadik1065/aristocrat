@@ -1,0 +1,986 @@
+.desktop-bets-main-wrapper {
+  padding-left: 10px;
+}
+
+.segment-container {
+  width: 90%;
+  padding-left: 19px;
+  padding-right: 19px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background: var(--card-background);
+  height: 54.46px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.segment-container .home-top-segment {
+  margin: 0 auto;
+  width: 90%;
+  height: 37px;
+  background: var(--first-background);
+  border-radius: 5px;
+}
+
+.segment-container .home-top-segment ion-segment-button {
+  height: 100%;
+  --margin-top: 5px;
+  --indicator-color: var(--orange);
+  font-size: 15px;
+  --border-radius: 4px;
+}
+
+.segment-container .home-top-container-btns.mobile {
+  margin-left: auto;
+}
+
+.bets-cards-container {
+  width: 90%;
+  padding: 10px 0px;
+  margin: 0 auto;
+  background: var(--first-background);
+  border-radius: 0px 0px 5px 5px;
+  height: auto;
+}
+
+.bets-cards-container .home-top-segment {
+  width: 91%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.bets-cards-container .home-top-segment ion-segment-button {
+  /* --indicator-color: var(--segment-bg-gray); */
+  --border-radius: 4px;
+}
+
+.bet-card {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 90%;
+  background: var(--live-container-background);
+  border: 1px solid var(--segment-border);
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+}
+
+.bet-card .detail .dot {
+  font-size: 12px;
+}
+
+.bet-card-header {
+  height: 26px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--segment-border);
+}
+
+.bet-card-header p {
+  margin: 10px;
+  padding-top: 3px;
+  font-size: 10px;
+  line-height: 18px;
+  color: var(--text-white);
+  opacity: .5;
+}
+
+.bet-card-teams>p {
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--default-text)
+}
+
+.bet-card-teams .money-line p {
+  margin: 0
+}
+
+.bet-card-teams .money-line>div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bet-card-teams>.flex {
+  width: 100%;
+  flex-direction: column;
+}
+
+.bet-card-teams .money-line.flex {
+  width: 94%;
+  margin: 5px auto;
+  justify-content: space-between;
+}
+
+.money-line.flex p {
+  color: var(--text-default);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0px;
+}
+
+.money-line-value {
+  background: var(--money-line-value-bg);
+  border-radius: 5px;
+  width: 70px;
+  text-align: center;
+  padding-top: 3px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: var(--green);
+}
+
+.bet-card-footer-close {
+  background: var(--btn-close-bg);
+  border-radius: 5px;
+  position: relative;
+  width: 70.77px;
+  height: 23.93px;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  padding-top: 3px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.bet-card-footer-close ion-ripple-effect {
+  border-radius: 5px;
+}
+
+.to-risk p, .to-win p {
+  margin: 0;
+  text-align: center;
+}
+
+.bet-card-footer {
+  align-items: center;
+  width: 94%;
+  margin: 0px auto;
+  margin-bottom: 6px;
+  justify-content: space-between;
+}
+
+.bet-card-teams .teams-play, .bet-card-teams .match-details {
+  margin: 0 auto;
+  width: 94%
+}
+
+.bet-card-teams .teams-play {
+  margin-top: 10px;
+}
+
+.to-risk {
+  margin-right: 10px;
+}
+
+.to-risk-top, .to-win-top {
+  color: var(--text-white);
+  opacity: .5;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 18px;
+}
+
+.to-win-bottom, .to-risk-bottom {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.quotes .money-line {
+  width: 94%;
+  margin: 0px auto;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+
+.quotes .money-line-value {
+  display: -ms-flexbox;
+  color: var(--purple);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.to-win-bottom {
+  color: var(--text-white);
+  opacity: .5;
+}
+
+.show-bets-list {
+  height: 37px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 0px 0px 5px 5px;
+  background: var(--purple);
+  border: 1px solid var(--purple);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.bet-card.quotes {
+  border-radius: 5px 5px 6px 6px;
+}
+
+.show-bets-list-p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.show-bets-list-image {
+  margin-left: 4px;
+  width: 5px;
+  height: 5px;
+  transform: rotate(90deg);
+  transition: .3s;
+  fill: #ffffff;
+}
+
+.show-bets-list-image.rotate {
+  transform: rotate(270deg);
+}
+
+.quotes .bet-card-footer {
+  margin: 10px auto;
+}
+
+.desktop-bets-main-container .desktop-live-container-header {
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+}
+
+.desktop-bets-main-container .desktop-live-container-header .title {
+  margin: 0;
+  /* font-size: 20px; */
+}
+
+.desktop-bets-main-container .home-top-container-btns {
+  margin: 0;
+  /* position: relative; */
+}
+
+.btn-edit {
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 28px;
+  background: var(--btn-background);
+  border: 1px solid var(--segment-border);
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn-new-bet {
+  margin-left: 20px;
+  padding: 0 11px;
+  background: var(--orange);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff;
+  outline: none;
+}
+
+/* Desktop */
+
+.desktop-bets-main-container {
+  min-width: 570px;
+}
+
+.desktop-bets-main-container .bets-tabs {
+  margin: 20px auto;
+  padding: 0 30px;
+}
+
+.desktop-bets-main-container .bets-tabs .home-top-segment {
+  width: 100%;
+  height: 32px;
+  margin: 0;
+}
+
+.desktop-bets-main-container .bets-tabs .home-top-segment ion-segment-button {
+  /* --indicator-color: var(--segment-bg-gray); */
+  font-size: 14px;
+  letter-spacing: -0.24px;
+}
+
+.desktop-bets-main-container .bets-tabs .home-top-segment ion-segment-button span {
+  font-size: 10px;
+  vertical-align: text-top;
+}
+.mobile-nobets {
+  margin-left: 5%;
+}
+.bet-card-footer-close.bet-result-state {
+  background: none;
+  cursor: inherit;
+}
+.bet-result-state p {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+}
+.bet-result-state.win p {
+  color: rgb(1, 163, 1);
+}
+.bet-result-state.lose p,
+.bet-result-state.canceled p {
+  color: rgb(177, 5, 5);
+}
+.main-mobile .bet-result-state.canceled p {
+  font-size: 16px;
+}
+.desktop-bets-list {
+  /* max-height: calc(100% - 125px); */
+  padding: 5px 30px 15px;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: repeat(4, 1fr);
+  align-items: start;
+  /* grid-template-columns: repeat(auto-fill, minmax(240px, 270px)); */
+  gap: 20px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  overflow: auto;
+  height: auto;
+  max-height: calc(100% - 125px);
+}
+
+.desktop-bets-list .bet-card {
+  margin: 0;
+  width: 100%;
+  min-width: 220px;
+  /* min-height: 210px; */
+  height: auto;
+  /* margin-bottom: 20px; */
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
+  /* width: inherit; */
+  /* width: calc(50% - 10px); */
+  /* min-width: 240px; */
+  /* flex: 1 1 240px; */
+}
+
+/* .desktop-bets-list .bet-card:nth-child(odd) {
+  margin-right: 20px;
+} */
+
+.desktop-bets-list .bet-card-header {
+  height: 34px;
+  padding: 0 15px;
+}
+
+.desktop-bets-list .bet-card-header p {
+  margin: 0;
+  color: var(--text-white);
+  opacity: .5;
+}
+
+.desktop-bets-list .bet-card-teams {
+  padding: 10px 15px;
+}
+
+.desktop-bets-list .bet-card-teams>p {
+  margin: 0;
+}
+
+.desktop-bets-list .bet-card-teams .teams-play {
+  width: 100%;
+  margin-bottom: 3px;
+  line-height: 14px;
+}
+
+.desktop-bets-list .bet-card-teams .flex .match-details {
+  width: 100%;
+}
+
+.desktop-bets-list .bet-card-teams .money-line.flex {
+  width: 100%;
+  margin: 20px 0 0 0;
+  align-items: center;
+}
+
+.desktop-bets-list .bet-card-teams .money-line p {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.desktop-bets-list .bet-card-teams .money-line-value {
+  min-width: 92px;
+  width: 92px;
+  height: 40px;
+  margin-left: 5px;
+  font-size: 24px;
+}
+
+.desktop-bets-list .bet-card-teams .money-line div:first-child {
+  justify-content: space-between;
+}
+
+.desktop-bets-list .bet-card-footer {
+  width: 100%;
+  margin: 0;
+  padding: 10px 15px 15px;
+}
+
+.desktop-bets-list .bet-card-footer .to-risk {
+  margin-right: 25px;
+}
+
+.desktop-bets-list .bet-card-footer-close {
+  width: 92px;
+  height: 31px;
+}
+
+/* Bets quotes */
+
+.desktop-quotes-list {
+  height: auto;
+  max-height: calc(100% - 70px);
+  margin-top: 20px;
+  padding: 5px 30px 15px;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  /* grid-template-columns: repeat(auto-fill, minmax(240px, 270px)); */
+  /* gap: 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.desktop-quotes-list .bet-card {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0;
+  margin-bottom: 20px;
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
+  /* width: inherit; */
+  width: calc(50% - 10px);
+  /* min-width: 240px; */
+  /* flex: 1 1 240px; */
+}
+
+.desktop-quotes-list .bet-card:nth-child(odd) {
+  margin-right: 20px;
+}
+
+.desktop-quotes-list .bet-card-header {
+  height: 34px;
+  padding: 0 15px;
+}
+
+.desktop-quotes-list .bet-card-header p {
+  margin: 0;
+  color: var(--text-white);
+  opacity: .5;
+}
+
+.desktop-quotes-list .money-line.flex {
+  width: 100%;
+  margin: 15px 0 0 0;
+  padding: 0 15px;
+}
+
+.desktop-quotes-list .money-line p {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.desktop-quotes-list .money-line-value {
+  width: 92px;
+  height: 40px;
+  font-size: 24px;
+}
+
+.desktop-quotes-list .money-line div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.desktop-quotes-list .bet-card-footer {
+  width: 100%;
+  margin: 0;
+  padding: 20px 15px 15px;
+}
+
+.desktop-quotes-list .bet-card-footer .to-risk {
+  margin-right: 25px;
+}
+
+.bet-card-details {
+  height: 0px;
+  min-height: 0px;
+  overflow: hidden;
+  transition: .3s ease-in;
+}
+
+.bet-card-details.open {
+  height: auto;
+  min-height: 130px;
+  -webkit-animation: 1s openBet;
+          animation: 1s openBet ;
+}
+@-webkit-keyframes openBet {
+  from { height: 0px; } to { height: auto; }
+}
+@keyframes openBet {
+  from { height: 0px; } to { height: auto; }
+}
+
+.bet-card-details .bet-card-teams {
+  border-top: 1px solid var(--segment-border);
+}
+
+.bet-card-multiple-container {
+  width: 100%;
+  padding: 10px 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bet-card-multiple-left p {
+  margin: 0;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.bet-card-multiple-container .money-line-value {
+  width: 92px;
+  height: 40px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Quotes details */
+
+.quotes-card-details {
+  height: 0;
+  /* max-height: 0; */
+  min-height: 0;
+  overflow: hidden;
+  transition: .3s ease;
+}
+
+.quotes-card-details.open {
+  /* max-height: 100%; */
+  height: auto;
+  min-height: 130px;
+}
+
+.quotes-card-details-item {
+  padding: 20px 15px;
+  border-top: 1px solid var(--segment-border);
+}
+
+.quotes-card-details-item .teams-play {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 7px;
+}
+
+.quotes-card-details-item .match-details {
+  width: 100%;
+}
+
+.quotes-card-details-item .money-line.flex {
+  padding: 0;
+}
+
+/* Mobile */
+.bets-cards-container .home-top-segment ion-segment-button {
+  min-width: 30px;
+}
+
+.bets-cards-container .home-top-segment ion-segment-button span {
+  font-size: 8px;
+  vertical-align: text-top;
+}
+
+/* .main-mobile .home-top-container.segment-container {
+  position: relative;
+} */
+
+/* Tablet */
+
+.tablet-cards-container .home-top-container {
+  position: relative;
+}
+
+.bets-main-tablet-top .home-top-segment {
+  width: calc(50% - 10px);
+}
+
+.main-tablet .bets-tabs {
+  margin: 20px auto 0;
+  padding: 0 20px;
+}
+
+.main-tablet .bets-tabs .home-top-segment {
+  width: 100%;
+  height: 32px;
+  margin: 0;
+}
+
+.main-tablet .bets-tabs .home-top-segment ion-segment-button {
+  /* --indicator-color: var(--segment-bg-gray); */
+  font-size: 14px;
+  letter-spacing: -0.24px;
+}
+
+.main-tablet .bets-tabs .home-top-segment ion-segment-button span {
+  font-size: 10px;
+  vertical-align: text-top;
+}
+
+.tablet-bets-cards {
+  padding: 20px 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.tablet-bets-cards .bet-card {
+  width: inherit;
+  margin: 0;
+}
+
+.tablet-bets-cards .bet-card-header {
+  height: 32px;
+  padding: 0 10px;
+}
+
+.tablet-bets-cards .bet-card-header p {
+  margin: 0;
+}
+
+.tablet-bets-cards .bet-card-teams {
+  padding: 10px 10px 0;
+}
+
+.tablet-bets-cards .bet-card-teams .teams-play, .tablet-bets-cards .match-details {
+  width: 100%;
+  margin-top: 0;
+}
+
+.tablet-bets-cards .bet-card-teams .money-line.flex {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.tablet-bets-cards .money-line.flex p {
+  font-size: 17px;
+}
+
+.tablet-bets-cards .money-line-value {
+  width: 88px;
+  height: 40px;
+  padding-top: 3px;
+  font-size: 24px;
+  line-height: 18px;
+}
+
+.tablet-bets-cards .bet-card-footer {
+  width: 100%;
+  margin: 0;
+  padding: 0 10px 10px;
+}
+
+.tablet-bets-cards .to-risk {
+  margin-right: 20px;
+}
+
+.tablet-bets-cards .bet-card-footer-close {
+  width: 88px;
+  height: 30px;
+}
+
+.tablet-bets-cards .quotes-card-details-item {
+  padding: 20px 10px;
+}
+
+.tablet-bets-cards .quotes {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.tablet-bets-cards .quotes .money-line {
+  width: 100%;
+  margin: 0;
+  padding: 15px 10px;
+}
+
+.tablet-bets-cards .quotes .bet-card-footer {
+  padding: 0 10px 20px;
+}
+
+.quotes .bet-card-teams {
+  padding: 0;
+}
+
+.tablet-bets-cards .quotes .bet-card-teams .money-line.flex {
+  width: 100%;
+  margin: 15px 0 0;
+  padding: 0;
+}
+
+/* 4k */
+
+.ultra .desktop-bets-main-container .desktop-live-container-header {
+  padding: 0 60px;
+}
+
+.ultra .desktop-bets-main-container .desktop-live-container-header .title {
+  font-size: 36px;
+}
+
+.ultra .desktop-bets-main-container .desktop-live-container-header .home-top-container-btns {
+  margin: 0;
+}
+
+.desktop-live-main-wrapper.ultra .desktop-bets-main-container .home-top-container-btns button {
+  width: 55px;
+  height: 55px;
+  margin-right: 16px;
+}
+
+.desktop-live-main-wrapper.ultra .desktop-bets-main-container .home-top-container-btns button svg {
+  width: 23px;
+}
+
+.desktop-live-main-wrapper.ultra .desktop-bets-main-container .home-top-container-btns button.btn-search {
+  margin-right: 24px;
+}
+
+.desktop-live-main-wrapper.ultra .desktop-bets-main-container .calendar-container {
+  width: 370px;
+  height: 55px;
+  margin: 0;
+}
+
+.desktop-live-main-wrapper.ultra .calendar-container svg {
+  width: 26px;
+  height: 28px;
+}
+
+.desktop-live-main-wrapper.ultra .desktop-bets-main-container .home-top-container-btns button.btn-new-bet {
+  width: 210px;
+  margin-right: 0;
+  padding-top: 3px;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.ultra .desktop-bets-main-container .bets-tabs {
+  margin: 40px auto;
+  padding: 0 60px;
+}
+
+.ultra .desktop-bets-main-container .bets-tabs .home-top-segment {
+  height: 70px;
+}
+
+.ultra .desktop-bets-main-container .bets-tabs .home-top-segment ion-segment-button span {
+  font-size: 16px;
+}
+
+.ultra .desktop-bets-list {
+  max-height: calc(100% - 250px);
+  padding: 5px 60px 15px;
+  gap: 50px;
+}
+
+.ultra .desktop-bets-list .title {
+  font-size: 36px;
+}
+
+/* .ultra .bet-card {
+  width: calc(50% - 25px);
+  margin-bottom: 50px;
+} */
+
+/* .ultra .bet-card:nth-child(odd) {
+  margin-right: 50px;
+} */
+
+.ultra .bet-card-header {
+  height: 72px;
+  padding: 0 25px;
+}
+
+.ultra .bet-card-header p {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.ultra .desktop-bets-list .bet-card-teams {
+  padding: 20px 25px;
+}
+
+.ultra .desktop-bets-list .bet-card-teams>p {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.ultra .desktop-bets-list .bet-card-teams .teams-play {
+  margin-bottom: 20px;
+}
+
+.ultra .match-details {
+  align-items: center;
+}
+
+.ultra .match-details img {
+  width: 24px;
+  height: 24px;
+}
+
+.ultra .match-details .detail {
+  margin-left: 15px;
+}
+
+.ultra .match-details .detail p {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.ultra .detail .dot {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.ultra .desktop-bets-list .bet-card-teams .money-line.flex {
+  margin: 40px 0 0 0;
+}
+
+.ultra .desktop-bets-list .bet-card-teams .money-line p {
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.ultra .desktop-bets-list .bet-card-teams .money-line-value {
+  width: 195px;
+  height: 90px;
+  font-size: 40px;
+}
+
+.ultra .desktop-bets-list .bet-card-multiple-container {
+  padding: 20px 25px;
+}
+
+.ultra .desktop-bets-list .bet-card-multiple-left p {
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.ultra .desktop-bets-list .bet-card-multiple-container .money-line-value {
+  width: 195px;
+  height: 90px;
+  font-size: 40px;
+}
+
+.ultra .desktop-bets-list .bet-card-footer {
+  padding: 10px 25px 30px;
+}
+
+.ultra .to-risk-top, .ultra .to-win-top {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.ultra .to-win-bottom, .ultra .to-risk-bottom {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.ultra .desktop-bets-list .bet-card-footer-close {
+  width: 195px;
+  height: 65px;
+  font-size: 30px;
+}
+
+.ultra .desktop-bets-list .bet-card-details.open {
+  min-height: 251px;
+}
+
+.ultra .desktop-quotes-list {
+  max-height: calc(100% - 140px);
+  margin-top: 40px;
+  padding: 5px 60px 15px;
+  /* gap: 50px; */
+}
+
+.ultra .desktop-quotes-list .money-line.flex {
+  margin: 30px 0 0 0;
+  padding: 0 25px;
+}
+
+.ultra .desktop-quotes-list .money-line p {
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.ultra .desktop-quotes-list .money-line-value {
+  width: 195px;
+  height: 90px;
+  font-size: 40px;
+}
+
+.ultra .desktop-quotes-list .bet-card-footer {
+  padding: 40px 25px 30px;
+}
+
+.ultra .quotes-card-details.open {
+  min-height: 210px;
+}
+
+.ultra .quotes-card-details-item {
+  padding: 40px 25px;
+}
+
+.ultra .quotes-card-details-item .teams-play {
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.ultra .show-bets-list {
+  height: 80px;
+}
+
+.ultra .show-bets-list-p {
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.ultra .show-bets-list-image {
+  margin-left: 14px;
+  width: 12px;
+  height: 12px;
+}

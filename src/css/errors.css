@@ -1,0 +1,128 @@
+.error.ion-page {
+   min-height: 100vh;
+   z-index: 10;
+}
+
+.error-container {
+   height: 100%;
+   display: flex;
+   background: var(--login-background);
+}
+
+.error-left-block {
+   flex: 0 0 40%;
+   padding: 40px;
+   -webkit-box-flex: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.error-content {
+   width: 100%;
+   max-width: 360px;
+   margin: 0 auto;
+}
+
+.error-title {
+   margin: 0;
+   font-weight: bold;
+   font-size: 33px;
+   line-height: 114.2%;
+}
+
+.error-description {
+   margin-top: 30px;
+   margin-bottom: 30px;
+   font-weight: 600;
+   font-size: 17px;
+   line-height: 26px;
+   color: var(--opacity-text-color)
+}
+
+.error-button {
+   height: 47px;
+   width: 100%;
+   max-width: 316px;
+   text-transform: capitalize;
+   font-weight: bold;
+   --color: #ffffff;
+   --background: var(--orange);
+   --background-hover: var(--orange-light);
+   --background-activated: var(--orange-light);
+   --background-focused: var(--orange-light);
+   --transition: .3s;
+   --border-radius: 5px;
+}
+
+.error-right-block {
+   flex: 0 0 60%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.right-block-logo {
+   position: absolute;
+}
+
+.error-right-block .error-icon {
+   margin: 0 auto;
+   margin-bottom: 45px;
+}
+
+.error-right-block svg {
+   fill: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+   .error-left-block {
+      flex-basis: 100%;
+   }
+   .error-right-block {
+      display: none;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .error-left-block {
+      padding: 20px;
+   }
+   .error-description {
+      font-size: 15px;
+      line-height: 23px;
+   }
+   .error-button {
+      font-size: 15px;
+   }
+}
+
+@media screen and (min-width: 3400px) {
+   /* Left */
+   .error-left-block {
+      padding: 80px;
+   }
+   .error-content {
+      max-width: 720px;
+   }
+   .error-title {
+      font-size: 65px;
+   }
+   .error-description {
+      margin-bottom: 75px;
+      font-size: 36px;
+      line-height: 55px;
+   }
+   .error-button {
+      max-width: 660px;
+      height: 100px;
+      font-size: 36px;
+      --border-radius: 10px;
+   }
+   /* Right */
+   .error-right-block .error-icon {
+      height: 213px;
+      margin-bottom: 100px;
+   }
+}

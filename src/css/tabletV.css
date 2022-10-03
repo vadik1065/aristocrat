@@ -1,0 +1,55 @@
+
+.tablet-segment{
+    width: 300px;
+    border: 1px solid #525252;
+    border-radius: 5px;
+    margin-right: 5vw;
+}
+
+.table-event-segment{
+    width: 450px;
+    margin-right: 5vw;
+}
+
+.table-menu-sport{
+    background:  var(--inner-header-background);
+    border-radius: 25px;
+    width: 220px;
+    height: 35px;
+    margin: 0 auto;
+    margin-left: 5vw;
+}
+
+.table .event-card-header{
+    width: 90%;
+    margin: 5px auto;
+    height: auto;
+    padding: 0;
+}
+
+.table .main-mobile .event-card-header .card-event-live-time{
+    margin-right: 10px;
+}
+
+.tup{
+    text-transform: uppercase;
+}
+
+.table img.event-card-team-pic{
+    width: 40px;
+}
+
+.table .teams-vs p{
+    margin: 0px;
+}
+
+.table .teams-vs .team{
+    height: 23px;
+    width: 40vw;
+    justify-content: space-between;
+}
+
+
+.table .event-card-single {
+    padding-top: 35px;
+}

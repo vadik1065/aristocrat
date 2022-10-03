@@ -1,0 +1,2596 @@
+/* ThemeAccent (Mode design) */
+
+/* accent-dark */
+
+.main-header.accent-dark {
+  --background: #181721;
+}
+
+.main-header.accent-dark .menu-button {
+  background: #292837;
+}
+
+.main-header.accent-dark .desktop-header .active.my-account-container-header, 
+.main-header.accent-dark .desktop-header .active.wallet-container-header, 
+.main-header.accent-dark .menu-buttons-wrapper.picked {
+  background: #292837;
+}
+
+.accent-dark .mobile-header .logo-container.header-plain {
+  background: #181721;
+}
+
+.main-big.accent-dark {
+  background: #343842;
+}
+
+.accent-dark .home-top-segment,
+.accent-dark .top-segment {
+  background: #292837;
+}
+
+.accent-dark .orange-toggle {
+  --background: #373647;
+}
+
+.desktop-left-bar.accent-dark {
+  background: #171A21;
+}
+
+.left-bar-header.accent-dark {
+  background: #292837;
+}
+
+.desktop-left-bar.accent-dark .menu-sport-select-btn {
+  background: #292837;
+}
+
+.desktop-left-bar.accent-dark .left-menu-selected-container .dropdown-menu {
+  background: #373647;
+}
+
+.desktop-left-bar.accent-dark .desktop-left-bar-list-item {
+  background: inherit;
+}
+
+.desktop-left-bar.accent-dark .desktop-left-bar-list-item.choosen,
+.desktop-left-bar.accent-dark .desktop-left-bar-list-item:hover {
+  background: #292837;
+}
+
+.desktop-live-main-wrapper.accent-dark .desktop-live-container-header {
+  background: #292837;
+}
+
+.desktop-live-main-wrapper.accent-dark .desktop-live-main-container {
+  background: #171A21;
+}
+
+.desktop-live-container.accent-dark {
+  background: #292837;
+}
+
+.desktop-live-container.accent-dark:hover,
+.desktop-live-container.accent-dark.selected {
+  background: #373647;
+}
+
+.accent-dark .asian-view .match-money-header,
+.accent-dark .asian-view .match-money-line.expand,
+.accent-dark .asian-view .match-money-line .match-money-icon,
+.accent-dark .match-money-buttons .match-all-bets-btn,
+.main-tablet .accent-dark .asian-view .match-all-bets-btn {
+  background: #373647;
+}
+
+.accent-dark .desktop-live-container.asian-view:hover .match-money-header,
+.accent-dark .desktop-live-container.asian-view.selected .match-money-header,
+.accent-dark .desktop-live-container.asian-view:hover .match-money-line.expand,
+.accent-dark .desktop-live-container.asian-view:hover .match-money-line .match-money-icon,
+.accent-dark .desktop-live-container.asian-view:hover .match-money-buttons .match-all-bets-btn {
+  background: #292837;
+}
+
+.more-lines-popover.accent-dark .more-lines-dropdown.open,
+.more-lines-popover.accent-dark .popover-arrow::after {
+  background: #292837;
+}
+
+.desktop-right-bar-wrapper.accent-dark .desktop-right-bar {
+  background: #171A21;
+}
+
+.desktop-right-bar-wrapper.accent-dark .empty-betslip {
+  background: #292837;
+}
+
+.desktop-right-bar-wrapper.accent-dark .right-bar-header {
+  background: #292837;
+}
+
+.desktop-right-bar-wrapper.accent-dark .right-bar-header ion-segment {
+  background: #292837;
+}
+
+.desktop-right-bar-wrapper.accent-dark .right-bar-header ion-segment ion-segment-button {
+  --background-checked: #373647;
+}
+
+.desktop-right-bar-wrapper.accent-dark .betslip-container {
+  background: #292837;
+}
+
+.accent-dark .betslip-body .betslip-val {
+  background: #171A21;
+}
+
+.accent-dark .betslip-bet-item .betslip-fields ion-input {
+  --background: #171A21;
+}
+
+.accent-dark .betslip-fields ion-input {
+  --background: #292837;
+}
+
+.accent-dark .betslip-bet-item .betslip-fields.buttons div {
+  background: #171A21;
+}
+
+.accent-dark .betslip-fields.buttons div {
+  background: #292837;
+}
+
+.desktop-right-bar-wrapper.accent-dark .right-bar-footer .clear-all {
+  background: #292837;
+}
+
+.list-of-bets.accent-dark {
+  background: #171A21;
+}
+
+.list-of-bets.accent-dark .desktop-live-container-header {
+  background: #292837;
+}
+
+.list-of-bets.accent-dark .desktop-card-event-cfc-container {
+  background: #292837;
+}
+
+.list-of-bets.accent-dark .list-of-bets-filter-btn {
+  background: #292837;
+}
+
+.accent-dark .calendar-container {
+  background: #373647;
+}
+
+.accent-dark .bet-card {
+  background: #292837;
+}
+
+.accent-dark .money-line-value {
+  background: #171A21;
+}
+
+.accent-dark .bet-card-footer-close {
+  background: #373647;
+}
+
+.chat-container-wrapper.accent-dark .desktop-live-main-container {
+  background: #171A21;
+}
+
+.chat-container-wrapper.accent-dark .desktop-chat-header {
+  background: #292837;
+}
+
+.chat-container-wrapper.accent-dark .desktop-chat-userpic {
+  background: #373647;
+}
+
+.accent-dark .desktop-incoming-avatar {
+  background: #292837;
+}
+
+.accent-dark .desktop-incoming-text-container {
+  background: #292837;
+}
+
+.accent-dark .searchbar {
+  --background: #373647;
+}
+
+.accent-dark .go-top-btn {
+  background: #373647;
+}
+
+.chat-container-wrapper.accent-dark .desktop-input-area-container,
+.chat-container-wrapper.accent-dark .desktop-chat-input {
+  background: #373647;
+}
+
+.main-big.accent-dark .account-sidebar {
+  background: #171A21;
+}
+
+.main-big.accent-dark .rectangular-area {
+  background: #171A21;
+}
+
+.main-big.accent-dark .rectangular-area .dashboard-head {
+  background: #292837;
+}
+
+.main-big.accent-dark .rectangular-area .back-link {
+  background: #292837;
+}
+
+.accent-dark .interface-design-body,
+.accent-dark .interface-timezone-item,
+.accent-dark .dealing-handicap-item {
+  background: #292837;
+}
+
+.accent-dark .interface-textsize-view-list {
+  background: #171A21;
+}
+
+.accent-dark .interface-textsize-view-item .incoming-message {
+  background: #292837;
+}
+
+.accent-dark .interface-textsize-view-item .incoming-message svg {
+  fill: #292837;
+}
+
+.accent-dark .settings-card-toggle {
+  background: #292837;
+}
+
+.accent-dark .setting-page-segment {
+  background: #292837;
+}
+
+.accent-dark .dealing-settings-match {
+  background: #292837;
+}
+
+.accent-dark .dealing-bets-stake {
+  background: transparent;
+  border: 1px solid var(--modal-border);
+}
+
+.accent-dark .dealing-settings .notification-dealing-item {
+  background: #292837;
+}
+
+.accent-dark .notification-item {
+  background: #292837;
+}
+
+.accent-dark .leagues-games-item {
+  background: #292837;
+}
+
+.accent-dark .security.set-small .dashboard-grid-item {
+  background: #292837;
+}
+
+.accent-dark .input-container-dark ion-item,
+.accent-dark .input-container-light ion-item {
+  --background: #171A21;
+}
+
+.accent-dark .dashboard-left .quantity {
+  background: #292837;
+}
+
+.accent-dark .balance-grid-item,
+.accent-dark .transactions-history {
+  background: #292837;
+}
+
+.accent-dark .dashboard-grid-item {
+  background: #292837;
+}
+
+.accent-dark .merge-input-select ion-select {
+  background: #373647;
+}
+
+.accent-dark .wallet-tabs li,
+.accent-dark .wallet-pay-block,
+.accent-dark .wallet-loan-content {
+  background: #292837;
+}
+
+.accent-dark .wallet-pay-label {
+  background: #373647;
+}
+
+.accent-dark .wallet-pay-other-image,
+.accent-dark .wallet-number-container {
+  background: #171A21;
+}
+
+.modal-container.accent-dark {
+  background: #171A21;
+}
+
+.modal-container.accent-dark .dashboard-head,
+.modal-container.accent-dark .dashboard-grid-item {
+  background: #292837;
+}
+
+.modal-container.accent-dark .dashboard-grid-item .input-container ion-select, 
+.modal-container.accent-dark .dashboard-grid-item .input-container ion-item {
+  background: #171A21 !important;
+  --background: #171A21 !important;
+}
+
+.modal-container.accent-dark ion-textarea.text-area {
+  --background: #171A21 !important;
+}
+
+.desktop-main-page.accent-dark {
+  --background: #343842;
+}
+
+.accent-dark .sport-games-select {
+  background: #292837;
+}
+
+.accent-dark .main-tablet-top .home-top-segment {
+  background: #292837;
+}
+
+.accent-dark .tablet-cards-container,
+.accent-dark .cards-container {
+  background: #171A21;
+}
+
+.accent-dark .home-top-container {
+  background: #292837;
+}
+
+.accent-dark .league-title-container {
+  background-color: #171A21;
+}
+
+ion-menu.accent-dark ion-content {
+  --ion-background-color: #292837;
+}
+
+ion-menu.accent-dark .menu-footer {
+  background-color: #292837;
+}
+
+@media screen and (max-width: 767px) {
+  ion-menu.accent-dark .menu-links-mobile div, 
+  ion-menu.accent-dark .menu-right-links-mobile div {
+    background: #373647;
+  }
+}
+
+.tablet-cards-container .event-container.open.accent-dark .event-card-single, 
+.cards-container .event-container.open.accent-dark .event-card-single {
+  background: #292837;
+}
+
+.accent-dark .tablet-card-event-cfc-container {
+  background: #373647;
+}
+
+.accent-dark .event-container {
+  background: transparent;
+}
+
+.accent-dark .tablet-chat-container {
+  background: #171A21;
+}
+
+.accent-dark .tablet-chat-header {
+  background: #292837;
+}
+
+.accent-dark .tablet-input-area-container,
+.accent-dark .tablet-chat-input {
+  background: #373647;
+}
+
+.accent-dark .account-tablet-container {
+  background: #171A21;
+}
+
+.accent-dark .mobile-title {
+  background: #292837;
+}
+
+@media screen and (max-width: 1024px) {
+  .accent-dark .rectangular-area {
+    background: #292837;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .accent-dark .notification-item,
+  .accent-dark .dashboard-grid-item,
+  .accent-dark .wallet-body,
+  .accent-dark .security.set-small .dashboard-grid-item {
+    background: #171A21;
+  }
+} 
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .accent-dark .dashboard-left .quantity, 
+  .accent-dark .balance-grid-item, .transactions-history,
+  .accent-dark .transactions-history,
+  .accent-dark .finances-tabs ion-segment, 
+  .accent-dark .dashboard-columns-body ion-segment,
+  .accent-dark .interface-design-body, 
+  .accent-dark .interface-color-body, 
+  .accent-dark .interface-timezone-item, 
+  .accent-dark .interface-textsize-view-list, 
+  .accent-dark .dealing-settings-match,
+  .accent-dark .dashboard-body .settings-card-toggle, 
+  .accent-dark .setting-page-segment, 
+  .accent-dark .dealing-presents-radio, 
+  .accent-dark .dealing-handicap-item,
+  .accent-dark .leagues-games-item {
+    background: #171A21;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .accent-dark .dashboard-grid-body .top-segment.dark-segment,
+  .accent-dark .wallet-number-container {
+    background: #292837;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .accent-dark .dashboard-grid-body .input-container-dark ion-item,
+  .accent-dark .wallet-body .top-segment.dark-segment {
+    background: #292837;
+    --background: #292837;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .accent-dark .dashboard-body .input-container-light ion-item {
+    background: #171A21;
+    --background: #171A21;
+  }
+}
+
+.accent-dark .back-link {
+  background: #292837;
+}
+
+@media screen and (max-width: 1024px) {
+  .accent-dark .wallet-loan-data .input-container-dark .merge-input-select ion-select {
+    background: #373647;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .accent-dark .wallet-body .input-container-dark ion-item {
+    --background: #171A21;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .accent-dark .wallet-loan-content {
+    background: transparent;
+  }
+}
+
+ion-tab-bar.accent-dark {
+  --background: #292837;
+}
+
+.bet-modal-container.accent-dark {
+  background: #171A21;
+}
+
+.bet-modal-container.accent-dark .bet-modal-header {
+  background: #292837;
+}
+
+.bet-modal-container.accent-dark .betslip-bet-item .betslip-bet-item-top, 
+.bet-modal-container.accent-dark .betslip-bet-item .betslip-fields {
+  background: #292837;
+}
+
+.accent-dark .betslip-bet-value {
+  background: #171A21;
+}
+
+.accent-dark .betslip-bet-buttons-container .bet-button,
+.accent-dark .bet-buttons-container .bet-button.clear-all,
+.accent-dark .betslip-val {
+  background: #292837;
+}
+
+.accent-dark .settings-leagues-card {
+  background: #292837;
+}
+
+.accent-dark .settings-leagues-card-header {
+  background: #373647;
+}
+
+.accent-dark .settings-leagues-card-header .toggle-card {
+  --background: #171A21;
+}
+
+.accent-dark .bets-cards-container {
+  background: #171A21;
+}
+
+.accent-dark .incoming-message {
+  background: #292837;
+}
+
+.accent-dark .incoming-message .tail {
+  fill: #292837;
+}
+
+@media screen and (max-width: 768px) {
+  .accent-dark .chat-container {
+    background: #171A21;
+  }
+}
+
+.accent-dark .chat-input {
+  background: #373647;
+}
+
+@media screen and (max-width: 600px) {
+  .accent-dark .account-mobile-container,
+  .accent-dark .main-settings-big .rectangular-area {
+    background: #171A21;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .accent-dark .user-card,
+  .accent-dark .account-links ion-item,
+  .accent-dark .dealing-handicap-container .settings-card-toggle {
+    background: #292837;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .accent-dark .account-links ion-item,
+  .accent-dark .dashboard-grid-container,
+  .accent-dark .wallet-number-container {
+    background: #292837;
+  }
+}
+
+.accent-dark .back-container {
+  background: #292837;
+}
+
+@media screen and (max-width: 600px) {
+  .accent-dark .transactions-history {
+    background: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .accent-dark .wallet-body .top-segment.dark-segment {
+    background: #292837;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .accent-dark .wallet-body .input-container-dark ion-item {
+    --background: #292837;
+  }
+}
+
+/* contrast-dark */
+
+.main-header.contrast-dark {
+  --background: #000000;
+  border: 1px solid #616161;
+}
+
+.main-header.contrast-dark .menu-button {
+  background: #000000;
+}
+
+.main-header.contrast-dark .desktop-header .active.my-account-container-header, 
+.main-header.contrast-dark .desktop-header .active.wallet-container-header,
+.main-header.contrast-dark .menu-buttons-wrapper.picked {
+  background: #141414;
+}
+
+.contrast-dark .mobile-header .logo-container.header-plain {
+  background: #000000;
+}
+
+.main-big.contrast-dark {
+  background: #383838;
+}
+
+.contrast-dark .home-top-segment,
+.contrast-dark .top-segment {
+  background: #000000;
+}
+
+.contrast-dark .orange-toggle {
+  --background: #292929;
+}
+
+.desktop-left-bar.contrast-dark {
+  background: #000000;
+  border: 1px solid #616161;
+}
+
+.left-bar-header.contrast-dark {
+  background: #000000;
+  border-bottom: 1px solid #616161;
+}
+
+.desktop-left-bar.contrast-dark .menu-sport-select-btn {
+  background: #1E1E1E;
+}
+
+.desktop-left-bar.contrast-dark .left-menu-selected-container .dropdown-menu {
+  background: #292929;
+}
+
+.desktop-left-bar.contrast-dark .desktop-left-bar-list-item {
+  background: inherit;
+}
+
+.desktop-left-bar.contrast-dark .desktop-left-bar-list-item.choosen,
+.desktop-left-bar.contrast-dark .desktop-left-bar-list-item:hover {
+  background: #1E1E1E;
+}
+
+.desktop-live-container.contrast-dark {
+  background: #141414;
+}
+
+.desktop-live-container.contrast-dark:hover,
+.desktop-live-container.contrast-dark.selected {
+  background: #292929;
+}
+
+.desktop-live-main-wrapper.contrast-dark .desktop-live-container-header {
+  background: #141414;
+  border-bottom: 1px solid #616161;
+}
+
+.desktop-live-main-wrapper.contrast-dark .desktop-live-main-container {
+  background: #000000;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .asian-view .match-money-header,
+.contrast-dark .asian-view .match-money-line.expand,
+.contrast-dark .asian-view .match-money-line .match-money-icon,
+.contrast-dark .match-money-buttons .match-all-bets-btn,
+.main-tablet .contrast-dark .asian-view .match-all-bets-btn,
+.main-mobile .contrast-dark .asian-view .match-all-bets-btn {
+  background: #292929;
+  border: 1px solid #616161;
+}
+
+.more-lines-popover.contrast-dark .more-lines-dropdown.open,
+.more-lines-popover.contrast-dark .popover-arrow::after {
+  background: #141414;
+}
+
+.more-lines-popover.contrast-dark .popover-content,
+.more-lines-popover.contrast-dark .popover-arrow::after {
+  border: 1px solid #616161;
+}
+
+.more-lines-popover.contrast-dark .more-lines-dropdown.open {
+  min-width: 223px;
+}
+
+.desktop-right-bar-wrapper.contrast-dark .desktop-right-bar {
+  background: #000000;
+  border: 1px solid #616161;
+}
+
+.desktop-right-bar-wrapper.contrast-dark .empty-betslip {
+  background: #141414;
+  border: 1px solid #616161;
+}
+
+.desktop-right-bar-wrapper.contrast-dark .right-bar-header {
+  background: #000000;
+  border-bottom: 1px solid #616161;
+}
+
+.desktop-right-bar-wrapper.contrast-dark .right-bar-header ion-segment {
+  background: #000000;
+}
+
+.desktop-right-bar-wrapper.contrast-dark .right-bar-header ion-segment ion-segment-button {
+  --background-checked: #292929;
+}
+
+.desktop-right-bar-wrapper.contrast-dark .betslip-container {
+  background: #000000;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .betslip-body .betslip-val {
+  background: #262626;
+}
+
+.contrast-dark .betslip-bet-item .betslip-fields ion-input {
+  --background: #262626;
+}
+
+.contrast-dark .betslip-fields ion-input {
+  --background: #262626;
+}
+
+.contrast-dark .betslip-bet-item .betslip-fields.buttons div {
+  background: #262626;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .betslip-fields.buttons div {
+  background: #262626;
+  border: 1px solid #616161;
+}
+
+.desktop-right-bar-wrapper.contrast-dark .right-bar-footer .clear-all {
+  background: #262626;
+  border: 1px solid #616161;
+}
+
+.list-of-bets.contrast-dark {
+  background: #000000;
+  border: 1px solid #616161;
+}
+
+.list-of-bets.contrast-dark .desktop-live-container-header {
+  background: #141414;
+  border-bottom: 1px solid #616161;
+}
+
+
+.list-of-bets.contrast-dark .desktop-card-event-cfc-container {
+  background: #141414;
+  border: 1px solid #616161;
+}
+
+.list-of-bets.contrast-dark .list-of-bets-filter-btn {
+  background: #262626;
+}
+
+.contrast-dark .calendar-container {
+  background: #262626;
+}
+
+.contrast-dark .bet-card {
+  background: #141414;
+}
+
+.contrast-dark .money-line-value {
+  background: #262626;
+}
+
+.contrast-dark .bet-card-footer-close {
+  background: #262626;
+}
+
+.chat-container-wrapper.contrast-dark .desktop-live-main-container {
+  background: #000000;
+  border: 1px solid #616161;
+}
+
+.chat-container-wrapper.contrast-dark .desktop-chat-header {
+  background: #141414;
+  border-bottom: 1px solid #616161;
+}
+
+.chat-container-wrapper.contrast-dark .desktop-chat-userpic {
+  background: #262626;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .desktop-incoming-avatar {
+  background: #262626;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .desktop-incoming-text-container {
+  background: #141414;
+  border: 1px solid #616161;
+}
+
+.help-popover.contrast-dark .popover-content,
+.help-popover.contrast-dark .popover-arrow::after {
+  border: 1px solid #616161;
+}
+
+.contrast-dark .searchbar {
+  --background: #262626;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .go-top-btn {
+  background: #262626;
+  border: 1px solid #616161;
+}
+
+.chat-container-wrapper.contrast-dark .desktop-input-area-container,
+.chat-container-wrapper.contrast-dark .desktop-chat-input {
+  background: #262626;
+}
+
+.chat-container-wrapper.contrast-dark .desktop-input-area-container {
+  border: 1px solid #616161;
+}
+
+.chat-container-wrapper.contrast-dark .chat-add-container {
+  border: none;
+}
+
+.chat-container-wrapper.contrast-dark form {
+  border-left: 1px solid #616161;
+}
+
+.main-big.contrast-dark .dashboard-container .rectangular-area, 
+.main-big.contrast-dark .account-sidebar.rectangular-area,
+.main-big.contrast-dark .wallet-right-container .rectangular-area,
+.main-big.contrast-dark .wallet-right-container .wallet-loan-content {
+  border: 1px solid #616161;
+}
+
+.main-big.contrast-dark .account-sidebar {
+  background: #000000;
+}
+
+.main-big.contrast-dark .account-sidebar .sidebar-head {
+  background: #000000;
+}
+
+.main-big.contrast-dark .rectangular-area {
+  background: #000000;
+}
+
+.main-big.contrast-dark .rectangular-area .dashboard-head {
+  background: #141414;
+  border-bottom: 1px solid #616161;
+}
+
+.main-big.contrast-dark .rectangular-area .back-link {
+  background: #141414;
+}
+
+.contrast-dark .interface-design-body,
+.contrast-dark .interface-timezone-item {
+  background: #000000;
+}
+
+.contrast-dark .interface-textsize-view-list {
+  background: #000000;
+}
+
+.contrast-dark .interface-textsize-view-item .incoming-message {
+  background: #141414;
+}
+
+.contrast-dark .interface-textsize-view-item .incoming-message svg {
+  fill: #141414;
+}
+
+.contrast-dark .settings-card-toggle {
+  background: #141414;
+}
+
+.contrast-dark .setting-page-segment {
+  background: #000000;
+}
+
+.contrast-dark .dealing-settings-match {
+  background: #141414;
+}
+
+.contrast-dark .dealing-bets-stake {
+  background: transparent;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .dealing-handicap-item {
+  background: #141414;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .dealing-settings .notification-dealing-item {
+  background: #141414;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .notification-item {
+  background: #141414;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .leagues-games-item {
+  background: #141414;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .security.set-small .dashboard-grid-item {
+  background: #141414;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .input-container-dark ion-item,
+.contrast-dark .input-container-light ion-item {
+  --background: #000000;
+}
+
+.contrast-dark .dashboard-left .quantity {
+  background: #141414;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .balance-grid-item,
+.contrast-dark .transactions-history {
+  background: #141414;
+}
+
+.contrast-dark .dashboard-grid-item {
+  background: #141414;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .merge-input-select ion-select {
+  background: #262626;
+}
+
+.contrast-dark .wallet-tabs li,
+.contrast-dark .wallet-pay-block,
+.contrast-dark .wallet-loan-content {
+  background: #141414;
+}
+
+.contrast-dark .wallet-pay-block {
+  border: 1px solid #616161;
+}
+
+.contrast-dark .wallet-pay-label {
+  background: #262626;
+}
+
+.contrast-dark .wallet-pay-other-image,
+.contrast-dark .wallet-number-container {
+  background: #000000;
+}
+
+.modal-container.accent-dark .dashboard-grid-item .input-container ion-select, 
+.modal-container.accent-dark .dashboard-grid-item .input-container ion-item {
+  background: #171A21 !important;
+  --background: #171A21 !important;
+}
+
+.modal-container.accent-dark ion-textarea.text-area {
+  --background: #171A21 !important;
+}
+
+.contrast-dark .modal-wrapper {
+  border: 1px solid #616161;
+}
+
+.modal-container.contrast-dark {
+  background: #141414;
+}
+
+.modal-container.contrast-dark .dashboard-head,
+.modal-container.contrast-dark .dashboard-grid-item {
+  background: #000000;
+}
+
+.modal-container.contrast-dark .dashboard-head {
+  border-bottom: 1px solid #616161;
+}
+
+.modal-container.contrast-dark .dashboard-grid-item {
+  border-color: #616161;
+}
+
+.modal-container.contrast-dark .dashboard-grid-item .input-container ion-select, 
+.modal-container.contrast-dark .dashboard-grid-item .input-container ion-item {
+  background: #141414 !important;
+  --background: #141414 !important;
+}
+
+.modal-container.contrast-dark ion-textarea.text-area {
+  --background: #141414 !important;
+}
+
+.desktop-main-page.contrast-dark {
+  --background: #141414;
+}
+
+.contrast-dark .sport-games-select {
+  background: #000000;
+}
+
+.contrast-dark .main-tablet-top .home-top-segment {
+  background: #000000;
+}
+
+.contrast-dark .tablet-cards-container,
+.contrast-dark .cards-container {
+  background: #000000;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .home-top-container {
+  background: #000000;
+  border-bottom: 1px solid #616161;
+}
+
+.contrast-dark .league-title-container {
+  background-color: #000000;
+  border-color: #616161;
+}
+
+ion-menu.contrast-dark ion-content {
+  --ion-background-color: #000000;
+}
+
+ion-menu.contrast-dark .menu-footer {
+  background-color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+  ion-menu.contrast-dark .menu-links-mobile div, 
+  ion-menu.contrast-dark .menu-right-links-mobile div {
+    background: #141414;
+  }
+}
+
+.home-wallet-container.contrast-dark {
+  opacity: 1;
+}
+
+.tablet-cards-container .event-container.open.contrast-dark .event-card-single, 
+.cards-container .event-container.open.contrast-dark .event-card-single {
+  background: #141414;
+}
+
+.contrast-dark .tablet-card-event-cfc-container {
+  background: #141414;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .event-container {
+  background: transparent;
+}
+
+.contrast-dark .tablet-chat-container {
+  background: #000000;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .tablet-chat-header {
+  background: #141414;
+  border-bottom: 1px solid #616161;
+}
+
+.contrast-dark .tablet-input-area-container,
+.contrast-dark .tablet-chat-input {
+  background: #262626;
+}
+
+.contrast-dark .chat-add-container {
+  border-color: #616161;
+}
+
+.contrast-dark .account-tablet-container {
+  background: #000000;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .mobile-title {
+  background: #141414;
+  border-bottom: 1px solid #616161;
+}
+
+@media screen and (max-width: 1024px) {
+  .contrast-dark .rectangular-area {
+    background: #141414;
+    border: 1px solid #616161;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contrast-dark .notification-item,
+  .contrast-dark .dashboard-grid-item,
+  .contrast-dark .wallet-body,
+  .contrast-dark .security.set-small .dashboard-grid-item {
+    background: #000000;
+  }
+} 
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .contrast-dark .dashboard-left .quantity, 
+  .contrast-dark .balance-grid-item, .transactions-history,
+  .contrast-dark .transactions-history,
+  .contrast-dark .finances-tabs ion-segment, 
+  .contrast-dark .dashboard-columns-body ion-segment,
+  .contrast-dark .interface-design-body, 
+  .contrast-dark .interface-color-body, 
+  .contrast-dark .interface-timezone-item, 
+  .contrast-dark .interface-textsize-view-list, 
+  .contrast-dark .dealing-settings-match,
+  .contrast-dark .dashboard-body .settings-card-toggle, 
+  .contrast-dark .setting-page-segment, 
+  .contrast-dark .dealing-presents-radio, 
+  .contrast-dark .dealing-handicap-item,
+  .contrast-dark .leagues-games-item {
+    background: #000000;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .contrast-dark .dashboard-grid-body .top-segment.dark-segment,
+  .contrast-dark .wallet-number-container {
+    background: #141414;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .contrast-dark .dashboard-grid-body .input-container-dark ion-item,
+  .contrast-dark .wallet-body .top-segment.dark-segment {
+    background: #141414;
+    --background: #141414;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .contrast-dark .dashboard-body .input-container-light ion-item {
+    background: #000000;
+    --background: #000000;
+  }
+}
+
+.contrast-dark .back-link {
+  background: #141414;
+  border-bottom: 1px solid #616161;
+}
+
+@media screen and (max-width: 1024px) {
+  .contrast-dark .wallet-loan-data .input-container-dark .merge-input-select ion-select {
+    background: #262626;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .contrast-dark .wallet-body .input-container-dark ion-item {
+    --background: #141414;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contrast-dark .wallet-loan-content {
+    background: transparent;
+  }
+}
+
+ion-tab-bar.contrast-dark {
+  --background: #000000;
+}
+
+.bet-modal-container.contrast-dark {
+  background: #141414;
+}
+
+.bet-modal-container.contrast-dark .bet-modal-header {
+  background: #000000;
+  border-bottom: 1px solid #616161;
+}
+
+.bet-modal-container.contrast-dark .betslip-bet-item {
+  border: 1px solid #616161;
+}
+
+.bet-modal-container.contrast-dark .betslip-bet-item .betslip-bet-item-top, 
+.bet-modal-container.contrast-dark .betslip-bet-item .betslip-fields {
+  background: #000000;
+}
+
+.contrast-dark .betslip-bet-value,
+.contrast-dark .betslip-val {
+  background: #262626;
+}
+
+.contrast-dark .betslip-bet-buttons-container .bet-button {
+  background: #262626;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .bet-buttons-container .bet-button.clear-all {
+  background: #262626;
+}
+
+.contrast-dark .settings-leagues-card {
+  background: #000000;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .settings-leagues-card-header {
+  background: #141414;
+  border-bottom: 1px solid #616161;
+}
+
+.contrast-dark .settings-leagues-card-header .toggle-card {
+  --background: #292929;
+}
+
+.contrast-dark .bets-container .segment-container {
+  background: #141414;
+  border: 1px solid #616161;
+}
+
+.contrast-dark .bets-cards-container {
+  background: #000000;
+  border: 1px solid #616161;
+  border-top: none;
+}
+
+.contrast-dark .incoming-message {
+  background: #262626;
+}
+
+.contrast-dark .incoming-message .tail {
+  fill: #262626;
+}
+
+@media screen and (max-width: 767px) {
+  .contrast-dark .chat-container {
+    background: #000000;
+  }
+
+  .contrast-dark .main-big.main-settings-big .mobile-title {
+    border: 1px solid #616161;
+    border-bottom: none;
+  }
+}
+
+.contrast-dark .chat-input {
+  background: #262626;
+}
+
+@media screen and (max-width: 600px) {
+  .contrast-dark .account-mobile-container,
+  .contrast-dark .main-settings-big .rectangular-area {
+    background: #000000;
+    border: 1px solid #616161;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contrast-dark .user-card,
+  .contrast-dark .account-links ion-item,
+  .contrast-dark .dealing-handicap-container .settings-card-toggle {
+    background: #141414;
+  }
+
+  .contrast-dark .user-card {
+    border-bottom: 1px solid #616161;
+  }
+
+  .contrast-dark .notification-item,
+  .contrast-dark .dashboard-grid-item {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  .contrast-dark .notification-item:first-child {
+    border-color: #616161;
+  }
+
+  .contrast-dark .dashboard-grid-container,
+  .contrast-dark .wallet-number-container {
+    background: #141414;
+  }
+}
+
+.contrast-dark .back-container {
+  background: #141414;
+  border-bottom: 1px solid #616161;
+}
+
+@media screen and (max-width: 600px) {
+  .contrast-dark .transactions-history {
+    background: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contrast-dark .wallet-body .top-segment.dark-segment {
+    background: #141414;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contrast-dark .wallet-body .input-container-dark ion-item {
+    --background: #141414;
+  }
+}
+
+
+/* light */
+
+.light .desktop-live-container.asian-view:hover .match-money-header,
+.light .desktop-live-container.asian-view.selected .match-money-header,
+.light .desktop-live-container.asian-view:hover .match-money-line.expand,
+.light .desktop-live-container.asian-view:hover .match-money-line .match-money-icon,
+.light .desktop-live-container.asian-view:hover .match-money-buttons .match-all-bets-btn {
+  background: #FFFFFF;
+}
+
+.bet-modal-container.light .betslip-bet-item .betslip-bet-item-top, 
+.bet-modal-container.light .betslip-bet-item .betslip-fields {
+  background: #FFFFFF;
+}
+
+.bet-modal-container.tablet.light .betslip-bet-item .buttons div, 
+.bet-modal-container.tablet.light .betslip-container-single .buttons div, 
+.bet-modal-container.tablet.light .betslip-bet-value, 
+.bet-modal-container.tablet.light .bet-modal-body .betslip-fields ion-input {
+  background: #E9EBED;
+}
+
+.bet-modal-container.light .bet-modal-body .betslip-val {
+  background: #FFFFFF;
+}
+
+.bet-modal-container.light .fullwidth {
+  border-color: #dfdfdf;
+}
+
+.bet-modal-container.light .betslip-container-single .fullwidth {
+  border-color: transparent;
+}
+
+.light .settings-leagues-card {
+  background: #ffffff;
+}
+
+.light .settings-leagues-card-header .toggle-card {
+  --background: #c8c8c8;
+}
+
+@media screen and (max-width: 767px) {
+  .light .dashboard-left .quantity {
+    background: #f2f2f2;
+  }
+}
+
+
+
+/* soft-light */
+
+.desktop-left-bar.soft-light {
+  background: #f0f0f0;
+}
+
+.left-bar-header.soft-light {
+  background: #ffffff;
+}
+
+.desktop-left-bar.soft-light .menu-sport-select-btn {
+  background: #ffffff;
+}
+
+.desktop-left-bar.soft-light .left-menu-selected-container .dropdown-menu {
+  background: #f4f4f4;
+}
+
+.desktop-left-bar.soft-light .desktop-left-bar-list-item {
+  background: inherit;
+}
+
+.desktop-left-bar.soft-light .desktop-left-bar-list-item.choosen,
+.desktop-left-bar.soft-light .desktop-left-bar-list-item:hover {
+  background: #ffffff;
+}
+
+.desktop-live-container.soft-light {
+  background: #ffffff;
+}
+
+/* .desktop-live-container.soft-light:hover,
+.desktop-live-container.soft-light.selected {
+  background: #f4f4f4;
+} */
+
+.desktop-live-main-wrapper.soft-light .desktop-live-container-header {
+  background: #ffffff;
+}
+
+.desktop-live-main-wrapper.soft-light .desktop-live-main-container {
+  background: #f0f0f0;
+}
+
+.soft-light .desktop-live-container.asian-view:hover .match-money-header,
+.soft-light .desktop-live-container.asian-view.selected .match-money-header,
+.soft-light .desktop-live-container.asian-view:hover .match-money-line.expand,
+.soft-light .desktop-live-container.asian-view:hover .match-money-line .match-money-icon,
+.soft-light .desktop-live-container.asian-view:hover .match-money-buttons .match-all-bets-btn {
+  background: #FFFFFF;
+}
+
+.more-lines-popover.soft-light .more-lines-dropdown.open,
+.more-lines-popover.soft-light .popover-arrow::after {
+  background: #f0f0f0;
+}
+
+.desktop-right-bar-wrapper.soft-light .desktop-right-bar {
+  background: #f0f0f0;
+}
+
+.desktop-right-bar-wrapper.soft-light .empty-betslip {
+  background: #ffffff;
+}
+
+.desktop-right-bar-wrapper.soft-light .right-bar-header {
+  background: #ffffff;
+}
+
+.desktop-right-bar-wrapper.soft-light .right-bar-header ion-segment {
+  background: #ffffff;
+}
+
+.desktop-right-bar-wrapper.soft-light .right-bar-header ion-segment ion-segment-button {
+  --background-checked: #f0f0f0;
+}
+
+.desktop-right-bar-wrapper.soft-light .betslip-container {
+  background: #ffffff;
+}
+
+.soft-light .betslip-body .betslip-val {
+  background: #f0f0f0;
+}
+
+.soft-light .betslip-bet-item .betslip-fields ion-input {
+  --background: #f0f0f0;
+}
+
+.soft-light .betslip-fields ion-input {
+  --background: #f0f0f0;
+}
+
+.soft-light .betslip-bet-item .betslip-fields.buttons div {
+  background: #f0f0f0;
+}
+
+.soft-light .betslip-fields.buttons div {
+  background: #f0f0f0;
+}
+
+.desktop-right-bar-wrapper.soft-light .right-bar-footer .clear-all {
+  background: #ffffff;
+}
+
+.list-of-bets.soft-light {
+  background: #f0f0f0;
+}
+
+.list-of-bets.soft-light .desktop-live-container-header {
+  background: #ffffff;
+}
+
+.list-of-bets.soft-light .desktop-card-event-cfc-container {
+  background: #ffffff;
+}
+
+.list-of-bets.soft-light .list-of-bets-filter-btn {
+  background: #ffffff;
+}
+
+.soft-light .calendar-container {
+  background: #f0f0f0;
+}
+
+.soft-light .money-line-value {
+  background: #f0f0f0;
+}
+
+.chat-container-wrapper.soft-light .desktop-live-main-container {
+  background: #f0f0f0;
+}
+
+.chat-container-wrapper.soft-light .desktop-chat-header {
+  background: #ffffff;
+}
+
+.chat-container-wrapper.soft-light .desktop-chat-userpic {
+  background: #f0f0f0;
+}
+
+.soft-light .desktop-incoming-avatar {
+  background: #ffffff;
+}
+
+.soft-light .desktop-incoming-text-container {
+  background: #ffffff;
+}
+
+.soft-light .searchbar {
+  --background: #f0f0f0;
+}
+
+.chat-container-wrapper.soft-light .desktop-input-area-container,
+.chat-container-wrapper.soft-light .desktop-chat-input {
+  background: #ffffff;
+}
+
+.soft-light .chat-add-container {
+  border-color: #f0f0f0;
+}
+
+.main-big.soft-light .account-sidebar {
+  background: #f0f0f0;
+}
+
+.main-big.soft-light .rectangular-area {
+  background: #f0f0f0;
+}
+
+.main-big.soft-light .rectangular-area .dashboard-head {
+  background: #ffffff;
+}
+
+.main-big.soft-light .rectangular-area .back-link {
+  background: #ffffff;
+}
+
+.soft-light .interface-design-body,
+.soft-light .interface-timezone-item,
+.soft-light .dealing-handicap-item {
+  background: #ffffff;
+}
+
+/* .soft-light .settings-card-toggle {
+  background: #ffffff;
+} */
+
+.soft-light .setting-page-segment {
+  background: #f0f0f0;
+}
+
+.soft-light .setting-page-segment ion-segment-button {
+  --indicator-color: #ffffff;
+}
+
+.soft-light .dealing-settings-match {
+  background: #ffffff;
+}
+
+.soft-light .dealing-settings .notification-dealing-item {
+  background: #ffffff;
+}
+
+.soft-light .notification-item {
+  background: #ffffff;
+}
+
+.soft-light .leagues-games-item {
+  background: #ffffff;
+}
+
+.soft-light .security.set-small .dashboard-grid-item {
+  background: #ffffff;
+}
+
+.soft-light .input-container-dark ion-item,
+.soft-light .input-container-light ion-item {
+  --background: #f0f0f0;
+}
+
+.soft-light .top-segment.dark-segment {
+  background: #f0f0f0;
+}
+
+.soft-light .dashboard-left .quantity {
+  background: #ffffff;
+}
+
+.soft-light .balance-grid-item,
+.soft-light .transactions-history {
+  background: #ffffff;
+}
+
+.soft-light .dashboard-grid-item {
+  background: #ffffff;
+}
+
+.soft-light .merge-input-select ion-select {
+  background: #ffffff;
+}
+
+.soft-light .wallet-tabs li,
+.soft-light .wallet-pay-block,
+.soft-light .wallet-loan-content {
+  background: #ffffff;
+}
+
+.soft-light .wallet-pay-label {
+  background: #f0f0f0;
+}
+
+.soft-light .wallet-pay-other-image {
+  background: #ffffff;
+}
+
+.soft-light .wallet-number-container {
+  background: #f0f0f0;
+}
+
+.modal-container.soft-light {
+  background: #f0f0f0;
+}
+
+.modal-container.soft-light .dashboard-head,
+.modal-container.soft-light .dashboard-grid-item {
+  background: #ffffff;
+}
+
+.soft-light .tablet-cards-container,
+.soft-light .cards-container {
+  background: #f0f0f0;
+}
+
+.soft-light .home-top-container {
+  background: #ffffff;
+}
+
+.soft-light .league-title-container {
+  background-color: #f0f0f0;
+}
+
+ion-menu.soft-light ion-content {
+  --ion-background-color: #f0f0f0;
+}
+
+ion-menu.soft-light .menu-footer {
+  background-color: #f0f0f0;
+}
+
+@media screen and (max-width: 767px) {
+  ion-menu.soft-light .menu-links-mobile div, 
+  ion-menu.soft-light .menu-right-links-mobile div {
+    background: #ffffff;
+    border-color: #f0f0f0;
+  }
+}
+
+.soft-light .tablet-chat-container {
+  background: #f0f0f0;
+}
+
+.soft-light .tablet-chat-header {
+  background: #ffffff;
+}
+
+.soft-light .tablet-input-area-container,
+.soft-light .tablet-chat-input {
+  background: #ffffff;
+}
+
+.soft-light .account-tablet-container {
+  background: #f0f0f0;
+}
+
+.soft-light .mobile-title {
+  background: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .soft-light .rectangular-area {
+    background: #ffffff;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .soft-light .notification-item,
+  .soft-light .dashboard-grid-item,
+  .soft-light .wallet-body,
+  .soft-light .security.set-small .dashboard-grid-item {
+    background: #f0f0f0;
+  }
+} 
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .soft-light .dashboard-left .quantity, 
+  .soft-light .balance-grid-item, .transactions-history,
+  .soft-light .transactions-history,
+  .soft-light .finances-tabs ion-segment, 
+  .soft-light .dashboard-columns-body ion-segment,
+  .soft-light .interface-design-body, 
+  .soft-light .interface-color-body, 
+  .soft-light .interface-timezone-item, 
+  .soft-light .interface-textsize-view-list, 
+  .soft-light .dealing-settings-match,
+  .soft-light .dashboard-body .settings-card-toggle, 
+  .soft-light .setting-page-segment, 
+  .soft-light .dealing-presents-radio, 
+  .soft-light .dealing-handicap-item,
+  .soft-light .leagues-games-item {
+    background: #f0f0f0;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .soft-light .dashboard-grid-body .top-segment.dark-segment,
+  .soft-light .wallet-number-container {
+    background: #ffffff;
+  }
+}
+
+/* @media screen and (max-width: 1024px) and (min-width: 601px) {
+  .soft-light .dashboard-grid-body .input-container-dark ion-item,
+  .soft-light .wallet-body .top-segment.dark-segment {
+    background: #ffffff;
+    --background: #ffffff;
+  }
+} */
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .soft-light .dashboard-body .input-container-light ion-item {
+    background: #f0f0f0;
+    --background: #f0f0f0;
+  }
+}
+
+.soft-light .back-link {
+  background: #ffffff;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .soft-light .wallet-body .input-container-dark ion-item {
+    --background: #ffffff;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .soft-light .wallet-loan-content {
+    background: transparent;
+  }
+
+  .soft-light .dealing-settings .notification-dealing-item {
+    background: #f0f0f0;
+  }
+}
+
+.bet-modal-container.soft-light:not(.tablet) {
+  background: #ffffff;
+}
+
+.bet-modal-container.soft-light .betslip-bet-item .betslip-bet-item-top, 
+.bet-modal-container.soft-light .betslip-bet-item .betslip-fields {
+  background: #ffffff;
+}
+
+.bet-modal-container.tablet.soft-light .betslip-bet-item .buttons div, 
+.bet-modal-container.tablet.soft-light .betslip-container-single .buttons div, 
+.bet-modal-container.tablet.soft-light .betslip-bet-value, 
+.bet-modal-container.tablet.soft-light .bet-modal-body .betslip-fields ion-input {
+  background: #f0f0f0;
+}
+
+.soft-light .betslip-bet-value,
+.soft-light .betslip-val {
+  background: #f0f0f0;
+}
+
+.soft-light .betslip-bet-buttons-container .bet-button,
+.soft-light .bet-buttons-container .bet-button.clear-all {
+  background: #ffffff;
+}
+
+.soft-light .settings-leagues-card {
+  background: #ffffff;
+}
+
+.soft-light .settings-leagues-card-header .toggle-card {
+  --background: #c8c8c8;
+}
+
+.soft-light .bets-cards-container {
+  background: #f0f0f0;
+}
+
+.soft-light .incoming-message {
+  background: #ffffff;
+}
+
+.soft-light .incoming-message .tail {
+  fill: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .soft-light .chat-container {
+    background: #f0f0f0;
+  }
+
+  .soft-light .interface-color-body {
+    background: transparent;
+  }
+
+  .soft-light .dealing-settings .notification-dealing-item {
+    background: #ffffff;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .soft-light .account-mobile-container,
+  .soft-light .main-settings-big .rectangular-area {
+    background: #f0f0f0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .soft-light .user-card,
+  .soft-light .account-links ion-item,
+  .soft-light .dealing-handicap-container .settings-card-toggle {
+    background: #ffffff;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .soft-light .dashboard-grid-container,
+  .soft-light .wallet-number-container {
+    background: #ffffff;
+  }
+}
+
+.soft-light .back-container {
+  background: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .soft-light .transactions-history {
+    background: none;
+  }
+
+  .soft-light .dashboard-right .top-segment ion-segment-button {
+    --indicator-color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .soft-light .wallet-body .top-segment.dark-segment {
+    background: #ffffff;
+  }
+
+  .soft-light .wallet-body .input-container-dark ion-item {
+    --background: #ffffff;
+  }
+}
+
+
+/* contrast-light */
+
+.main-header.contrast-light {
+  border: 1px solid #C6C6C6;
+}
+
+.main-header.contrast-light .menu-button {
+  background: #ffffff;
+}
+
+.main-big.contrast-light {
+  background: #E1E1E1;
+}
+
+.contrast-light .home-top-segment,
+.contrast-light .top-segment {
+  background: #ffffff;
+  box-shadow: none;
+  border-color: #C6C6C6;
+}
+
+.desktop-left-bar.contrast-light {
+  background: #ffffff;
+  border: 1px solid #C6C6C6;
+}
+
+.left-bar-header.contrast-light {
+  background: #f8f8f8;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.desktop-left-bar.contrast-light .menu-sport-select-btn {
+  background: #f8f8f8;
+}
+
+.desktop-left-bar.contrast-light .desktop-left-bar-list-item {
+  background: inherit;
+}
+
+.desktop-left-bar.contrast-light .desktop-left-bar-list-item.choosen,
+.desktop-left-bar.contrast-light .desktop-left-bar-list-item:hover {
+  background: #f2f2f2;
+}
+
+.desktop-live-main-wrapper.contrast-light .desktop-live-container-header {
+  background: #f8f8f8;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.desktop-live-main-wrapper.contrast-light .desktop-live-main-container {
+  background: #ffffff;
+  border: 1px solid #C6C6C6;
+}
+
+.desktop-live-container.contrast-light {
+  background: #f8f8f8;
+  box-shadow: none;
+}
+
+.desktop-live-container.contrast-light:hover,
+.desktop-live-container.contrast-light.selected {
+  background: #DFDFDF;
+}
+
+.desktop-live-container.contrast-light:hover .star-icon,
+.desktop-live-container.contrast-light:hover .watch-icon ,
+.desktop-live-container.contrast-light.selected .star-icon, 
+.desktop-live-container.contrast-light.selected .watch-icon {
+  fill: #8C8C8C;
+}
+
+.contrast-light .desktop-live-container-bets .stake, 
+.contrast-light .small-desktop-body .stake,
+.more-lines-popover.contrast-light .more-lines-dropdown.open .stake {
+  border-color: #C6C6C6;
+}
+
+.contrast-light .asian-view .match-money-header,
+.contrast-light .asian-view .match-money-line.expand,
+.contrast-light .asian-view .match-money-line .match-money-icon,
+.contrast-light .match-money-buttons .match-all-bets-btn,
+.main-tablet .contrast-light .asian-view .match-all-bets-btn,
+.main-mobile .contrast-light .asian-view .match-all-bets-btn {
+  background: #ffffff;
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .classic-view .match-money-block,
+.contrast-light .classic-view .match-money-line,
+.contrast-light .classic-view .match-all-bets-btn {
+  border-color: #C6C6C6;
+}
+
+.more-lines-popover.contrast-light .more-lines-dropdown.open,
+.more-lines-popover.contrast-light .popover-arrow::after {
+  background: #ffffff;
+}
+
+.more-lines-popover.contrast-light .popover-content {
+  border: 1px solid #C6C6C6;
+}
+
+.more-lines-popover.contrast-light .more-lines-dropdown.open {
+  min-width: 223px;
+}
+
+.desktop-right-bar-wrapper.contrast-light .desktop-right-bar {
+  background: #ffffff;
+  border: 1px solid #C6C6C6;
+}
+
+.desktop-right-bar-wrapper.contrast-light .empty-betslip {
+  background: #F8F8F8;
+  border: 1px solid #C6C6C6;
+}
+
+.desktop-right-bar-wrapper.contrast-light .right-bar-header {
+  background: #F8F8F8;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.desktop-right-bar-wrapper.contrast-light .right-bar-header ion-segment {
+  background: #F8F8F8;
+}
+
+.desktop-right-bar-wrapper.contrast-light .right-bar-header ion-segment ion-segment-button {
+  --background-checked: #ffffff;
+}
+
+.desktop-right-bar-wrapper.contrast-light .betslip-container {
+  background: #F8F8F8;
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .betslip-body .betslip-val {
+  background: #ffffff;
+}
+
+.contrast-light .betslip-bet-item .betslip-fields ion-input {
+  --background: #ffffff;
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .betslip-fields ion-input {
+  --background: #ffffff;
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .betslip-bet-item .betslip-fields.buttons div {
+  background: #ffffff;
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .betslip-fields.buttons div {
+  background: #ffffff;
+  border: 1px solid #C6C6C6;
+}
+
+.desktop-right-bar-wrapper.contrast-light .right-bar-footer .clear-all {
+  background: #F8F8F8;
+  border: 1px solid #C6C6C6;
+}
+
+.list-of-bets.contrast-light {
+  background: #ffffff;
+  border: 1px solid #C6C6C6;
+}
+
+.list-of-bets.contrast-light .desktop-live-container-header {
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.list-of-bets.contrast-light .desktop-card-event-cfc-container {
+  background: #F8F8F8;
+  border: 1px solid #C6C6C6;
+  box-shadow: none;
+}
+
+.contrast-light .desktop-card-event-cfc-container-btns .desktop-card-event-btn {
+  border-color: #C6C6C6;
+}
+
+.contrast-light .calendar-container {
+  background: #ffffff;
+  border-color: #C6C6C6;
+}
+
+.contrast-light .bet-card {
+  background: #F8F8F8;
+  border-color: #C6C6C6;
+  box-shadow: none;
+}
+
+.contrast-light .bet-card-header {
+  border-color: #C6C6C6;
+}
+
+.contrast-light .money-line-value {
+  background: #ffffff;
+}
+
+.contrast-light .bet-card-footer-close {
+  background: #ffffff;
+}
+
+.chat-container-wrapper.contrast-light .desktop-live-main-container {
+  background: #ffffff;
+  border: 1px solid #C6C6C6;
+}
+
+.chat-container-wrapper.contrast-light .desktop-chat-header {
+  background: #F8F8F8;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.chat-container-wrapper.contrast-light .desktop-chat-userpic {
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .desktop-incoming-avatar {
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .desktop-incoming-text-container {
+  border: 1px solid #C6C6C6;
+}
+
+.help-popover.contrast-light .popover-content,
+.help-popover.contrast-light .popover-arrow::after {
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .searchbar {
+  --background: #ffffff;
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .go-top-btn {
+  background: #ffffff;
+  border: 1px solid #C6C6C6;
+}
+
+.chat-container-wrapper.contrast-light .desktop-input-area-container {
+  border: 1px solid #C6C6C6;
+}
+
+.chat-container-wrapper.contrast-light .chat-add-container {
+  border: none;
+}
+
+.chat-container-wrapper.contrast-light form {
+  border-left: 1px solid #C6C6C6;
+}
+
+.main-big.contrast-light .dashboard-container .rectangular-area, 
+.main-big.contrast-light .account-sidebar.rectangular-area,
+.main-big.contrast-light .wallet-right-container .rectangular-area,
+.main-big.contrast-light .wallet-right-container .wallet-loan-content {
+  border: 1px solid #C6C6C6;
+}
+
+.main-big.contrast-light .account-sidebar {
+  background: #ffffff;
+}
+
+.main-big.contrast-light .account-sidebar .sidebar-head {
+  background: #ffffff;
+}
+
+.main-big.contrast-light .rectangular-area {
+  background: #ffffff;
+}
+
+.main-big.contrast-light .rectangular-area .dashboard-head,
+.main-big.contrast-light .rectangular-area .back-link {
+  background: #F8F8F8;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.contrast-light .interface-design-body,
+.contrast-light .interface-timezone-item,
+.contrast-light .interface-textsize-view-list {
+  background: #F8F8F8;
+  border-color: #C6C6C6;
+}
+
+.contrast-light .setting-page-segment {
+  background: #ffffff;
+  box-shadow: none;
+  border-color: #C6C6C6;
+}
+
+.contrast-light .settings-card-toggle {
+  background: #F8F8F8;
+  border-color: #C6C6C6;
+}
+
+.contrast-light .dealing-settings-match {
+  background: #F8F8F8;
+  border-color: #C6C6C6;
+}
+
+.contrast-light .dealing-bets-stake {
+  background: transparent;
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .dealing-handicap-item {
+  background: #F8F8F8;
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .dealing-settings .notification-dealing-item {
+  background: #F8F8F8;
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .notification-item {
+  background: #F8F8F8;
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .leagues-games-item {
+  background: #F8F8F8;
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .security.set-small .dashboard-grid-item {
+  background: #F8F8F8;
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .input-container-dark ion-item,
+.contrast-light .input-container-light ion-item {
+  --background: #ffffff;
+  border-color: #C6C6C6;
+}
+
+.contrast-light .dashboard-left .quantity {
+  background: #F8F8F8;
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .balance-grid-item,
+.contrast-light .transactions-history {
+  background: #F8F8F8;
+  border-color: #C6C6C6;
+}
+
+.contrast-light .dashboard-grid-item {
+  background: #F8F8F8;
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .merge-input-select ion-select {
+  background: #F8F8F8;
+}
+
+.contrast-light .merge-input-select {
+  border-color: #C6C6C6;
+}
+
+.contrast-light .wallet-tabs li,
+.contrast-light .wallet-pay-block,
+.contrast-light .wallet-loan-content {
+  background: #F8F8F8;
+}
+
+.contrast-light .wallet-pay-block {
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .wallet-pay-label {
+  background: #F8F8F8;
+}
+
+.contrast-light .wallet-pay-item {
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .wallet-pay-other-image,
+.contrast-light .wallet-number-container {
+  background: #ffffff;
+}
+
+.contrast-light .wallet-number-container {
+  border-color: #C6C6C6;
+}
+
+/* .contrast-light .modal-wrapper {
+  border: 1px solid #C6C6C6;
+} */
+
+.modal-container.contrast-light {
+  background: #ffffff;
+}
+
+.modal-container.contrast-light .dashboard-head,
+.modal-container.contrast-light .dashboard-grid-item {
+  background: #F8F8F8;
+}
+
+.modal-container.contrast-light .dashboard-head {
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.modal-container.contrast-light .dashboard-grid-item {
+  border-color: #C6C6C6;
+}
+
+.modal-container.contrast-light .dashboard-grid-item .input-container ion-select, 
+.modal-container.contrast-light .dashboard-grid-item .input-container ion-item,
+.modal-container.contrast-light ion-textarea.text-area {
+  border-color: #C6C6C6;
+}
+
+.desktop-main-page.contrast-light {
+  --background: #E1E1E1;
+}
+
+.contrast-light .main-tablet-top .home-top-segment {
+  box-shadow: none;
+}
+
+.contrast-light .tablet-cards-container,
+.contrast-light .cards-container {
+  background: #ffffff;
+  /* border: 1px solid #C6C6C6; */
+}
+
+.contrast-light .home-top-container {
+  background: #F8F8F8;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.contrast-light .league-title-container {
+  background-color: #ffffff;
+  border-color: #C6C6C6;
+}
+
+ion-menu.contrast-light ion-content {
+  --ion-background-color: #ffffff;
+  border: 1px solid #C6C6C6;
+  border-bottom: none;
+}
+
+ion-menu.contrast-light .menu-footer {
+  background-color: #ffffff;
+  border: 1px solid #C6C6C6;
+  border-top: none;
+}
+
+@media screen and (max-width: 767px) {
+  ion-menu.contrast-light .menu-links-mobile div, 
+  ion-menu.contrast-light .menu-right-links-mobile div {
+    background: #F8F8F8;
+  }
+}
+
+.home-wallet-container.contrast-light {
+  opacity: 1;
+}
+
+.tablet-cards-container .event-container.open.contrast-light .event-card-single, 
+.cards-container .event-container.open.contrast-light .event-card-single {
+  background: #F8F8F8;
+}
+
+.contrast-light .tablet-cards-container .card-event-cfc-container button {
+  border-color: #C6C6C6;
+}
+
+.contrast-light .tablet-card-event-cfc-container {
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .event-container {
+  background: transparent;
+}
+
+.contrast-light .tablet-chat-container {
+  background: #ffffff;
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .tablet-chat-header {
+  background: #F8F8F8;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.contrast-light .tablet-input-area-container,
+.contrast-light .tablet-chat-input {
+  background: #F8F8F8;
+}
+
+.contrast-light .tablet-input-area-container {
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .chat-add-container {
+  border-color: #C6C6C6;
+}
+
+.contrast-light .account-tablet-container {
+  background: #ffffff;
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .mobile-title {
+  background: #F8F8F8;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+@media screen and (max-width: 1024px) {
+  .contrast-light .rectangular-area {
+    background: #F8F8F8;
+    border: 1px solid #616161;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contrast-light .notification-item,
+  .contrast-light .dashboard-grid-item,
+  .contrast-light .wallet-body,
+  .contrast-light .security.set-small .dashboard-grid-item {
+    background: #ffffff;
+  }
+} 
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .contrast-light .dashboard-left .quantity, 
+  .contrast-light .balance-grid-item, .transactions-history,
+  .contrast-light .transactions-history,
+  .contrast-light .finances-tabs ion-segment, 
+  .contrast-light .dashboard-columns-body ion-segment,
+  .contrast-light .interface-design-body, 
+  .contrast-light .interface-color-body, 
+  .contrast-light .interface-timezone-item, 
+  .contrast-light .interface-textsize-view-list, 
+  .contrast-light .dealing-settings-match,
+  .contrast-light .dashboard-body .settings-card-toggle, 
+  .contrast-light .setting-page-segment, 
+  .contrast-light .dealing-presents-radio, 
+  .contrast-light .dealing-handicap-item,
+  .contrast-light .leagues-games-item {
+    background: #ffffff;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .contrast-light .dashboard-grid-body .top-segment.dark-segment {
+    background: #ffffff;
+  }
+
+  .contrast-light .wallet-number-container {
+    background: #F8F8F8;
+  }
+
+  .contrast-light .dashboard-grid-body .input-container-dark ion-item {
+    background: #F8F8F8;
+    --background: #F8F8F8;
+  }
+
+  .contrast-light .dashboard-body .input-container-light ion-item {
+    background: #ffffff;
+    --background: #ffffff;
+  }
+}
+
+.contrast-light .back-link {
+  background: #F8F8F8;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+@media screen and (max-width: 1024px) {
+  .contrast-light .wallet-loan-data .input-container-dark .merge-input-select ion-select {
+    background: #F8F8F8;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contrast-light .wallet-loan-content {
+    background: transparent;
+  }
+}
+
+.bet-modal-container.contrast-light {
+  background: #ffffff;
+}
+
+.bet-modal-container.contrast-light .bet-modal-header {
+  background: #F8F8F8;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.bet-modal-container.contrast-light .betslip-bet-item {
+  background: #F8F8F8;
+  border: 1px solid #C6C6C6;
+}
+
+.bet-modal-container.contrast-light .betslip-bet-item .betslip-bet-item-top, 
+.bet-modal-container.contrast-light .betslip-bet-item .betslip-fields {
+  background: #F8F8F8;
+}
+
+.contrast-light .betslip-val {
+  background: #F8F8F8;
+}
+
+.contrast-light .betslip-bet-buttons-container .bet-button {
+  background: #F8F8F8;
+  border: 1px solid #C6C6C6;
+  box-shadow: none;
+}
+
+.contrast-light .bet-buttons-container .bet-button.clear-all {
+  background: #F8F8F8;
+  border: 1px solid #C6C6C6;
+  box-shadow: none;
+}
+
+.contrast-light .settings-leagues-card {
+  background: #ffffff;
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .settings-leagues-card-header {
+  background: #F8F8F8;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.contrast-light .settings-leagues-card-header .toggle-card {
+  --background: #C6C6C6;
+}
+
+.contrast-light .segment-container {
+  border: 1px solid #C6C6C6;
+}
+
+.contrast-light .bets-cards-container {
+  background: #ffffff;
+  border: 1px solid #C6C6C6;
+  border-top: none;
+}
+
+@media screen and (max-width: 767px) {
+  .contrast-light .chat-container {
+    background: #E1E1E1;
+  }
+
+  .contrast-light .main-big.main-settings-big .mobile-title {
+    border: 1px solid #C6C6C6;
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contrast-light .account-mobile-container,
+  .contrast-light .main-settings-big .rectangular-area {
+    background: #ffffff;
+    border: 1px solid #C6C6C6;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contrast-light .user-card,
+  .contrast-light .account-links ion-item,
+  .contrast-light .dealing-handicap-container .settings-card-toggle {
+    background: #F8F8F8;
+  }
+
+  .contrast-light .user-card {
+    border-bottom: 1px solid #C6C6C6;
+  }
+
+  .contrast-light .notification-item,
+  .contrast-light .dashboard-grid-item {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  .contrast-light .notification-item:first-child {
+    border-color: #C6C6C6;
+  }
+
+  .contrast-light .dashboard-grid-container,
+  .contrast-light .wallet-number-container {
+    background: #F8F8F8;
+  }
+}
+
+.contrast-light .back-container {
+  background: #F8F8F8;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+@media screen and (max-width: 600px) {
+  .contrast-light .transactions-history {
+    background: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contrast-light .wallet-body .top-segment.dark-segment {
+    background: #F8F8F8;
+  }
+
+  .contrast-light .wallet-body .input-container-dark ion-item {
+    --background: #ffffff;
+  }
+}

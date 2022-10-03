@@ -1,0 +1,545 @@
+@media screen and (max-width: 1440px) {
+  /* .dashboard-container {
+    flex-direction: column;
+    height: auto;
+  } */
+  .rectangular-area-wrapper.big {
+    grid-column: span 3;
+  }
+  .merge-input-select.phone-container ion-select {
+    min-width: 92px;
+  }
+  .merge-input-select.phone-container ion-select {
+    --padding-start: 35px;
+  }
+  /* .dashboard-small-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .dashboard-big-container {
+    margin-left: 10px;
+  } */
+}
+
+@media screen and (max-width: 1345px) {
+  .dashboard-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .rectangular-area-wrapper.big {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1100px) {
+  .dashboard-head {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .rectangular-area-wrapper {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 15px;
+  }
+  .rectangular-area {
+    background: var(--eighth-background);
+    box-shadow: 0px 0.5px 4px rgb(0 0 0 / 12%), 0px 6px 13px rgb(0 0 0 / 12%);
+  }
+  /* My Account */
+  .account-tablet-container {
+    background: var(--first-background);
+    box-shadow: 0px 0.5px 4px rgb(0 0 0 / 12%), 0px 6px 13px rgb(0 0 0 / 12%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  .mobile-title {
+    border-radius: 5px 5px 0px 0px;
+    padding: 12px 30px 12px 20px;
+    font-size: 15px;
+    font-weight: normal;
+    background: var(--second-background);
+  }
+  .mobile-title span {
+    color: #ffffff;
+    padding: 4px 10px;
+    border-radius: 5px;
+  }
+  .my-account-top {
+    padding: 25px;
+  }
+  .account-other-containers {
+    padding: 25px 15px;
+  }
+  /* Notifications */
+  .dashboard-small-container {
+    width: 100%;
+  }
+  .dashboard-body {
+    padding: 15px 25px;
+  }
+  .notification-item {
+    background: var(--first-background);
+  }
+  .notification-item:not(:first-child) {
+    margin-top: 8px;
+  }
+  /* Finances */
+  .dashboard-columns-body {
+    flex-direction: column;
+  }
+  .dashboard-left, .dashboard-right {
+    width: 100%;
+  }
+  .dashboard-left {
+    border-right: 0;
+  }
+  .dashboard-finances-head {
+    justify-content: flex-end;
+    display: none;
+  }
+  .rectangular-area .finances-tabs {
+    padding: 0 25px;
+    margin-top: 15px;
+  }
+  .dashboard-right .top-segment ion-segment-button {
+    --indicator-color: var(--grey-segment-button);
+    color: var(--ion-primery-color);
+  }
+  .dashboard-left .loan-container .take-loan.big, .dashboard-left .loan-container .repay-loan.big {
+    height: auto;
+    grid-row: 1 / 3;
+  }
+  /* Security settings */
+  .dashboard-grid-body {
+    grid-template-columns: 1fr;
+  }
+  .dashboard-grid-item {
+    background: var(--first-background);
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 601px) {
+  .dashboard-left .quantity, .balance-grid-item, .transactions-history {
+    background: var(--first-background);
+  }
+  .finances-tabs ion-segment, .dashboard-columns-body ion-segment {
+    background: var(--first-background);
+  }
+  .dashboard-body .input-container-light ion-item {
+    --background: var(--first-background);
+  }
+  .dashboard-grid-body .input-container-dark ion-item {
+    --background: var(--nineth-background);
+  }
+  .dashboard-grid-body .top-segment.dark-segment {
+    background: var(--nineth-background);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .account-mobile-container {
+    height: auto;
+    min-height: calc(100vh - 165px);
+    /* padding-bottom: 18px; */
+    display: flex;
+    flex-direction: column;
+    background: var(--first-background);
+    border-radius: 5px;
+  }
+  .main-account-mobile-container {
+    overflow: auto;
+    box-shadow: 0px 0.5px 4px rgb(0 0 0 / 12%), 0px 6px 13px rgb(0 0 0 / 12%);
+  }
+  /* .mobile-title span {
+    font-size: 17px;
+  } */
+  .account-mobile-container .mobile-title {
+    display: none;
+  }
+  .my-account-top {
+    padding: 0;
+  }
+  .user-card {
+    padding: 15px 25px;
+    border-radius: 5px 5px 0px 0px;
+    background: var(--second-background);
+  }
+  .img-container {
+    background-color: var(--account-mobile-image-bgr);
+  }
+  .img-container svg {
+    fill: var(--account-mobile-image);
+  }
+  .currency-switch {
+    min-width: 70px;
+  }
+  .my-account-top .orange-select p {
+    margin: 0;
+    font-size: 14px;
+  }
+  .my-account-top .loan-container, .deposit-withdraw-container {
+    padding: 0 8px;
+  }
+  .account-links {
+    padding: 25px 8px 30px;
+  }
+  .main-account-mobile-container .account-links {
+    padding-bottom: 0;
+  }
+  .account-links ion-item {
+    --background: transparent;
+    --inner-padding-end: 0;
+    margin: 10px 0;
+    background: var(--second-background);
+    border-radius: 10px;
+  }
+  .account-links a:focus {
+    outline: none;
+    border: none;
+  }
+  .account-mobile-container .logout-btn {
+    margin: auto 8px 20px;
+  }
+  .main-account-mobile-container .logout-btn {
+    margin-top: 20px;
+  }
+  .dashboard-head-mobile {
+    padding: 25px 15px 20px;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  .dashboard-grid-body, .dashboard-body {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  .dashboard-body-mobile {
+    padding: 15px;
+  }
+  /* Notifications */
+  .back-container {
+    padding-left: 15px;
+  }
+  .notifications-container .title, .security-container .title {
+    padding: 25px 15px 20px;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  .notification-item {
+    margin: 0;
+    padding: 0 15px;
+    border-radius: 0;
+    border-bottom: 1px solid var(--border-gray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .notification-item:not(:first-child) {
+    margin-top: 0;
+  }
+  .notification-item:first-child {
+    border-top: 1px solid var(--border-gray);
+  }
+  .notification-item div {
+    font-size: 16px;
+    margin: 20px 0;
+    color: var(--notification-item-color);
+  }
+  /* Finances */
+  .finances-container {
+    padding: 0 8px 10px;
+  }
+  .finances-balance .title, .finances-container .title {
+    font-weight: bold;
+    font-size: 17px;
+    padding: 25px 8px 10px;
+  }
+  .finances-container .loan-container {
+    margin-bottom: 5px;
+  }
+  .balance-grid-container {
+    margin-top: 0;
+  }
+  .finances-header-container {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .finances-header-container svg {
+    margin-right: 8px;
+    margin-top: 10px;
+    fill: currentColor;
+  }
+  body:not(.dark) .finances-header-container svg {
+    opacity: 0.4;
+  }
+  .transactions-history {
+    background: none;
+    border: none;
+    max-height: none;
+  }
+  .dashboard-left, .dashboard-right {
+    padding: 0 8px;
+  }
+  .dashboard-right {
+    margin-top: 25px;
+  }
+  .dashboard-left .dashboard-finances-head {
+    display: none;
+  }
+  .dashboard-finances-head {
+    padding: 25px 8px 10px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 17px;
+    color: var(--primery);
+    justify-content: flex-start;
+    display: block;
+  }
+  /* Security settings */
+  .dashboard-grid-item {
+    padding: 5px;
+    border-bottom: 1px solid var(--border-gray);
+    border-radius: 0;
+  }
+  .dashboard-grid-item:first-child {
+    border-top: 1px solid var(--border-gray);
+  }
+  .close.dashboard-grid-item {
+    height: 62px;
+  }
+  .dashboard-grid-head {
+    padding: 20px 15px;
+  }
+  .dashboard-grid-container {
+    background: var(--eighth-background);
+    padding: 15px 15px 20px;
+  }
+  /* Edit personal information */
+  .inputs-mobile-container {
+    padding: 10px 15px 15px;
+  }
+  .input-container-light:not(:first-child) {
+    margin-top: 18px;
+  }
+  .save-btn {
+    color: var(--orange);
+    opacity: 0.5;
+    margin-top: 2px;
+    font-weight: 600;
+    font-size: 17px;
+  }
+}
+
+/* 4k */
+
+@media screen and (min-width: 3400px) {
+  .account-sidebar-wrapper {
+    min-width: 650px;
+    width: 650px;
+    padding: 20px;
+  }
+  .rectangular-area-wrapper {
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .rectangular-area {
+    border-radius: 10px;
+  }
+  /* Sidebar */
+  .my-account-top {
+    padding: 30px 20px 45px;
+  }
+  .user-card {
+    margin-bottom: 40px;
+  }
+  .img-container {
+    min-width: 82px;
+    width: 82px;
+    height: 82px;
+    margin-right: 40px;
+  }
+  .info-container .email {
+    max-width: 350px;
+  }
+  .info-container .email p {
+    font-size: 30px;
+    margin-top: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .info-container .account-type p {
+    font-size: 30px;
+    margin-top: 15px;
+  }
+  .account-type img {
+    /* width: 60px; */
+    height: 30px;
+  }
+  .loan-container {
+    grid-gap: 20px;
+    gap: 20px;
+  }
+  .quantity {
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .finances-value {
+    font-size: 36px;
+  }
+  .finances-title {
+    font-size: 22px;
+  }
+  .take-loan, .repay-loan {
+    height: 65px;
+    border-radius: 10px;
+    font-size: 30px;
+  }
+  .dashboard-anchors-container {
+    padding: 45px 36px;
+    border-width: 2px;
+  }
+  .dashboard-anchors-container .dashboard-anchor {
+    font-size: 30px;
+  }
+  .dashboard-anchors-container .dashboard-anchor:not(:first-child) {
+    margin-top: 50px;
+  }
+  .dashboard-anchor svg {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+  .currency-switch {
+    min-width: 120px;
+  }
+  .currency-switch p {
+    font-size: 26px;
+  }
+  /* Notifications, Edit personal information, Change password */
+  .dashboard-container {
+    max-width: none;
+    padding-top: 20px;
+  }
+  .dashboard-head {
+    font-size: 36px;
+    padding: 20px 55px;
+    padding-right: 25px;
+    border-radius: 10px 10px 0 0;
+  }
+  .close-icon {
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+  }
+  .dashboard-small-container .rectangular-area-wrapper {
+    width: 720px;
+  }
+  .dashboard-big-container {
+    max-width: 1760px;
+  }
+  .dashboard-body {
+    padding: 50px;
+  }
+  .dashboard-body.notifiations-dashboard-body {
+    height: calc(100% - 96px);
+  }
+  .dashboard-body.notifiations-dashboard-body .settings-notification {
+    height: calc(100% - 65px);
+  }
+  .notification-item {
+    padding: 20px 36px;
+  }
+  .notification-item div {
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  /* Finances */
+  .dashboard-left, .dashboard-right {
+    padding: 50px;
+  }
+  .dashboard-finances-head {
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
+  .dashboard-left .quantity {
+    padding: 30px 30px 15px;
+    border-radius: 10px;
+  }
+  .dashboard-left .finances-title {
+    font-size: 30px;
+  }
+  .balance-grid-container {
+    margin-top: 30px;
+    grid-gap: 20px;
+    gap: 20px;
+  }
+  .balance-grid-item {
+    border-radius: 10px;
+  }
+  .transactions-history {
+    max-height: 640px;
+    margin-top: 20px;
+    padding: 25px;
+    border-width: 2px;
+    border-radius: 10px
+  }
+  .transaction-card div {
+    font-size: 30px;
+  }
+  .transaction-bottom div {
+    font-size: 30px;
+  }
+  .transaction-card {
+    border-width: 2px;
+    padding: 25px 0 15px;
+  }
+  /* Security settings */
+  .dashboard-grid-body {
+    padding: 50px;
+    grid-gap: 20px;
+    gap: 20px;
+  }
+  .dashboard-grid-item {
+    padding: 25px;
+  }
+  .dashboard-grid-head {
+    font-size: 30px;
+  }
+  .dashboard-grid-content-title {
+    font-size: 30px;
+  }
+  .dashboard-grid-content-text {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px
+  }
+  .dashboard-grid-head .fold-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .close.dashboard-grid-item {
+    height: 84px;
+  }
+}
+
+/* @media screen and (min-width: 2560px) and (max-width: 2999px) {
+  .dashboard-container {
+    display: block;
+  }
+  .dashboard-small-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .dashboard-small-container .rectangular-area-wrapper {
+    width: 33%;
+    min-width: 660px;
+  }
+  .dashboard-big-container {
+    max-width: fit-content;
+    margin-right: 20px;
+  }
+} */

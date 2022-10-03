@@ -1,0 +1,142 @@
+.pb85{
+    padding-bottom: 85.5px;
+}
+
+.mobile-main-page{
+    margin-top: 70px;
+    padding: 16.5px;
+}
+
+.mobile-main-page .top-segment{
+    height: 34px;
+}
+
+.mobile-main-page ion-label{
+    text-transform: uppercase;
+    position: absolute;
+    height: 20px;
+    left: 51px;
+    right: 51px;
+    top: calc(50% - 20px/2);
+    
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.24px;
+}
+
+.mobile-main-page ion-segment, .mobile-main-page ion-segment {
+    background: var(--first-background);
+}
+
+/* .home-top-container .home-top-container-label,
+.no-games   {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: var(--ion-color-primary);
+    margin: 1.5px 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+} */
+
+.mobile-live-main-body{
+    background-color:  var(--fourth-background);
+}
+
+.dark .mobile-live-main-body{
+    background-color: var(--first-background);
+}
+
+.mobile-titles-stakes  {
+    border-radius: 5px 5px 0px 0px;
+    color: var(--ion-color-primary);
+    margin-top: 10px;;
+}
+
+.mobile-titles-stakes  ion-label {
+    font-weight: bold;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 18px;
+}
+
+.mobile-titles-stakes  .label{
+    font-weight: normal ;
+}
+
+.mobile-titles-stakes
+.mobile-live-container{
+    background-color: var(--live-container-background);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 6px 8px rgb(0 0 0 / 5%);
+    width: 100%;
+    min-height: 60px;
+    cursor: pointer;
+    height: auto;
+    margin-bottom: 15px;
+    border-left: 1px solid transparent;
+    padding: 0  20px 0 20px;
+}
+
+.mobile-container-info {
+    background: var(--live-container-background);
+    align-items: center;
+    box-shadow: 0px 6px 8px rgb(0 0 0 / 5%);
+    width: 100%;
+    min-height: 84px;
+    cursor: pointer;
+    height: auto;
+    margin-bottom: 15px;
+    border-left: 1px solid transparent;
+    color: var(--ion-color-primary);
+    margin-bottom: 15px;
+}
+
+.mobile-container-info .card-event-date {
+    display: flex;
+    align-items: center;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 18px;
+}
+
+.mobile-container-info .divImage {
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mobile-container-info .divImage img {
+    height: 20px;
+    filter: drop-shadow(0px 0.5px 4px rgba(0, 0, 0, 0.12)), drop-shadow(0px 6px 13px rgba(0, 0, 0, 0.12));
+    border-radius: 5px;
+}
+
+.mobile-container-info .watch-icon {
+    margin: 10px;
+}
+
+.mobile-container-info .teams p {
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+}
+

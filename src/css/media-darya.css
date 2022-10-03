@@ -1,0 +1,110 @@
+@media screen and (max-width: 1024px) {
+   .no-games {
+      height: 300px;
+   }
+   .main-big {
+      height: auto;
+      display: block;
+   }
+   .main-account-big {
+      display: block;
+      max-width: 768px;
+      padding: 25px;
+      margin: 0 auto;
+      flex-direction: column;
+      height: auto;
+   }
+   .main-big.main-account-big {
+      align-items: inherit;
+   }
+   .input-container-light ion-item, .input-container-light .merge-input-select {
+      max-width: 375px;
+   }
+   /* Favorites */
+   .desktop-favorites-main-wrapper {
+      height: auto;
+      padding: 10px 25px;
+      flex-direction: column;
+   }
+   .desktop-live-main-container.big {
+      min-width: auto;
+   }
+   .desktop-favorites-main-wrapper .desktop-live-main-container {
+      width: 100%;
+      margin-right: 0;
+      margin-top: 10px;
+      margin-bottom: 10px;
+   }
+   .desktop-live-main-body {
+      padding: 0 30px 10px;
+   }
+   .desktop-live-container-header .header-left-block {
+      display: flex;
+   }
+   .desktop-live-container-header .title {
+      padding-left: 30px;
+      padding-right: 10px;
+      font-size: 20px;
+   }
+   .desktop-favorites-main-wrapper .desktop-live-container-header p {
+      margin-left: 0;
+   }
+   .desktop-favorites-main-wrapper .desktop-live-main-body .list-events-title {
+      margin-left: 0;
+   }
+   .desktop-favorites-main-wrapper .home-top-container-btns .btn-filter {
+      margin-left: 8px;
+   }
+   .league-title-container img {
+      width: 40px;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   /* Menu */
+   ion-menu {
+      --width: 235px;
+   }
+   ion-menu .menu-links-mobile div, 
+   ion-menu .menu-right-links-mobile div {
+      background: var( --menu-item-bgr);
+      border-bottom: 2px solid var(--first-background);
+   }
+   ion-menu .menu-right-links-mobile div.not-active {
+      opacity: .5;
+   }
+   ion-menu .menu-right-links-mobile p {
+      height: 50px;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 16px;
+      padding-left: 20px;
+      align-items: center;
+   }
+   ion-menu .menu-right-links-mobile p.choosen {
+      background: var(--orange);
+      color: #ffffff;
+   }
+   .main-menu a {
+      height: 50px;
+      font-size: 16px;
+      padding-left: 20px;
+   }
+   /* Login Button */
+   ion-menu .logout-btn {
+      margin: 20px;
+   }
+   .main-big.main-settings-big {
+      align-items: inherit;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .main-account-big {
+      padding: 15px;
+      max-height: calc(100% - 63px);
+   }
+   .merge-input-select ion-item {
+      --padding-start: 8px;
+   }
+}

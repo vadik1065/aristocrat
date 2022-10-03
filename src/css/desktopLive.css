@@ -1,0 +1,873 @@
+.desktop-live-container {
+  background: var(--live-container-background);
+  align-items: center;
+  /* box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.05); */
+  box-shadow: 0px 0.5px 4px rgb(0 0 0 / 12%), 0px 6px 13px rgb(0 0 0 / 12%);
+  width: 100%;
+  min-height: 84px;
+  cursor: pointer;
+  height: auto;
+  margin-bottom: 15px;
+  border-left: 1px solid transparent;
+}
+
+.desktop-live-container.classic-view,
+.desktop-live-container.asian-view {
+  margin-bottom: 8px;
+}
+
+.desktop-live-container.selected {
+  background: var(--selected-bg);
+  border-color: var(--orange);
+}
+
+.desktop-live-container:hover {
+  background: var(--selected-bg);
+  border-color: var(--orange);
+  transition: .3s;
+}
+
+.desktop-live-container-info .card-event-date {
+  min-width: 50px;
+  width: auto;
+  margin-left: 17px;
+  align-items: center;
+}
+
+.small .desktop-live-container-info .card-event-date {
+  min-width: 80px;
+}
+
+.small-desktop-live {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.small-desktop-header .teams {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.small-desktop-header {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.small-desktop-header-left {
+  align-items: center;
+}
+
+.small-desktop-header-left .star-icon {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.small-desktop-header-left .watch-icon {
+  margin-right: 10px;
+}
+
+.small-desktop-header .date {
+  min-width: 120px;
+  text-align: right;
+  font-weight: 600;
+  font-size: 12.2px;
+  line-height: 18px;
+}
+
+.desktop-live-container-info .card-event-live-time {
+  height: 18px;
+  margin: 0px;
+  min-width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.small-desktop-header .card-event-live-time {
+  margin-top: 0;
+}
+
+.desktop-live-container-info .card-event-date {
+  font-size: 13px;
+  color: var(--ion-color-primary)
+}
+
+.desktop-live-main-body .home-top-segment ion-segment-button span {
+  font-size: 10px;
+  vertical-align: text-top;
+}
+
+.desktop-live-container-info .card-event-start-date {
+  min-width: 45px;
+  opacity: 1
+}
+
+.no-games {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desktop-live-container-info {
+  align-items: center;
+  width: 39%;
+}
+
+.desktop-live-container-info .watch-icon {
+  min-width: 21px;
+}
+
+.desktop-live-container-info:not(.event) .watch-icon {
+  margin: 0 10px;
+}
+
+.desktop-live-container-info .team-title {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--ion-color-primary);
+  margin: 1.5px 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.desktop-live-container-info .team-title.draw {
+  opacity: .5;
+}
+
+.cis-view .team-title.draw {
+  display: none;
+}
+
+.desktop-live-container-info .team-title.desktop {
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0;
+  margin-right: auto;
+}
+
+.small .desktop-live-container-info .team-title.desktop {
+  font-size: 14px;
+}
+
+.desktop-live-container-info .team-img {
+  width: 10%;
+  height: auto;
+  max-width: 34px;
+  left: 405.25px;
+  top: 223.92px;
+  -webkit-filter: drop-shadow(0px 0.5px 4px rgba(0, 0, 0, 0.12)), drop-shadow(0px 6px 13px rgba(0, 0, 0, 0.12));
+  filter: drop-shadow(0px 0.5px 4px rgba(0, 0, 0, 0.12)), drop-shadow(0px 6px 13px rgba(0, 0, 0, 0.12));
+  border-radius: 5px;
+}
+
+.desktop-live-container-info .teams {
+  margin-left: 5px;
+  max-width: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.desktop-live-container-info .teams .team-container {
+  align-items: center;
+  padding: 2px 0;
+}
+
+.desktop-live-container-info .teams .team-container .team-img.small {
+  width: auto;
+  max-width: 22px;
+  height: 22px;
+  margin-right: 5px;
+}
+
+.desktop-live-container-info .teams .team-container .collapse {
+  width: 19px;
+  margin-right: 5px;
+}
+
+.desktop-event-cards.small .desktop-live-container-info .teams .team-container .team-img.small {
+  max-width: 18px;
+}
+
+.desktop-event-cards.small .desktop-live-container-info .teams .team-container .collapse {
+  width: 18px;
+}
+
+.desktop-live-container .score {
+  margin-left: auto;
+}
+
+.desktop-live-container .score p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 15px;
+  min-width: 25px;
+  display: flex;
+  justify-content: flex-end;
+  line-height: 18px;
+  text-align: center;
+  color: var(--ion-color-primary);
+}
+
+.desktop-live-container .score p.leader {
+  font-weight: bold;
+  display: flex;
+}
+
+.desktop-live-container .selected {
+  /* background: url('../images/selected.svg'); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  margin-top: 2px;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 7px;
+}
+
+p.leader .arrow-right {
+  fill: var(--arrow-right-icon-color);
+}
+
+.desktop-live-container-bets .stake, .small-desktop-body .stake {
+  width: 100%;
+  min-width: 50px;
+  /* max-width: 90px; */
+  border-radius: 5px;
+  height: 40px;
+  border: 1px solid var(--modal-border);
+  background: transparent;
+  /* background: var(--live-container-background); */
+  /* background: var(--stake-btn-bg); */
+}
+
+.teams-to-score.handicap>.stake.column>.stake-text {
+  margin-top: 2px;
+  line-height: 114%;
+}
+
+.teams-to-score.handicap>.stake.column>.val {
+  margin-bottom: 2px;
+  line-height: 114%;
+}
+
+.more-lines-dropdown.open .left-column, .more-lines-dropdown.open .right-column {
+  width: 45%;
+}
+
+.more-lines-dropdown.open .stake {
+  /* min-width: 45px; */
+  /* max-width: 90px; */
+  width: 45%;
+}
+
+.more-lines-dropdown.open .left-column .stake, .more-lines-dropdown.open .right-column .stake {
+  width: 100%;
+}
+
+.more-lines-dropdown.open .stake .stake-text {
+  font-weight: 700;
+}
+
+.more-lines-dropdown.open .stake .val {
+  opacity: .7;
+}
+
+.teams-to-score .more-lines-container {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  min-width: 25px;
+  margin: 0;
+  position: relative;
+}
+
+.teams-to-score .more-lines-container:hover .bet-arrow, .match-money-line.expand .more-lines-container.classic:hover .bet-arrow {
+  transform: rotate(180deg);
+}
+
+.match-money-line.expand {
+  height: 26px;
+}
+
+.more-lines-container.classic {
+  height: 100%;
+  width: 100%;
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.more-lines-container.classic .more-lines-dropdown.open {
+  right: -50%;
+  top: -55px;
+}
+
+/* .more-lines-container.asian {
+  height: 100%;
+  width: 100%;
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+} */
+
+.more-lines-dropdown .stake {
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0px;
+  padding: 5px;
+  flex-direction: column;
+  height: auto;
+  min-height: 40px;
+}
+
+.stake .val p {
+  margin: 0
+}
+
+.more-lines-dropdown .stake .val p {
+  margin: 0
+}
+
+.match-money-value p {
+  margin: 0;
+}
+
+.stake-text {
+  text-align: center;
+}
+
+.more-lines-dropdown {
+  transition: .3s;
+  position: absolute;
+  height: 0px;
+  min-height: 0px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+
+.more-lines-header {
+  width: 100%;
+  justify-content: center;
+}
+
+.more-lines-header p {
+  flex: 0 1 45%;
+  display: flex;
+  margin: 0 5px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.more-lines-dropdown.open {
+  height: auto;
+  width: auto;
+  min-width: 225px;
+  max-height: 35vh;
+  /* background-color: var(--ul-background); */
+  background-color: var(--live-container-background);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, .5);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 10px;
+  z-index: 9;
+  right: 15%;
+  top: -20px;
+  overflow: auto;
+}
+
+.more-lines-dropdown svg, .money-line-small svg, .desktop-card-event-btn svg {
+  height: 20px;
+  fill: var(--ion-color-primary);
+  opacity: .3;
+}
+
+.desktop-card-event-btn svg {
+  margin: 0 auto;
+}
+
+.with-lock svg {
+  height: 20px;
+  fill: var(--ion-color-primary);
+  opacity: .3;
+}
+
+body:not(.dark) .selected .small-desktop-body .stake:not(.chosen), body:not(.dark) .selected .desktop-live-container-bets .stake:not(.chosen) {
+  background: #ffffff;
+}
+
+body:not(.dark) .selected .small-desktop-body .stake:not(.chosen):hover, body:not(.dark) .selected .desktop-live-container-bets .stake:not(.chosen):hover {
+  background: var(--orange);
+}
+
+.desktop-live-container-bets {
+  min-width: 55%;
+  width: 55%;
+  margin-left: 10px;
+  max-width: 687.5px;
+}
+
+.desktop-live-container-bets .money-line .stake, .small-desktop-body .stake {
+  margin: 0 2px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 18px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.teams-to-score>div {
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  max-width: 120px;
+  background: var(--left-bar-background);
+  margin: 0 2px;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.desktop-live-container-bets .money-line {
+  width: 40%;
+  margin-right: 10px;
+  justify-content: flex-start;
+}
+
+/* .desktop-live-container-bets .money-line-small {
+  max-width: 70px;
+} */
+
+.desktop-live-container-bets .teams-to-score {
+  width: 30%;
+  justify-content: flex-start;
+}
+
+.desktop-live-container-bets .val {
+  opacity: .7;
+}
+
+.small-desktop-live .stake .val {
+  opacity: .7;
+}
+
+.stake:hover {
+  background: var(--orange);
+  transition: .3s;
+}
+
+.stake.chosen {
+  background: var(--orange);
+}
+
+.stake.chosen div, .stake:hover div {
+  color: #ffffff;
+}
+
+.stake>* {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.small-desktop-body .stake {
+  margin-bottom: 7px;
+}
+
+.small-desktop-body .money-line {
+  justify-content: space-between;
+}
+
+/*Classic view*/
+
+.classic-view .desktop-live-container-info, .asian-view .desktop-live-container-info {
+  flex-wrap: wrap;
+  padding-left: 17px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.classic-view .desktop-live-container-info .card-event-date, .asian-view .desktop-live-container-info .card-event-date {
+  margin-left: 0;
+  min-width: auto;
+  flex-direction: row
+}
+
+.classic-view .desktop-live-container-info .card-event-start-time, .asian-view .desktop-live-container-info .card-event-start-time {
+  margin-left: 10px;
+}
+
+.classic-view .desktop-live-container-info .card-event-start-date, .asian-view .desktop-live-container-info .card-event-start-date {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.classic-view .desktop-live-container-info .teams .team-container, .asian-view .desktop-live-container-info .teams .team-container {
+  height: 25px;
+}
+
+/* .classic-view .desktop-live-container-info .team-img {
+  display: none;
+} */
+
+.classic-view .desktop-live-container-info .teams, .asian-view .desktop-live-container-info .teams {
+  margin-left: 0;
+  margin-top: 10px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.classic-view .desktop-live-container-info .team-title, .asian-view .desktop-live-container-info .team-title {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.small .desktop-live-container-info:not(.event) .watch-icon {
+  margin: 0;
+}
+
+.match-money-wrapper {
+  display: flex;
+  align-self: flex-start;
+}
+
+.match-money-container {
+  margin: 10px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.small .desktop-live-container-info {
+  width: auto;
+}
+
+.small .match-money-container.handicap, .small .match-money-container.underover {
+  display: none;
+}
+
+.match-money-header {
+  margin-bottom: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.classic-view .match-money-header {
+  display: flex;
+  justify-content: center;
+}
+
+.classic-view .match-money-block {
+  min-width: 120px;
+  width: 120px;
+  border: 1px solid var(--segment-border);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.match-money-line {
+  padding: 3px 5px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.classic-view .match-money-line {
+  border-top: 1px solid var(--segment-border);
+}
+
+.classic-view .match-money-line:first-child {
+  border-top: none;
+}
+
+.match-money-line.chosen, .match-money-line:hover {
+  background: var(--orange);
+  color: white;
+}
+
+.classic-view .match-money-line.chosen, .classic-view .match-money-line:hover {
+  border-radius: 5px;
+}
+
+.handicap .match-money-line:nth-child(2), .underover .match-money-line:nth-child(2) {
+  order: 3;
+}
+
+.handicap .match-money-line.expand {
+  justify-content: center;
+}
+
+.underover .match-money-line.expand {
+  justify-content: center;
+}
+
+.classic-view .match-all-bets-btn {
+  font-weight: 600;
+  font-size: 13px;
+  width: 76px;
+  height: 40px;
+  /* margin-top: 15px; */
+  margin-top: -10px;
+  border: 1px solid var(--segment-border);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small .match-all-bets-btn,
+.small .match-money-buttons {
+  display: none;
+}
+
+.classic-view.desktop-live-container .score {
+  height: 88px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Asian View */
+
+.asian-view .match-money-header {
+  background: var(--third-background);
+  padding: 5px 8px 3px;
+}
+
+.asian-view .match-money-block {
+  min-width: 100px;
+  width: 100px;
+}
+
+.asian-view .match-money-container.handicap .match-money-line {
+  justify-content: center;
+}
+
+.asian-view .match-money-line.expand {
+  background: var(--third-background);
+}
+
+.asian-view .match-money-line:hover {
+  background: var(--orange);
+  color: white;
+}
+
+.asian-view .match-money-container.handicap .match-money-line .match-money-label {
+  width: 40%;
+}
+
+.more-lines-container.asian {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* .asian-view .match-money-container.handicap .match-money-line .match-money-icon {
+  width: 24%;
+  margin: 0 auto;
+} */
+
+.asian-view .match-money-container.handicap .match-money-line .match-money-value {
+  width: 40%;
+}
+
+.asian-view .team-container:nth-child(2) {
+  order: 3;
+}
+
+.team-container.competition-container {
+  /* margin-top: 5px; */
+  align-items: center;
+}
+
+.small .desktop-live-container-info .team-container.competition-container {
+  max-width: 230px;
+}
+
+.team-container.competition-container img {
+  width: auto;
+  max-height: 18px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+.desktop-live-container-info .team-container.competition-container p {
+  font-size: 13px;
+}
+
+.match-money-buttons {
+  width: 145px;
+  margin-top: 10px;
+  margin-right: 15px;
+  align-self: start;
+}
+
+.match-money-buttons .match-all-bets-btn {
+  height: 34px;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: var(--third-background);
+  font-size: 13px;
+}
+
+.match-all-bets-btn svg {
+  position: absolute;
+  right: 20px;
+  margin-bottom: 2px;
+  stroke: var(--text-white);
+}
+
+.asian-view .match-money-line div, .asian-view .match-money-line div {
+  /* width: 40%;
+  min-width: 40%; */
+}
+
+.asian-view .moneyline .match-money-line div {
+  width: auto;
+}
+
+.asian-view .moneyline .match-money-label {
+  display: none;
+}
+
+.asian-view .match-money-line .match-money-icon {
+  width: 18px;
+  min-width: 18px;
+  height: 18px;
+  margin: 0 5px;
+  padding-top: 2px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--minus-plus-bgr);
+  color: var(--ion-text-color);
+}
+
+.asian-view .match-money-icon.red {
+  color: rgb(177, 5, 5);
+}
+
+.asian-view .match-money-icon.blue {
+  color: var(--blue);
+}
+
+/* 4k */
+
+.ultra .small-desktop-header .teams, .ultra .small-desktop-header .date, .ultra .small-desktop-header-left p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.ultra .small-desktop-header .date {
+  min-width: 285px;
+}
+
+.ultra .bet-arrow {
+  width: 26px;
+  height: 14px;
+}
+
+.ultra .more-lines-dropdown.open {
+  min-width: 550px;
+  padding: 16px 20px;
+  right: 15%;
+  top: -40px;
+}
+
+.ultra .more-lines-dropdown.open .stake {
+  min-width: 200px;
+  height: 110px;
+}
+
+.ultra .more-lines-dropdown.open .stake .stake-text {
+  margin-bottom: 15px;
+}
+
+.ultra .desktop-live-main-body .home-top-segment ion-segment-button span {
+  font-size: 20px;
+}
+
+.desktop-live-container.light.light-theme-gray {
+  background: #FAFAFA;
+}
+
+.desktop-live-container.light.light-theme-gray .stake:not(:hover, .chosen) {
+  background: #FFFFFF;
+}
+
+.desktop-live-container.light.white-bg:hover .stake:not(:hover, .chosen) {
+  background: #FFFFFF;
+}
+
+body:not(.dark) .right-bar-footer .clear-all {
+  color: #0A0A0A
+}
+
+body:not(.dark) .make-bet {
+  color: #FFFFFF
+}
+
+.ultra .no-games {
+  font-size: 36px;
+}
+
+.ultra .desktop-live-container-info:not(.event) .watch-icon {
+  margin: 0 20px;
+}
+
+.ultra .small-desktop-header-left .watch-icon {
+  margin: 0 20px 0 10px;
+}

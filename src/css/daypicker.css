@@ -1,0 +1,72 @@
+/* DayPicker styles */
+
+.home-top-container-btns .RangeExample {
+  position: absolute;
+  top: 45px;
+  right: 25px;
+  background: var(--daypicker-bg);
+  box-shadow: 0px 0.5px 4px rgb(0 0 0 / 12%), 0px 6px 13px rgb(0 0 0 / 12%);
+  z-index: 5;
+  border-radius: 10px;
+}
+.tablet-cards-container .home-top-container-btns .RangeExample {
+  top: 50px;
+  right: 10px;
+}
+.RangeExample-label {
+  /* width: 90%; */
+  margin: 10px 1em 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.RangeExample-buttons {
+  width: 90%;
+  margin: 0 1em;
+  justify-content: center;
+}
+.desktop-live-container-header .RangeExample-buttons,
+.tablet-cards-container .RangeExample-buttons {
+  width: 95%;
+}
+.RangeExample-buttons .logout-btn {
+  width: 50%;
+  height: 35px;
+  --color: #ffffff;
+  --background: var(--orange);
+  --ripple-color: #e6e6e6;
+  text-transform: inherit;
+  --background-hover: var(--orange-light);
+  --background-activated: var(--orange-light);
+  --background-focused: var(--orange-light);
+  --transition: .3s;
+  --border-radius: 5px;
+}
+.Selectable .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+  background-color: var(--daypicker-selected-bg) !important;
+  color: var(--text-white);
+}
+.Selectable .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+  background-color: var(--orange);
+}
+.DayPicker:not(.DayPicker--interactionDisabled) .DayPicker-Day:not(.DayPicker-Day--disabled):not(.DayPicker-Day--selected):not(.DayPicker-Day--outside):hover {
+  color: #000000;
+}
+.Selectable .DayPicker-Day {
+  border-radius: 0 !important;
+}
+.Selectable .DayPicker-Day--start {
+  border-top-left-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+}
+.Selectable .DayPicker-Day--end {
+  border-top-right-radius: 50% !important;
+  border-bottom-right-radius: 50% !important;
+}
+.main-mobile .RangeExample {
+  /* margin-top: 20px; */
+  top: 65px;
+  right: 0;
+  max-height: calc(100% - 130px);
+  overflow: auto;
+}

@@ -1,0 +1,348 @@
+ion-modal {
+  position: fixed !important;
+  transform: translateZ(2px);
+}
+
+.modal-container {
+  background-color: var(--tablet-card-event-btn);
+  height: 100%;
+}
+
+/* .dark .modal-container .dashboard-head span, .dark .modal-container .input-container span, .dark .modal-container .input-container.select, .dark .balance-fields-container p {
+  color: #ffffff;
+} */
+
+.modal-container .dashboard-head {
+  background: var(--nineth-background);
+}
+
+.modal-container .input-container span, 
+.modal-container .input-container.select, 
+.balance-fields-container p {
+  color: var(--ion-color-primary);
+}
+
+.modal-container .dashboard-grid-item {
+  background: var(--nineth-background);
+  border: 1px solid var(--modal-border);
+}
+
+.balance-fields-container-top {
+  justify-content: space-between;
+}
+
+.balance-fields-container-top .input-container.comission {
+  width: 35%;
+}
+
+.input-container.comission .body-field {
+  height: 100%;
+  padding: 0 16px;
+  background: var(--first-background);
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--input-border);
+  border-radius: 5px;
+}
+
+.modal-container .betslip-val {
+  background-color: var(--tablet-card-event-btn);
+}
+
+.input-container.comission .body-field span {
+  margin: 0;
+}
+
+.modal-container .input-container span {
+  margin-bottom: 5px;
+}
+
+.balance-fields-container .input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+
+.balance-fields-container .input-container.buttons {
+  flex-direction: row;
+}
+
+.balance-fields-container .input-container.buttons .repay-loan {
+  margin-right: 10px;
+}
+
+.balance-fields-container {
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 1.5em;
+  margin-top: 1em;
+}
+
+.modal-container .input-container ion-select, .modal-container .input-container ion-item {
+  border-radius: 5px;
+  border: 1px solid var(--input-border);
+  --background: var(--first-background) !important;
+}
+
+.modal-container .input-container {
+  width: 60%;
+}
+
+.modal-container .input-container.w100 {
+  width: 100%;
+}
+
+.balance-fields-container ion-select {
+  background: var(--first-background) !important;
+}
+
+.balance-fields-container .balance-content {
+  margin: 5px 0;
+}
+
+.balance-fields-container .adresses-container {
+  margin: 5px 0;
+}
+
+.balance-fields-container .deposit {
+  width: 150px;
+  /* margin-left: auto; */
+  margin-top: 1em;
+}
+
+.confirm-response .take-loan.deposit span {
+  margin: 0;
+}
+
+.confirm-response .take-loan.deposit .timer {
+  margin-left: 10px;
+}
+
+.modal-container .deposit-via {
+  margin-bottom: 10px;
+}
+
+.balance-fields-container .green {
+  color: var(--orange);
+}
+
+.balance-fields-container p.balance-content .green {
+  color: var(--orange);
+}
+
+.balance-fields-container .betslip-header {
+  margin: 0;
+  padding: 0;
+}
+
+.balance-fields-container .betslip-body {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.balance-fields-container .betslip-cont {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.balance-fields-container .betslip-cont p {
+  margin-left: 0;
+}
+
+.balance-fields-container .betslip-cont .betslip-val {
+  width: 60px;
+  height: 30px;
+}
+
+.balance-fields-container .betslip-cont .betslip-val.quote {
+  width: auto;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.balance-fields-container .to-risk-to-win-container {
+  width: 100%;
+  display: flex;
+  font-weight: 600;
+  color: var(--ion-text-color);
+}
+
+.balance-fields-container .to-risk-to-win-item {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.balance-fields-container .to-risk-to-win-item-label {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.balance-fields-container .to-risk-to-win-item-value {
+  font-size: 24px;
+  text-align: center;
+}
+
+.widget-container {
+  padding: 20px 15px 20px 30px;
+}
+
+.modal-content-body {
+  padding: 20px;
+  height: calc(100% - 55px);
+  overflow: auto;
+}
+
+.modal-content-body.padding-none {
+  padding: 0;
+}
+
+.modal-item {
+  width: 100%;
+  height: auto;
+  /* padding: 20px 15px 20px 30px; */
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
+  align-items: center;
+  border-bottom: 1px solid #525252;
+  --background: transparent;
+}
+
+.modal-item:last-child {
+  border-bottom: none;
+}
+
+.modal-item::part(native) {
+  min-height: 60px;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+}
+
+.modal-item-icon {
+  width: 52px;
+  height: 52px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.modal-item-icon img {
+  border-radius: 50%;
+}
+
+.modal-item-label {
+  margin-right: auto;
+  color: var(--text-white);
+}
+
+@media screen and (max-width: 1024px) {
+  .balance-fields-container .betslip-cont .betslip-val {
+    background: var(--inner-header-background);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .balance-fields-container.w100 {
+    width: 100%;
+  }
+}
+
+/* height: auto в модалках */
+
+@media screen and (min-width: 1025px) {
+  ion-modal.auto-height {
+    --height: auto;
+  }
+  /* ion-modal.auto-height .modal-wrapper {
+    width: 90vw;
+  } */
+  ion-modal.auto-height .modal-wrapper .ion-page {
+    position: relative;
+    contain: content;
+    max-height: 90vh;
+  }
+  ion-modal.auto-height .modal-wrapper .ion-page .modal-container {
+    overflow: auto;
+  }
+  ion-modal.auto-height .modal-container .balance-fields-container {
+    margin: 1em auto;
+  }
+  ion-modal.auto-height.max-h-600 {
+    --max-height: 600px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  ion-modal.widget-modal {
+    --width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  ion-modal.widget-modal.auto-height {
+    --width: 90%;
+    --height: auto;
+  }
+  ion-modal.widget-modal.auto-height .modal-wrapper .ion-page {
+    position: relative;
+    contain: content;
+    max-height: 90vh;
+  }
+  ion-modal.widget-modal.auto-height .modal-wrapper .ion-page .modal-container {
+    overflow: auto;
+  }
+  ion-modal.tablet-auto-height {
+    --height: auto;
+  }
+  ion-modal.tablet-auto-height .modal-wrapper .ion-page {
+    position: relative;
+    contain: content;
+    max-height: 90vh;
+  }
+  ion-modal.tablet-auto-height .modal-wrapper .ion-page .modal-container {
+    overflow: auto;
+  }
+  ion-modal.tablet-auto-height .modal-container .balance-fields-container {
+    margin: 1em auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  ion-modal.widget-modal .widget-container {
+    padding: 20px 15px;
+  }
+}
+
+@media screen and (min-width: 3400px) {
+  .sc-ion-modal-ios-h {
+    --width: 1200px;
+    /* --height: 1200px; */
+  }
+  .modal-content-body {
+    padding: 40px;
+    height: calc(100% - 86px);
+  }
+  .item.sc-ion-label-ios-h, .item .sc-ion-label-ios-h {
+    font-size: 30px;
+  }
+  .modal-item {
+    padding: 20px 15px 20px 25px;
+  }
+  .modal-item ion-radio {
+    width: 30px;
+    height: 48px;
+  }
+  /* .modal-item-icon {
+    width: 80px;
+    height: 80px;
+    margin-right: 30px;
+  } */
+  .modal-item-icon img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,2524 @@
+/* input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, textarea:-webkit-autofill, textarea:-webkit-autofill:hover, textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+  -webkit-transition: background-color 5000s ease-in-out 0s !important;
+  transition: background-color 5000s ease-in-out 0s !important;
+  -webkit-text-fill-color: var(--ion-color-primary);
+} */
+
+/* Header colorful */
+
+.main-header.redux-accent-white-color * {
+  color: white;
+}
+
+.main-header.redux-accent-white-color .links a {
+  color: white;
+  opacity: 1;
+}
+
+.main-header.redux-accent-white-color .header-logo svg {
+  fill: white;
+}
+
+.main-header.redux-accent-white-color .menu-button-right ion-icon {
+  fill: white
+}
+
+@media screen and (max-width:1380px) {
+  .main-header.redux-accent-white-color .active.my-account-container-header, .main-header.redux-accent-white-color .active.wallet-container-header, .main-header.redux-accent-white-color .menu-buttons-wrapper.picked {
+    background: white !important;
+  }
+  .main-header.redux-accent-white-color .active.my-account-container-header *, .main-header.redux-accent-white-color .active.wallet-container-header * {
+    color: #3F3F3F;
+  }
+}
+
+.main-header.redux-accent-orange {
+  --background: var(--orange);
+}
+
+.main-header.redux-accent-red {
+  --background: var(--red);
+}
+
+.main-header.redux-accent-pink {
+  --background: var(--acpink);
+}
+
+.main-header.redux-accent-violet {
+  --background: var(--violet);
+}
+
+.main-header.redux-accent-purple {
+  --background: var(--purple);
+}
+
+.main-header.redux-accent-light-blue {
+  --background: var(--light-blue);
+}
+
+.main-header.redux-accent-green {
+  --background: var(--acgreen);
+}
+
+.main-header.redux-accent-orange-gradient {
+  --background: var(--orange-gradient);
+}
+
+.main-header.redux-accent-red-gradient {
+  --background: var(--red-gradient);
+}
+
+.main-header.redux-accent-pink-gradient {
+  --background: var(--pink-gradient);
+}
+
+.main-header.redux-accent-violet-gradient {
+  --background: var(--violet-gradient);
+}
+
+.main-header.redux-accent-purple-gradient {
+  --background: var(--acpurple-gradient);
+}
+
+.main-header.redux-accent-light-blue-gradient {
+  --background: var(--light-blue-gradient);
+}
+
+.main-header.redux-accent-green-gradient {
+  --background: var(--green-gradient);
+}
+
+/* menu mobile buttons */
+
+.main-header .menu-button.redux-accent-orange {
+  background: var(--orange);
+}
+
+.main-header .menu-button.redux-accent-red {
+  background: var(--red);
+}
+
+.main-header .menu-button.redux-accent-pink {
+  background: var(--acpink);
+}
+
+.main-header .menu-button.redux-accent-violet {
+  background: var(--violet);
+}
+
+.main-header .menu-button.redux-accent-purple {
+  background: var(--purple);
+}
+
+.main-header .menu-button.redux-accent-light-blue {
+  background: var(--light-blue);
+}
+
+.main-header .menu-button.redux-accent-green {
+  background: var(--acgreen);
+}
+
+.main-header .menu-button-left.redux-accent-orange-gradient {
+  background: var(--orange-gradient);
+}
+
+.main-header .menu-button-right.redux-accent-orange-gradient {
+  background: var(--orange-gradient);
+}
+
+.main-header .menu-button-left.redux-accent-red-gradient {
+  background: var(--red-gradient);
+}
+
+.main-header .menu-button-right.redux-accent-red-gradient {
+  background: var(--red-gradient);
+}
+
+.main-header .menu-button-left.redux-accent-pink-gradient {
+  background: var(--pink-gradient);
+}
+
+.main-header .menu-button-right.redux-accent-pink-gradient {
+  background: var(--pink-gradient);
+}
+
+.main-header .menu-button-left.redux-accent-violet-gradient {
+  background: var(--violet-gradient);
+}
+
+.main-header .menu-button-right.redux-accent-violet-gradient {
+  background: var(--violet-gradient);
+}
+
+.main-header .menu-button-left.redux-accent-purple-gradient {
+  background: var(--acpurple-gradient);
+}
+
+.main-header .menu-button-right.redux-accent-purple-gradient {
+  background: var(--acpurple-gradient);
+}
+
+.main-header .menu-button-left.redux-accent-light-blue-gradient {
+  background: var(--light-blue-gradient);
+}
+
+.main-header .menu-button-right.redux-accent-light-blue-gradient {
+  background: var(--light-blue-gradient);
+}
+
+.main-header .menu-button-left.redux-accent-green-gradient {
+  background: var(--green-gradient);
+}
+
+.main-header .menu-button-right.redux-accent-green-gradient {
+  background: var(--green-gradient);
+}
+
+/* ссылки в header*/
+
+.redux-accent-red .links .active {
+  background: var(--red) !important;
+}
+
+.redux-accent-pink .links .active {
+  background: var(--acpink) !important;
+}
+
+.redux-accent-purple .links .active {
+  background: var(--purple) !important;
+}
+
+.redux-accent-violet .links .active {
+  background: var(--violet) !important;
+}
+
+.redux-accent-light-blue .links .active {
+  background: var(--light-blue) !important;
+}
+
+.redux-accent-green .links .active {
+  background: var(--acgreen) !important;
+}
+
+.redux-accent-gold .links .active {
+  background: var(--gold) !important;
+}
+
+.redux-accent-orange-gradient .links .active {
+  background: var(--orange-gradient) !important;
+}
+
+.redux-accent-red-gradient .links .active {
+  background: var(--red-gradient) !important;
+}
+
+.redux-accent-pink-gradient .links .active {
+  background: var(--pink-gradient) !important;
+}
+
+.redux-accent-violet-gradient .links .active {
+  background: var(--violet-gradient) !important;
+}
+
+.redux-accent-purple-gradient .links .active {
+  background: var(--acpurple-gradient) !important;
+}
+
+.redux-accent-light-blue-gradient .links .active {
+  background: var(--light-blue-gradient) !important;
+}
+
+.redux-accent-green-gradient .links .active {
+  background: var(--green-gradient) !important;
+}
+
+.main-header.redux-accent-white-color .links a.active {
+  background: white !important;
+}
+
+.redux-accent-white-color.redux-accent-orange .links .active {
+  color: var(--orange) !important;
+}
+
+.redux-accent-white-color.redux-accent-red .links .active {
+  color: var(--red) !important;
+}
+
+.redux-accent-white-color.redux-accent-pink .links .active {
+  color: var(--acpink) !important;
+}
+
+.redux-accent-white-color.redux-accent-violet .links .active {
+  color: var(--violet) !important;
+}
+
+.redux-accent-white-color.redux-accent-purple .links .active {
+  background: var(--purple) !important;
+  color: var(--purple) !important;
+}
+
+.redux-accent-white-color.redux-accent-light-blue .links .active {
+  color: var(--light-blue) !important;
+}
+
+.redux-accent-white-color.redux-accent-green .links .active {
+  color: var(--acgreen) !important;
+}
+
+.redux-accent-white-color.redux-accent-orange-gradient .links .active {
+  color: var(--orange) !important;
+}
+
+.redux-accent-white-color.redux-accent-red-gradient .links .active {
+  color: var(--red) !important;
+}
+
+.redux-accent-white-color.redux-accent-pink-gradient .links .active {
+  color: var(--acpink) !important;
+}
+
+.redux-accent-white-color.redux-accent-violet-gradient .links .active {
+  color: var(--violet) !important;
+}
+
+.redux-accent-white-color.redux-accent-purple-gradient .links .active {
+  color: var(--purple) !important;
+}
+
+.redux-accent-white-color.redux-accent-light-blue-gradient .links .active {
+  color: var(--light-blue) !important;
+}
+
+.redux-accent-white-color.redux-accent-green-gradient .links .active {
+  color: var(--acgreen) !important;
+}
+
+@media screen and (min-width: 1381px) {
+  .main-header.redux-accent-white-color .my-account-header-inner {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+  }
+  .redux-accent-red .picked {
+    border-bottom: 1px solid var(--red) !important;
+  }
+  .redux-accent-pink .picked {
+    border-bottom: 1px solid var(--acpink) !important;
+  }
+  .redux-accent-violet .picked {
+    border-bottom: 1px solid var(--violet) !important;
+  }
+  .redux-accent-purple .picked {
+    border-bottom: 1px solid var(--purple) !important;
+  }
+  .redux-accent-light-blue .picked {
+    border-bottom: 1px solid var(--light-blue) !important;
+  }
+  .redux-accent-green .picked {
+    border-bottom: 1px solid var(--acgreen) !important;
+  }
+  .redux-accent-orange-gradient .picked {
+    border-bottom: 1px solid var(--orange) !important;
+  }
+  .redux-accent-red-gradient .picked {
+    border-bottom: 1px solid var(--red) !important;
+  }
+  .redux-accent-pink-gradient .picked {
+    border-bottom: 1px solid var(--acpink) !important;
+  }
+  .redux-accent-violet-gradient .picked {
+    border-bottom: 1px solid var(--violet) !important;
+  }
+  .redux-accent-purple-gradient .picked {
+    border-bottom: 1px solid var(--purple) !important;
+  }
+  .redux-accent-light-blue-gradient .picked {
+    border-bottom: 1px solid var(--light-blue) !important;
+  }
+  .redux-accent-green-gradient .picked {
+    border-bottom: 1px solid var(--acgreen) !important;
+  }
+  .main-header.redux-accent-white-color .picked {
+    border-bottom-color: white !important;
+  }
+  .redux-accent-red .desktop-header .active.my-account-container-header, .redux-accent-red .desktop-header .active.wallet-container-header {
+    border-bottom-color: var(--red) !important;
+  }
+  .redux-accent-pink .desktop-header .active.my-account-container-header, .redux-accent-pink .desktop-header .active.wallet-container-header {
+    border-bottom-color: var(--acpink) !important;
+  }
+  .redux-accent-violet .desktop-header .active.my-account-container-header, .redux-accent-violet .desktop-header .active.wallet-container-header {
+    border-bottom-color: var(--violet) !important;
+  }
+  .redux-accent-purple .desktop-header .active.my-account-container-header, .redux-accent-purple .desktop-header .active.wallet-container-header {
+    border-bottom-color: var(--purple) !important;
+  }
+  .redux-accent-light-blue .desktop-header .active.my-account-container-header, .redux-accent-light-blue .desktop-header .active.wallet-container-header {
+    border-bottom-color: var(--light-blue) !important;
+  }
+  .redux-accent-green .desktop-header .active.my-account-container-header, .redux-accent-green .desktop-header .active.wallet-container-header {
+    border-bottom-color: var(--acgreen) !important;
+  }
+  .redux-accent-orange-gradient .desktop-header .active.my-account-container-header, .redux-accent-orange-gradient .desktop-header .active.wallet-container-header {
+    border-bottom-color: var(--orange) !important;
+  }
+  .redux-accent-red-gradient .desktop-header .active.my-account-container-header, .redux-accent-red-gradient .desktop-header .active.wallet-container-header {
+    border-bottom-color: var(--red) !important;
+  }
+  .redux-accent-pink-gradient .desktop-header .active.my-account-container-header, .redux-accent-pink-gradient .desktop-header .active.wallet-container-header {
+    border-bottom-color: var(--acpink) !important;
+  }
+  .redux-accent-violet-gradient .desktop-header .active.my-account-container-header, .redux-accent-violet-gradient .desktop-header .active.wallet-container-header {
+    border-bottom-color: var(--violet) !important;
+  }
+  .redux-accent-purple-gradient .desktop-header .active.my-account-container-header, .redux-accent-orange-gradient .desktop-header .active.wallet-container-header {
+    border-bottom-color: var(--purple) !important;
+  }
+  .redux-accent-light-blue-gradient .desktop-header .active.my-account-container-header, .redux-accent-light-blue-gradient .desktop-header .active.wallet-container-header {
+    border-bottom-color: var(--light-blue) !important;
+  }
+  .redux-accent-green-gradient .desktop-header .active.my-account-container-header, .redux-accent-green-gradient .desktop-header .active.wallet-container-header {
+    border-bottom-color: var(--green) !important;
+  }
+  .main-header.redux-accent-white-color .active.my-account-container-header, .main-header.redux-accent-white-color .active.wallet-container-header {
+    border-bottom-color: white !important;
+  }
+}
+
+/* Title background */
+
+.redux-accent-orange .desktop-live-container-header p, .redux-accent-orange .desktop-chat-header-label, .redux-accent-orange .dashboard-head span, .redux-accent-orange .home-top-container-label:not(.home-page), .redux-accent-orange .home-top-container .home-top-container-label.home-page div, .redux-accent-orange .tablet-chat-header-label, .redux-accent-orange .mobile-title span {
+  background: var(--orange);
+}
+
+.redux-accent-red .desktop-live-container-header p, .redux-accent-red .desktop-chat-header-label, .redux-accent-red .dashboard-head span, .redux-accent-red .home-top-container-label:not(.home-page), .redux-accent-red .home-top-container .home-top-container-label.home-page div, .redux-accent-red .tablet-chat-header-label, .redux-accent-red .mobile-title span {
+  background: var(--red);
+}
+
+.redux-accent-pink .desktop-live-container-header p, .redux-accent-pink .desktop-chat-header-label, .redux-accent-pink .dashboard-head span, .redux-accent-pink .home-top-container-label:not(.home-page), .redux-accent-pink .home-top-container .home-top-container-label.home-page div, .redux-accent-pink .tablet-chat-header-label, .redux-accent-pink .mobile-title span {
+  background: var(--acpink);
+}
+
+.redux-accent-violet .desktop-live-container-header p, .redux-accent-violet .desktop-chat-header-label, .redux-accent-violet .dashboard-head span, .redux-accent-violet .home-top-container-label:not(.home-page), .redux-accent-violet .home-top-container .home-top-container-label.home-page div, .redux-accent-violet .tablet-chat-header-label, .redux-accent-violet .mobile-title span {
+  background: var(--violet);
+}
+
+.redux-accent-purple .desktop-live-container-header p, .redux-accent-purple .desktop-chat-header-label, .redux-accent-purple .dashboard-head span, .redux-accent-purple .home-top-container-label:not(.home-page), .redux-accent-purple .home-top-container .home-top-container-label.home-page div, .redux-accent-purple .tablet-chat-header-label, .redux-accent-purple .mobile-title span {
+  background: var(--purple);
+}
+
+.redux-accent-light-blue .desktop-live-container-header p, .redux-accent-light-blue .desktop-chat-header-label, .redux-accent-light-blue .dashboard-head span, .redux-accent-light-blue .home-top-container-label:not(.home-page), .redux-accent-light-blue .home-top-container .home-top-container-label.home-page div, .redux-accent-light-blue .tablet-chat-header-label, .redux-accent-light-blue .mobile-title span {
+  background: var(--light-blue);
+}
+
+.redux-accent-green .desktop-live-container-header p, .redux-accent-green .desktop-chat-header-label, .redux-accent-green .dashboard-head span, .redux-accent-green .home-top-container-label:not(.home-page), .redux-accent-green .home-top-container .home-top-container-label.home-page div, .redux-accent-green .tablet-chat-header-label, .redux-accent-green .mobile-title span {
+  background: var(--acgreen);
+}
+
+.redux-accent-orange-gradient .desktop-live-container-header p, .redux-accent-orange-gradient .desktop-chat-header-label, .redux-accent-orange-gradient .dashboard-head span, .redux-accent-orange-gradient .home-top-container-label:not(.home-page), .redux-accent-orange-gradient .home-top-container .home-top-container-label.home-page div, .redux-accent-orange-gradient .tablet-chat-header-label, .redux-accent-orange-gradient .mobile-title span {
+  background: var(--orange-gradient);
+}
+
+.redux-accent-red-gradient .desktop-live-container-header p, .redux-accent-red-gradient .desktop-chat-header-label, .redux-accent-red-gradient .dashboard-head span, .redux-accent-red-gradient .home-top-container-label:not(.home-page), .redux-accent-red-gradient .home-top-container .home-top-container-label.home-page div, .redux-accent-red-gradient .tablet-chat-header-label, .redux-accent-red-gradient .mobile-title span {
+  background: var(--red-gradient);
+}
+
+.redux-accent-pink-gradient .desktop-live-container-header p, .redux-accent-pink-gradient .desktop-chat-header-label, .redux-accent-pink-gradient .dashboard-head span, .redux-accent-pink-gradient .home-top-container-label:not(.home-page), .redux-accent-pink-gradient .home-top-container .home-top-container-label.home-page div, .redux-accent-pink-gradient .tablet-chat-header-label, .redux-accent-pink-gradient .mobile-title span {
+  background: var(--pink-gradient);
+}
+
+.redux-accent-violet-gradient .desktop-live-container-header p, .redux-accent-violet-gradient .desktop-chat-header-label, .redux-accent-violet-gradient .dashboard-head span, .redux-accent-violet-gradient .home-top-container-label:not(.home-page), .redux-accent-violet-gradient .home-top-container .home-top-container-label.home-page div, .redux-accent-violet-gradient .tablet-chat-header-label, .redux-accent-violet-gradient .mobile-title span {
+  background: var(--violet-gradient);
+}
+
+.redux-accent-purple-gradient .desktop-live-container-header p, .redux-accent-purple-gradient .desktop-chat-header-label, .redux-accent-purple-gradient .dashboard-head span, .redux-accent-purple-gradient .home-top-container-label:not(.home-page), .redux-accent-purple-gradient .home-top-container .home-top-container-label.home-page div, .redux-accent-purple-gradient .tablet-chat-header-label, .redux-accent-purple-gradient .mobile-title span {
+  background: var(--acpurple-gradient);
+}
+
+.redux-accent-light-blue-gradient .desktop-live-container-header p, .redux-accent-light-blue-gradient .desktop-chat-header-label, .redux-accent-light-blue-gradient .dashboard-head span, .redux-accent-light-blue-gradient .home-top-container-label:not(.home-page), .redux-accent-light-blue-gradient .home-top-container .home-top-container-label.home-page div, .redux-accent-light-blue-gradient .tablet-chat-header-label, .redux-accent-light-blue-gradient .mobile-title span {
+  background: var(--light-blue-gradient);
+}
+
+.redux-accent-green-gradient .desktop-live-container-header p, .redux-accent-green-gradient .desktop-chat-header-label, .redux-accent-green-gradient .dashboard-head span, .redux-accent-green-gradient .home-top-container-label:not(.home-page), .redux-accent-green-gradient .home-top-container .home-top-container-label.home-page div, .redux-accent-green-gradient .tablet-chat-header-label, .redux-accent-green-gradient .mobile-title span {
+  background: var(--green-gradient);
+}
+
+/* цвет квадратика внутри ion-select */
+
+.redux-accent-purple.accent-color::part(text)::before {
+  background: var(--purple);
+}
+
+.redux-accent-green.accent-color::part(text)::before {
+  background: var(--acgreen);
+}
+
+.redux-accent-red.accent-color::part(text)::before {
+  background: var(--red);
+}
+
+.redux-accent-pink.accent-color::part(text)::before {
+  background: var(--acpink);
+}
+
+.redux-accent-light-blue.accent-color::part(text)::before {
+  background: var(--light-blue);
+}
+
+.redux-accent-gold.accent-color::part(text)::before {
+  background: var(--gold);
+}
+
+.redux-accent-violet.accent-color::part(text)::before {
+  background: var(--violet);
+}
+
+.redux-accent-orange-gradient.accent-color::part(text)::before {
+  background: var(--orange-gradient);
+}
+
+.redux-accent-red-gradient.accent-color::part(text)::before {
+  background: var(--red-gradient);
+}
+
+.redux-accent-pink-gradient.accent-color::part(text)::before {
+  background: var(--pink-gradient);
+}
+
+.redux-accent-violet-gradient.accent-color::part(text)::before {
+  background: var(--violet-gradient);
+}
+
+.redux-accent-purple-gradient.accent-color::part(text)::before {
+  background: var(--acpurple-gradient);
+}
+
+.redux-accent-light-blue-gradient.accent-color::part(text)::before {
+  background: var(--light-blue-gradient);
+}
+
+.redux-accent-green-gradient.accent-color::part(text)::before {
+  background: var(--green-gradient);
+}
+
+/* redux-button */
+
+.redux-button-purple.settings-send-button::part(text)::before {
+  background: var(--purple);
+}
+
+.redux-button-green.settings-send-button::part(text)::before {
+  background: var(--acgreen);
+}
+
+.redux-button-red.settings-send-button::part(text)::before {
+  background: var(--red);
+}
+
+.redux-button-pink.settings-send-button::part(text)::before {
+  background: var(--acpink);
+}
+
+.redux-button-light-blue.settings-send-button::part(text)::before {
+  background: var(--light-blue);
+}
+
+.redux-button-gold.settings-send-button::part(text)::before {
+  background: var(--gold);
+}
+
+.redux-button-violet.settings-send-button::part(text)::before {
+  background: var(--violet);
+}
+
+.redux-accent-purple .settings-leagues-switcher {
+  color: var(--purple);
+}
+
+.redux-accent-green .settings-leagues-switcher {
+  color: var(--acgreen);
+}
+
+.redux-accent-red .settings-leagues-switcher {
+  color: var(--red);
+}
+
+.redux-accent-pink .settings-leagues-switcher {
+  color: var(--acpink);
+}
+
+.redux-accent-light-blue .settings-leagues-switcher {
+  color: var(--light-blue);
+}
+
+.redux-accent-gold .settings-leagues-switcher {
+  color: var(--gold);
+}
+
+.redux-accent-violet .settings-leagues-switcher {
+  color: var(--violet);
+}
+
+.redux-accent-orange-gradient .settings-leagues-switcher {
+  color: var(--orange);
+}
+
+.redux-accent-red-gradient .settings-leagues-switcher {
+  color: var(--red);
+}
+
+.redux-accent-pink-gradient .settings-leagues-switcher {
+  color: var(--acpink);
+}
+
+.redux-accent-violet-gradient .settings-leagues-switcher {
+  color: var(--violet);
+}
+
+.redux-accent-purple-gradient .settings-leagues-switcher {
+  color: var(--purple);
+}
+
+.redux-accent-light-blue-gradient .settings-leagues-switcher {
+  color: var(--light-blue);
+}
+
+.redux-accent-green-gradient .settings-leagues-switcher {
+  color: var(--acgreen);
+}
+
+/* индикаторы переключателей */
+
+.redux-accent-purple ion-segment:not(.desktop-live-container-toggle, .blue) ion-segment-button {
+  --indicator-color: var(--purple) !important;
+}
+
+.redux-accent-green ion-segment:not(.desktop-live-container-toggle, .blue) ion-segment-button {
+  --indicator-color: var(--acgreen) !important;
+}
+
+.redux-accent-red ion-segment:not(.desktop-live-container-toggle, .blue) ion-segment-button {
+  --indicator-color: var(--red) !important;
+}
+
+.redux-accent-pink ion-segment:not(.desktop-live-container-toggle, .blue) ion-segment-button {
+  --indicator-color: var(--acpink) !important;
+}
+
+.redux-accent-light-blue ion-segment:not(.desktop-live-container-toggle, .blue) ion-segment-button {
+  --indicator-color: var(--light-blue) !important;
+}
+
+.redux-accent-gold ion-segment:not(.desktop-live-container-toggle, .blue) ion-segment-button {
+  --indicator-color: var(--gold) !important;
+}
+
+.redux-accent-violet ion-segment:not(.desktop-live-container-toggle, .blue) ion-segment-button {
+  --indicator-color: var(--violet) !important;
+}
+
+.redux-accent-orange-gradient ion-segment:not(.desktop-live-container-toggle, .blue) ion-segment-button {
+  --indicator-color: var(--orange-gradient) !important;
+}
+
+.redux-accent-red-gradient ion-segment:not(.desktop-live-container-toggle, .blue) ion-segment-button {
+  --indicator-color: var(--red-gradient) !important;
+}
+
+.redux-accent-pink-gradient ion-segment:not(.desktop-live-container-toggle, .blue) ion-segment-button {
+  --indicator-color: var(--pink-gradient) !important;
+}
+
+.redux-accent-violet-gradient ion-segment:not(.desktop-live-container-toggle, .blue) ion-segment-button {
+  --indicator-color: var(--violet-gradient) !important;
+}
+
+.redux-accent-purple-gradient ion-segment:not(.desktop-live-container-toggle, .blue) ion-segment-button {
+  --indicator-color: var(--acpurple-gradient) !important;
+}
+
+.redux-accent-light-blue-gradient ion-segment:not(.desktop-live-container-toggle, .blue) ion-segment-button {
+  --indicator-color: var(--light-blue-gradient) !important;
+}
+
+.redux-accent-green-gradient ion-segment:not(.desktop-live-container-toggle, .blue) ion-segment-button {
+  --indicator-color: var(--green-gradient) !important;
+}
+
+/* переключатели ion-toggle */
+
+.redux-accent-purple ion-toggle:not(.full-half) {
+  --background-checked: var(--purple) !important
+}
+
+.redux-accent-green ion-toggle:not(.full-half) {
+  --background-checked: var(--acgreen) !important
+}
+
+.redux-accent-red ion-toggle:not(.full-half) {
+  --background-checked: var(--red) !important
+}
+
+.redux-accent-pink ion-toggle:not(.full-half) {
+  --background-checked: var(--acpink) !important
+}
+
+.redux-accent-light-blue ion-toggle:not(.full-half) {
+  --background-checked: var(--light-blue) !important
+}
+
+.redux-accent-gold ion-toggle:not(.full-half) {
+  --background-checked: var(--gold) !important
+}
+
+.redux-accent-violet ion-toggle:not(.full-half) {
+  --background-checked: var(--violet) !important
+}
+
+.redux-accent-orange-gradient ion-toggle:not(.full-half) {
+  --background-checked: var(--orange-gradient) !important;
+}
+
+.redux-accent-red-gradient ion-toggle:not(.full-half) {
+  --background-checked: var(--red-gradient) !important;
+}
+
+.redux-accent-pink-gradient ion-toggle:not(.full-half) {
+  --background-checked: var(--pink-gradient) !important;
+}
+
+.redux-accent-violet-gradient ion-toggle:not(.full-half) {
+  --background-checked: var(--violet-gradient) !important;
+}
+
+.redux-accent-purple-gradient ion-toggle:not(.full-half) {
+  --background-checked: var(--acpurple-gradient) !important;
+}
+
+.redux-accent-light-blue-gradient ion-toggle:not(.full-half) {
+  --background-checked: var(--light-blue-gradient) !important;
+}
+
+.redux-accent-green-gradient ion-toggle:not(.full-half) {
+  --background-checked: var(--green-gradient) !important;
+}
+
+/* переключатели ion-checkbox */
+
+.redux-accent-purple ion-checkbox {
+  --background-checked: var(--purple) !important;
+  --border-color-checked: var(--purple) !important
+}
+
+.redux-accent-green ion-checkbox {
+  --background-checked: var(--acgreen) !important;
+  --border-color-checked: var(--acgreen) !important
+}
+
+.redux-accent-red ion-checkbox {
+  --background-checked: var(--red) !important;
+  --border-color-checked: var(--red) !important
+}
+
+.redux-accent-pink ion-checkbox {
+  --background-checked: var(--acpink) !important;
+  --border-color-checked: var(--acpink) !important
+}
+
+.redux-accent-light-blue ion-checkbox {
+  --background-checked: var(--light-blue) !important;
+  --border-color-checked: var(--light-blue) !important
+}
+
+.redux-accent-gold ion-checkbox {
+  --background-checked: var(--gold) !important;
+  --border-color-checked: var(--gold) !important
+}
+
+.redux-accent-violet ion-checkbox {
+  --background-checked: var(--violet) !important;
+  --border-color-checked: var(--violet) !important
+}
+
+.redux-accent-orange-gradient ion-checkbox {
+  --background-checked: var(--orange-gradient) !important;
+  --border-color-checked: var(--orange) !important;
+}
+
+.redux-accent-red-gradient ion-checkbox {
+  --background-checked: var(--red-gradient) !important;
+  --border-color-checked: var(--red) !important;
+}
+
+.redux-accent-pink-gradient ion-checkbox {
+  --background-checked: var(--pink-gradient) !important;
+  --border-color-checked: var(--acpink) !important;
+}
+
+.redux-accent-violet-gradient ion-checkbox {
+  --background-checked: var(--violet-gradient) !important;
+  --border-color-checked: var(--violet) !important;
+}
+
+.redux-accent-purple-gradient ion-checkbox {
+  --background-checked: var(--acpurple-gradient) !important;
+  --border-color-checked: var(--purple) !important;
+}
+
+.redux-accent-light-blue-gradient ion-checkbox {
+  --background-checked: var(--light-blue-gradient) !important;
+  --border-color-checked: var(--light-blue) !important;
+}
+
+.redux-accent-green-gradient ion-checkbox {
+  --background-checked: var(--green-gradient) !important;
+  --border-color-checked: var(--acgreen) !important;
+}
+
+/* кружки в хедер */
+
+/* .redux-accent-purple .menu-buttons-wrapper div:hover,
+.redux-accent-purple .menu-buttons-wrapper.picked div,
+.redux-accent-purple .my-account-header-inner:hover .my-account-image,
+.redux-accent-purple .active.my-account-container-header .my-account-image {
+  background: var(--purple) !important;
+}
+
+.redux-accent-green .menu-buttons-wrapper div:hover,
+.redux-accent-green .menu-buttons-wrapper.picked div,
+.redux-accent-green .my-account-header-inner:hover .my-account-image,
+.redux-accent-green .active.my-account-container-header .my-account-image {
+  background: var(--acgreen) !important;
+}
+
+.redux-accent-red .menu-buttons-wrapper div:hover,
+.redux-accent-red .menu-buttons-wrapper.picked div,
+.redux-accent-red .my-account-header-inner:hover .my-account-image,
+.redux-accent-red .active.my-account-container-header .my-account-image {
+  background: var(--red) !important;
+}
+
+.redux-accent-pink .menu-buttons-wrapper div:hover,
+.redux-accent-pink .menu-buttons-wrapper.picked div,
+.redux-accent-pink .my-account-header-inner:hover .my-account-image,
+.redux-accent-pink .active.my-account-container-header .my-account-image {
+  background: var(--acpink) !important;
+}
+
+.redux-accent-light-blue .menu-buttons-wrapper div:hover,
+.redux-accent-light-blue .menu-buttons-wrapper.picked div,
+.redux-accent-light-blue .my-account-header-inner:hover .my-account-image,
+.redux-accent-light-blue .active.my-account-container-header .my-account-image {
+  background: var(--light-blue) !important;
+}
+
+.redux-accent-gold .menu-buttons-wrapper div:hover,
+.redux-accent-gold .menu-buttons-wrapper.picked div,
+.redux-accent-gold .my-account-header-inner:hover .my-account-image,
+.redux-accent-gold .active.my-account-container-header .my-account-image {
+  background: var(--gold) !important;
+}
+
+.redux-accent-violet .menu-buttons-wrapper div:hover,
+.redux-accent-violet .menu-buttons-wrapper.picked div,
+.redux-accent-violet .my-account-header-inner:hover .my-account-image,
+.redux-accent-violet .active.my-account-container-header .my-account-image {
+  background: var(--violet) !important;
+} */
+
+.redux-accent-purple .active .wallet-header-inner svg, .redux-accent-purple .wallet-header-inner:hover svg {
+  fill: var(--purple) !important
+}
+
+.redux-accent-green .active .wallet-header-inner svg, .redux-accent-green .wallet-header-inner:hover svg {
+  fill: var(--acgreen) !important
+}
+
+.redux-accent-red .active .wallet-header-inner svg, .redux-accent-red .wallet-header-inner:hover svg {
+  fill: var(--red) !important
+}
+
+.redux-accent-pink .active .wallet-header-inner svg, .redux-accent-pink .wallet-header-inner:hover svg {
+  fill: var(--acpink) !important
+}
+
+.redux-accent-light-blue .active .wallet-header-inner svg, .redux-accent-light-blue .wallet-header-inner:hover svg {
+  fill: var(--light-blue) !important
+}
+
+.redux-accent-gold .active .wallet-header-inner svg, .redux-accent-gold .wallet-header-inner:hover svg {
+  fill: var(--gold) !important
+}
+
+.redux-accent-violet .active .wallet-header-inner svg, .redux-accent-violet .wallet-header-inner:hover svg {
+  fill: var(--violet) !important
+}
+
+.redux-accent-orange-gradient .active .wallet-header-inner svg, .redux-accent-orange-gradient .wallet-header-inner:hover svg {
+  fill: var(--orange) !important;
+}
+
+.redux-accent-red-gradient .active .wallet-header-inner svg, .redux-accent-red-gradient .wallet-header-inner:hover svg {
+  fill: var(--red) !important;
+}
+
+.redux-accent-pink-gradient .active .wallet-header-inner svg, .redux-accent-pink-gradient .wallet-header-inner:hover svg {
+  fill: var(--acpink) !important;
+}
+
+.redux-accent-violet-gradient .active .wallet-header-inner svg, .redux-accent-violet-gradient .wallet-header-inner:hover svg {
+  fill: var(--violet) !important;
+}
+
+.redux-accent-purple-gradient .active .wallet-header-inner svg, .redux-accent-purple-gradient .wallet-header-inner:hover svg {
+  fill: var(--purple) !important;
+}
+
+.redux-accent-light-blue-gradient .active .wallet-header-inner svg, .redux-accent-light-blue-gradient .wallet-header-inner:hover svg {
+  fill: var(--light-blue) !important;
+}
+
+.redux-accent-green-gradient .active .wallet-header-inner svg, .redux-accent-green-gradient .wallet-header-inner:hover svg {
+  fill: var(--acgreen) !important;
+}
+
+/* Левое меню */
+
+.redux-accent-purple .desktop-left-bar-list-item:hover, .redux-accent-purple .desktop-left-bar-element-list-item.activated, .redux-accent-purple .desktop-left-bar .desktop-left-bar-list-item.choosen {
+  border-color: var(--purple) !important;
+}
+
+.redux-accent-green .desktop-left-bar-list-item:hover, .redux-accent-green .desktop-left-bar-element-list-item.activated, .redux-accent-green .desktop-left-bar .desktop-left-bar-list-item.choosen {
+  border-color: var(--acgreen) !important;
+}
+
+.redux-accent-red .desktop-left-bar-list-item:hover, .redux-accent-red .desktop-left-bar-element-list-item.activated, .redux-accent-red .desktop-left-bar .desktop-left-bar-list-item.choosen {
+  border-color: var(--red) !important;
+}
+
+.redux-accent-pink .desktop-left-bar-list-item:hover, .redux-accent-pink .desktop-left-bar-element-list-item.activated, .redux-accent-pink .desktop-left-bar .desktop-left-bar-list-item.choosen {
+  border-color: var(--acpink) !important;
+}
+
+.redux-accent-light-blue .desktop-left-bar-list-item:hover, .redux-accent-light-blue .desktop-left-bar-element-list-item.activated, .redux-accent-light-blue .desktop-left-bar .desktop-left-bar-list-item.choosen {
+  border-color: var(--light-blue) !important;
+}
+
+.redux-accent-gold .desktop-left-bar-list-item:hover, .redux-accent-gold .desktop-left-bar-element-list-item.activated, .redux-accent-gold .desktop-left-bar .desktop-left-bar-list-item.choosen {
+  border-color: var(--gold) !important;
+}
+
+.redux-accent-violet .desktop-left-bar-list-item:hover, .redux-accent-violet .desktop-left-bar-element-list-item.activated, .redux-accent-violet .desktop-left-bar .desktop-left-bar-list-item.choosen {
+  border-color: var(--violet) !important;
+}
+
+.redux-accent-orange-gradient .desktop-left-bar-list-item:hover, .redux-accent-orange-gradient .desktop-left-bar-element-list-item.activated, .redux-accent-orange-gradient .desktop-left-bar .desktop-left-bar-list-item.choosen {
+  border-color: var(--orange) !important;
+}
+
+.redux-accent-red-gradient .desktop-left-bar-list-item:hover, .redux-accent-red-gradient .desktop-left-bar-element-list-item.activated, .redux-accent-red-gradient .desktop-left-bar .desktop-left-bar-list-item.choosen {
+  border-color: var(--red) !important;
+}
+
+.redux-accent-pink-gradient .desktop-left-bar-list-item:hover, .redux-accent-pink-gradient .desktop-left-bar-element-list-item.activated, .redux-accent-pink-gradient .desktop-left-bar .desktop-left-bar-list-item.choosen {
+  border-color: var(--acpink) !important;
+}
+
+.redux-accent-violet-gradient .desktop-left-bar-list-item:hover, .redux-accent-violet-gradient .desktop-left-bar-element-list-item.activated, .redux-accent-violet-gradient .desktop-left-bar .desktop-left-bar-list-item.choosen {
+  border-color: var(--violet) !important;
+}
+
+.redux-accent-purple-gradient .desktop-left-bar-list-item:hover, .redux-accent-purple-gradient .desktop-left-bar-element-list-item.activated, .redux-accent-purple-gradient .desktop-left-bar .desktop-left-bar-list-item.choosen {
+  border-color: var(--purple) !important;
+}
+
+.redux-accent-light-blue-gradient .desktop-left-bar-list-item:hover, .redux-accent-light-blue-gradient .desktop-left-bar-element-list-item.activated, .redux-accent-light-blue-gradient .desktop-left-bar .desktop-left-bar-list-item.choosen {
+  border-color: var(--light-blue) !important;
+}
+
+.redux-accent-green-gradient .desktop-left-bar-list-item:hover, .redux-accent-green-gradient .desktop-left-bar-element-list-item.activated, .redux-accent-green-gradient .desktop-left-bar .desktop-left-bar-list-item.choosen {
+  border-color: var(--acgreen) !important;
+}
+
+/* .redux-accent-purple .main-menu a:hover {
+  background: var(--purple) !important;
+}
+
+.redux-accent-green .main-menu a:hover {
+  background: var(--acgreen) !important;
+}
+
+.redux-accent-red .main-menu a:hover {
+  background: var(--red) !important;
+}
+
+.redux-accent-pink .main-menu a:hover {
+  background: var(--acpink) !important;
+}
+
+.redux-accent-light-blue .main-menu a:hover {
+  background: var(--light-blue) !important;
+}
+
+.redux-accent-gold .main-menu a:hover {
+  background: var(--gold) !important;
+}
+
+.redux-accent-violet .main-menu a:hover {
+  background: var(--violet) !important;
+} */
+
+/* Нижнее мобильное меню */
+
+.redux-accent-purple ion-tab-button.tab-selected {
+  --background: var(--purple) !important;
+}
+
+.redux-accent-green ion-tab-button.tab-selected {
+  --background: var(--acgreen) !important;
+}
+
+.redux-accent-red ion-tab-button.tab-selected {
+  --background: var(--red) !important;
+}
+
+.redux-accent-pink ion-tab-button.tab-selected {
+  --background: var(--acpink) !important;
+}
+
+.redux-accent-light-blue ion-tab-button.tab-selected {
+  --background: var(--light-blue) !important;
+}
+
+.redux-accent-gold ion-tab-button.tab-selected {
+  --background: var(--gold) !important;
+}
+
+.redux-accent-violet ion-tab-button.tab-selected {
+  --background: var(--violet) !important;
+}
+
+.redux-accent-orange-gradient ion-tab-button.tab-selected {
+  --background: var(--orange-gradient) !important;
+}
+
+.redux-accent-red-gradient ion-tab-button.tab-selected {
+  --background: var(--red-gradient) !important;
+}
+
+.redux-accent-pink-gradient ion-tab-button.tab-selected {
+  --background: var(--pink-gradient) !important;
+}
+
+.redux-accent-violet-gradient ion-tab-button.tab-selected {
+  --background: var(--violet-gradient) !important;
+}
+
+.redux-accent-purple-gradient ion-tab-button.tab-selected {
+  --background: var(--acpurple-gradient) !important;
+}
+
+.redux-accent-light-blue-gradient ion-tab-button.tab-selected {
+  --background: var(--light-blue-gradient) !important;
+}
+
+.redux-accent-green-gradient ion-tab-button.tab-selected {
+  --background: var(--green-gradient) !important;
+}
+
+/* Правое мобильное меню */
+
+.redux-accent-purple ion-menu .menu-right-links-mobile p.choosen {
+  background: var(--purple);
+}
+
+.redux-accent-green ion-menu .menu-right-links-mobile p.choosen {
+  background: var(--acgreen);
+}
+
+.redux-accent-red ion-menu .menu-right-links-mobile p.choosen {
+  background: var(--red);
+}
+
+.redux-accent-pink ion-menu .menu-right-links-mobile p.choosen {
+  background: var(--acpink);
+}
+
+.redux-accent-light-blue ion-menu .menu-right-links-mobile p.choosen {
+  background: var(--light-blue);
+}
+
+.redux-accent-gold ion-menu .menu-right-links-mobile p.choosen {
+  background: var(--gold);
+}
+
+.redux-accent-violet ion-menu .menu-right-links-mobile p.choosen {
+  background: var(--violet);
+}
+
+.redux-accent-orange-gradient ion-menu .menu-right-links-mobile p.choosen {
+  background: var(--orange-gradient);
+}
+
+.redux-accent-red-gradient ion-menu .menu-right-links-mobile p.choosen {
+  background: var(--red-gradient);
+}
+
+.redux-accent-pink-gradient ion-menu .menu-right-links-mobile p.choosen {
+  background: var(--pink-gradient);
+}
+
+.redux-accent-violet-gradient ion-menu .menu-right-links-mobile p.choosen {
+  background: var(--violet-gradient);
+}
+
+.redux-accent-purple-gradient ion-menu .menu-right-links-mobile p.choosen {
+  background: var(--acpurple-gradient);
+}
+
+.redux-accent-light-blue-gradient ion-menu .menu-right-links-mobile p.choosen {
+  background: var(--light-blue-gradient);
+}
+
+.redux-accent-green-gradient ion-menu .menu-right-links-mobile p.choosen {
+  background: var(--green-gradient);
+}
+
+/*основные страницы*/
+
+/*redux-accent-purple*/
+
+.redux-accent-purple .right-bar-footer .make-bet, .redux-accent-purple .betslip-bet-buttons-container .bet-button.orange, .redux-accent-purple .bet-buttons-container .make-bet {
+  background: var(--purple) !important;
+}
+
+.redux-accent-purple .match-money-line.chosen, .redux-accent-purple .match-money-line:hover, .redux-accent-purple .stake.chosen, .redux-accent-purple .stake:hover, .redux-accent-purple .desktop-card-event-btn:hover, .redux-accent-purple .desktop-card-event-btn.chosen, .redux-accent-purple .card-event-cfc-left.chosen {
+  background: var(--purple) !important;
+}
+
+.redux-accent-purple .more-icon.orange {
+  fill: var(--purple) !important;
+}
+
+/* .redux-accent-purple .right-bar-header .bet-btn:hover, .redux-accent-purple .right-bar-header .quote-btn:hover {
+  border-bottom: 1px solid var(--purple);
+} */
+
+.redux-accent-purple .desktop-live-container.selected, .redux-accent-purple .desktop-live-container:hover {
+  border-color: var(--purple);
+}
+
+.redux-accent-purple .desktop-left-bar ion-item:hover {
+  border-color: var(--purple);
+}
+
+.redux-accent-purple .btn-hl {
+  background: var(--purple);
+}
+
+.redux-accent-purple .btn-new-bet, .redux-accent-purple .take-loan {
+  background: var(--purple);
+}
+
+.redux-accent-purple .news-cards .card-single.active {
+  border-color: var(--purple);
+}
+
+.redux-accent-purple .news-cards .accent-color, .redux-accent-purple .card-single .accent-color, .redux-accent-purple .readmore, .redux-accent-purple .account-sidebar .user-card ion-select {
+  color: var(--purple);
+}
+
+.redux-accent-purple .orange-select ion-icon {
+  fill: var(--purple);
+  stroke: var(--purple);
+}
+
+.redux-accent-purple .account-page .orange-select p, .redux-accent-purple .wallet-page .orange-select p {
+  color: var(--purple);
+}
+
+.redux-accent-purple .wallet-tabs .active-tab {
+  background: var(--purple);
+  border-left-color: var(--purple);
+}
+
+.redux-accent-purple .wallet-tabs .active-tab::after {
+  border-left-color: var(--purple);
+}
+
+.redux-accent-purple .save-btn {
+  color: var(--purple);
+}
+
+.redux-accent-purple .interface-design-mode.active-theme {
+  border-color: var(--purple);
+}
+
+.redux-accent-purple .interface-textsize-list ion-radio {
+  --color-checked: var(--purple);
+}
+
+.redux-accent-purple .dealing-handicap-item.activated {
+  border-color: var(--purple);
+}
+
+.redux-accent-purple .outgoing-message, .redux-accent-purple .desktop-text-container {
+  background: var(--purple) !important;
+}
+
+.redux-accent-purple .outgoing-message svg {
+  fill: var(--purple) !important;
+}
+
+/*redux-accent-green*/
+
+.redux-accent-green .right-bar-footer .make-bet, .redux-accent-green .betslip-bet-buttons-container .bet-button.orange, .redux-accent-green .bet-buttons-container .make-bet {
+  background: var(--acgreen) !important;
+}
+
+.redux-accent-green .match-money-line.chosen, .redux-accent-green .match-money-line:hover, .redux-accent-green .stake.chosen, .redux-accent-green .stake:hover, .redux-accent-green .desktop-card-event-btn:hover, .redux-accent-green .desktop-card-event-btn.chosen, .redux-accent-green .card-event-cfc-left.chosen {
+  background: var(--acgreen) !important;
+}
+
+.redux-accent-green .more-icon.orange {
+  fill: var(--acgreen) !important;
+}
+
+/* .redux-accent-green .right-bar-header .bet-btn:hover, .redux-accent-green .right-bar-header .quote-btn:hover {
+  border-bottom: 1px solid var(--acgreen);
+} */
+
+.redux-accent-green .desktop-live-container.selected, .redux-accent-green .desktop-live-container:hover {
+  border-color: var(--acgreen);
+}
+
+.redux-accent-green .desktop-left-bar ion-item:hover {
+  border-color: var(--acgreen);
+}
+
+.redux-accent-green .btn-hl {
+  background: var(--acgreen);
+}
+
+.redux-accent-green .btn-new-bet, .redux-accent-green .take-loan {
+  background: var(--acgreen);
+}
+
+.redux-accent-green .news-cards .card-single.active {
+  border-color: var(--acgreen);
+}
+
+.redux-accent-green .news-cards .accent-color, .redux-accent-green .card-single .accent-color, .redux-accent-green .readmore, .redux-accent-green .account-sidebar .user-card ion-select {
+  color: var(--acgreen);
+}
+
+.redux-accent-green .orange-select ion-icon {
+  fill: var(--acgreen);
+  stroke: var(--acgreen);
+}
+
+.redux-accent-green .account-page .orange-select p, .redux-accent-green .wallet-page .orange-select p {
+  color: var(--acgreen);
+}
+
+.redux-accent-green .wallet-tabs .active-tab {
+  background: var(--acgreen);
+  border-left-color: var(--acgreen);
+}
+
+.redux-accent-green .wallet-tabs .active-tab::after {
+  border-left-color: var(--acgreen);
+}
+
+.redux-accent-green .save-btn {
+  color: var(--acgreen);
+}
+
+.redux-accent-green .interface-design-mode.active-theme {
+  border-color: var(--acgreen);
+}
+
+.redux-accent-green .interface-textsize-list ion-radio {
+  --color-checked: var(--acgreen);
+}
+
+.redux-accent-green .dealing-handicap-item.activated {
+  border-color: var(--acgreen);
+}
+
+.redux-accent-green .outgoing-message, .redux-accent-green .desktop-text-container {
+  background: var(--acgreen) !important;
+}
+
+.redux-accent-green .outgoing-message svg {
+  fill: var(--acgreen) !important;
+}
+
+/*redux-accent-red*/
+
+.redux-accent-red .right-bar-footer .make-bet, .redux-accent-red .betslip-bet-buttons-container .bet-button.orange, .redux-accent-red .bet-buttons-container .make-bet {
+  background: var(--red) !important;
+}
+
+.redux-accent-red .match-money-line.chosen, .redux-accent-red .match-money-line:hover, .redux-accent-red .stake.chosen, .redux-accent-red .stake:hover, .redux-accent-red .desktop-card-event-btn:hover, .redux-accent-red .desktop-card-event-btn.chosen, .redux-accent-red .card-event-cfc-left.chosen {
+  background: var(--red) !important;
+}
+
+.redux-accent-red .more-icon.orange {
+  fill: var(--red) !important;
+}
+
+/* .redux-accent-red .right-bar-header .bet-btn:hover, .redux-accent-red .right-bar-header .quote-btn:hover {
+  border-bottom: 1px solid var(--red);
+} */
+
+.redux-accent-red .desktop-live-container.selected, .redux-accent-red .desktop-live-container:hover {
+  border-color: var(--red);
+}
+
+.redux-accent-red .desktop-left-bar ion-item:hover {
+  border-color: var(--red);
+}
+
+.redux-accent-red .btn-hl {
+  background: var(--red);
+}
+
+.redux-accent-red .btn-new-bet, .redux-accent-red .take-loan {
+  background: var(--red);
+}
+
+.redux-accent-red .news-cards .card-single.active {
+  border-color: var(--red);
+}
+
+.redux-accent-red .news-cards .accent-color, .redux-accent-red .card-single .accent-color, .redux-accent-red .readmore, .redux-accent-red .account-sidebar .user-card ion-select {
+  color: var(--red);
+}
+
+.redux-accent-red .orange-select ion-icon {
+  fill: var(--red);
+  stroke: var(--red);
+}
+
+.redux-accent-red .account-page .orange-select p, .redux-accent-red .wallet-page .orange-select p {
+  color: var(--red);
+}
+
+.redux-accent-red .wallet-tabs .active-tab {
+  background: var(--red);
+  border-left-color: var(--red);
+}
+
+.redux-accent-red .wallet-tabs .active-tab::after {
+  border-left-color: var(--red);
+}
+
+.redux-accent-red .save-btn {
+  color: var(--red);
+}
+
+.redux-accent-red .interface-design-mode.active-theme {
+  border-color: var(--red);
+}
+
+.redux-accent-red .interface-textsize-list ion-radio {
+  --color-checked: var(--red);
+}
+
+.redux-accent-red .dealing-handicap-item.activated {
+  border-color: var(--red);
+}
+
+.redux-accent-red .outgoing-message, .redux-accent-red .desktop-text-container {
+  background: var(--red) !important;
+}
+
+.redux-accent-red .outgoing-message svg {
+  fill: var(--red) !important;
+}
+
+/*redux-accent-pink*/
+
+.redux-accent-pink .right-bar-footer .make-bet, .redux-accent-pink .betslip-bet-buttons-container .bet-button.orange, .redux-accent-pink .bet-buttons-container .make-bet {
+  background: var(--acpink) !important;
+}
+
+.redux-accent-pink .match-money-line.chosen, .redux-accent-pink .match-money-line:hover, .redux-accent-pink .stake.chosen, .redux-accent-pink .stake:hover, .redux-accent-pink .desktop-card-event-btn:hover, .redux-accent-pink .desktop-card-event-btn.chosen, .redux-accent-pink .card-event-cfc-left.chosen {
+  background: var(--acpink) !important;
+}
+
+.redux-accent-pink .more-icon.orange {
+  fill: var(--acpink) !important;
+}
+
+/* .redux-accent-pink .right-bar-header .bet-btn:hover, .redux-accent-pink .right-bar-header .quote-btn:hover {
+  border-bottom: 1px solid var(--acpink);
+} */
+
+.redux-accent-pink .desktop-live-container.selected, .redux-accent-pink .desktop-live-container:hover {
+  border-color: var(--acpink);
+}
+
+.redux-accent-pink .desktop-left-bar ion-item:hover {
+  border-color: var(--acpink);
+}
+
+.redux-accent-pink .btn-hl {
+  background: var(--acpink);
+}
+
+.redux-accent-pink .btn-new-bet, .redux-accent-pink .take-loan {
+  background: var(--acpink);
+}
+
+.redux-accent-pink .news-cards .card-single.active {
+  border-color: var(--acpink);
+}
+
+.redux-accent-pink .news-cards .accent-color, .redux-accent-pink .card-single .accent-color, .redux-accent-pink .readmore, .redux-accent-pink .account-sidebar .user-card ion-select {
+  color: var(--acpink);
+}
+
+.redux-accent-pink .orange-select ion-icon {
+  fill: var(--acpink);
+  stroke: var(--acpink);
+}
+
+.redux-accent-pink .account-page .orange-select p, .redux-accent-pink .wallet-page .orange-select p {
+  color: var(--acpink);
+}
+
+.redux-accent-pink .wallet-tabs .active-tab {
+  background: var(--acpink);
+  border-left-color: var(--acpink);
+}
+
+.redux-accent-pink .wallet-tabs .active-tab::after {
+  border-left-color: var(--acpink);
+}
+
+.redux-accent-pink .save-btn {
+  color: var(--acpink);
+}
+
+.redux-accent-pink .interface-design-mode.active-theme {
+  border-color: var(--acpink);
+}
+
+.redux-accent-pink .interface-textsize-list ion-radio {
+  --color-checked: var(--acpink);
+}
+
+.redux-accent-pink .dealing-handicap-item.activated {
+  border-color: var(--acpink);
+}
+
+.redux-accent-pink .outgoing-message, .redux-accent-pink .desktop-text-container {
+  background: var(--acpink) !important;
+}
+
+.redux-accent-pink .outgoing-message svg {
+  fill: var(--acpink) !important;
+}
+
+/*redux-accent-light-blue*/
+
+.redux-accent-light-blue .right-bar-footer .make-bet, .redux-accent-light-blue .betslip-bet-buttons-container .bet-button.orange, .redux-accent-light-blue .bet-buttons-container .make-bet {
+  background: var(--light-blue) !important;
+}
+
+.redux-accent-light-blue .match-money-line.chosen, .redux-accent-light-blue .match-money-line:hover, .redux-accent-light-blue .stake.chosen, .redux-accent-light-blue .stake:hover, .redux-accent-light-blue .desktop-card-event-btn:hover, .redux-accent-light-blue .desktop-card-event-btn.chosen, .redux-accent-light-blue .card-event-cfc-left.chosen {
+  background: var(--light-blue) !important;
+}
+
+.redux-accent-light-blue .more-icon.orange {
+  fill: var(--light-blue) !important;
+}
+
+/* .redux-accent-light-blue .right-bar-header .bet-btn:hover, .redux-accent-light-blue .right-bar-header .quote-btn:hover {
+  border-bottom: 1px solid var(--light-blue);
+} */
+
+.redux-accent-light-blue .desktop-live-container.selected, .redux-accent-light-blue .desktop-live-container:hover {
+  border-color: var(--light-blue);
+}
+
+.redux-accent-light-blue .desktop-left-bar ion-item:hover {
+  border-color: var(--light-blue);
+}
+
+.redux-accent-light-blue .btn-hl {
+  background: var(--light-blue);
+}
+
+.redux-accent-light-blue .btn-new-bet, .redux-accent-light-blue .take-loan {
+  background: var(--light-blue);
+}
+
+.redux-accent-light-blue .news-cards .card-single.active {
+  border-color: var(--light-blue);
+}
+
+.redux-accent-light-blue .news-cards .accent-color, .redux-accent-light-blue .card-single .accent-color, .redux-accent-light-blue .readmore, .redux-accent-light-blue .account-sidebar .user-card ion-select {
+  color: var(--light-blue);
+}
+
+.redux-accent-light-blue .orange-select ion-icon {
+  fill: var(--light-blue);
+  stroke: var(--light-blue);
+}
+
+.redux-accent-light-blue .account-page .orange-select p, .redux-accent-light-blue .wallet-page .orange-select p {
+  color: var(--light-blue);
+}
+
+.redux-accent-light-blue .wallet-tabs .active-tab {
+  background: var(--light-blue);
+  border-left-color: var(--light-blue);
+}
+
+.redux-accent-light-blue .wallet-tabs .active-tab::after {
+  border-left-color: var(--light-blue);
+}
+
+.redux-accent-light-blue .save-btn {
+  color: var(--light-blue);
+}
+
+.redux-accent-light-blue .interface-design-mode.active-theme {
+  border-color: var(--light-blue);
+}
+
+.redux-accent-light-blue .interface-textsize-list ion-radio {
+  --color-checked: var(--light-blue);
+}
+
+.redux-accent-light-blue .dealing-handicap-item.activated {
+  border-color: var(--light-blue);
+}
+
+.redux-accent-light-blue .outgoing-message, .redux-accent-light-blue .desktop-text-container {
+  background: var(--light-blue) !important;
+}
+
+.redux-accent-light-blue .outgoing-message svg {
+  fill: var(--light-blue) !important;
+}
+
+/* Gold не используется */
+
+/* .redux-accent-gold .right-bar-footer .make-bet, .redux-accent-gold .betslip-bet-buttons-container .bet-button.orange, .redux-accent-gold .bet-buttons-container .make-bet {
+  background: var(--gold) !important;
+}
+
+.redux-accent-gold .match-money-line.chosen, .redux-accent-gold .match-money-line:hover, .redux-accent-gold .stake.chosen, .redux-accent-gold .stake:hover, .redux-accent-gold .desktop-card-event-btn:hover, .redux-accent-gold .desktop-card-event-btn.chosen, .redux-accent-gold .card-event-cfc-left.chosen {
+  background: var(--gold) !important;
+}
+
+.redux-accent-gold .more-icon.orange {
+  fill: var(--gold) !important;
+}
+
+.redux-accent-gold .right-bar-header .bet-btn:hover, .redux-accent-gold .right-bar-header .quote-btn:hover {
+  border-bottom: 1px solid var(--gold);
+}
+
+.redux-accent-gold .desktop-live-container.selected, .redux-accent-gold .desktop-live-container:hover {
+  border-color: var(--gold);
+}
+
+.redux-accent-gold .desktop-left-bar ion-item:hover {
+  border-color: var(--gold);
+}
+
+.redux-accent-gold .btn-hl {
+  background: var(--gold);
+}
+
+.redux-accent-gold .btn-new-bet, .redux-accent-gold .take-loan {
+  background: var(--gold);
+}
+
+.redux-accent-gold .news-cards .card-single.active {
+  border-color: var(--gold);
+}
+
+.redux-accent-gold .news-cards .accent-color, .redux-accent-gold .card-single .accent-color, .redux-accent-gold .readmore, .redux-accent-gold .account-sidebar .user-card ion-select {
+  color: var(--gold);
+}
+
+.redux-accent-gold .orange-select ion-icon {
+  fill: var(--gold);
+  stroke: var(--gold);
+}
+
+.redux-accent-gold .account-page .orange-select p,.redux-accent-gold .wallet-page .orange-select p  {
+  color: var(--gold);
+}
+
+.redux-accent-gold .wallet-tabs .active-tab {
+  background: var(--gold);
+  border-left-color: var(--gold);
+}
+
+.redux-accent-gold .wallet-tabs .active-tab::after {
+  border-left-color: var(--gold);
+}
+
+.redux-accent-gold .save-btn {
+  color: var(--gold);
+} */
+
+/*redux-accent-violet*/
+
+.redux-accent-violet .right-bar-footer .make-bet, .redux-accent-violet .betslip-bet-buttons-container .bet-button.orange, .redux-accent-violet .bet-buttons-container .make-bet {
+  background: var(--violet) !important;
+}
+
+.redux-accent-violet .match-money-line.chosen, .redux-accent-violet .match-money-line:hover, .redux-accent-violet .stake.chosen, .redux-accent-violet .stake:hover, .redux-accent-violet .desktop-card-event-btn:hover, .redux-accent-violet .desktop-card-event-btn.chosen, .redux-accent-violet .card-event-cfc-left.chosen {
+  background: var(--violet) !important;
+}
+
+.redux-accent-violet .more-icon.orange {
+  fill: var(--violet) !important;
+}
+
+/* .redux-accent-violet .right-bar-header .bet-btn:hover, .redux-accent-violet .right-bar-header .quote-btn:hover {
+  border-bottom: 1px solid var(--violet);
+} */
+
+.redux-accent-violet .desktop-live-container.selected, .redux-accent-violet .desktop-live-container:hover {
+  border-color: var(--violet);
+}
+
+.redux-accent-violet .desktop-left-bar ion-item:hover {
+  border-color: var(--violet);
+}
+
+.redux-accent-violet .btn-hl {
+  background: var(--violet);
+}
+
+.redux-accent-violet .btn-new-bet, .redux-accent-violet .take-loan {
+  background: var(--violet);
+}
+
+.redux-accent-violet .news-cards .card-single.active {
+  border-color: var(--violet);
+}
+
+.redux-accent-violet .news-cards .accent-color, .redux-accent-violet .card-single .accent-color, .redux-accent-violet .readmore, .redux-accent-violet .account-sidebar .user-card ion-select {
+  color: var(--violet);
+}
+
+.redux-accent-violet .orange-select ion-icon {
+  fill: var(--violet);
+  stroke: var(--violet);
+}
+
+.redux-accent-violet .account-page .orange-select p, .redux-accent-violet .wallet-page .orange-select p {
+  color: var(--violet);
+}
+
+.redux-accent-violet .wallet-tabs .active-tab {
+  background: var(--violet);
+  border-left-color: var(--violet);
+}
+
+.redux-accent-violet .wallet-tabs .active-tab::after {
+  border-left-color: var(--violet);
+}
+
+.redux-accent-violet .save-btn {
+  color: var(--violet);
+}
+
+.redux-accent-violet .interface-design-mode.active-theme {
+  border-color: var(--violet);
+}
+
+.redux-accent-violet .interface-textsize-list ion-radio {
+  --color-checked: var(--violet);
+}
+
+.redux-accent-violet .dealing-handicap-item.activated {
+  border-color: var(--violet);
+}
+
+.redux-accent-violet .outgoing-message, .redux-accent-violet .desktop-text-container {
+  background: var(--violet) !important;
+}
+
+.redux-accent-violet .outgoing-message svg {
+  fill: var(--violet) !important;
+}
+
+/*redux-accent-orange-gradient*/
+
+.redux-accent-orange-gradient .right-bar-footer .make-bet, .redux-accent-orange-gradient .betslip-bet-buttons-container .bet-button.orange, .redux-accent-orange-gradient .bet-buttons-container .make-bet {
+  background: var(--orange-gradient) !important;
+}
+
+.redux-accent-orange-gradient .match-money-line.chosen, .redux-accent-orange-gradient .match-money-line:hover, .redux-accent-orange-gradient .stake.chosen, .redux-accent-orange-gradient .stake:hover, .redux-accent-orange-gradient .desktop-card-event-btn:hover, .redux-accent-orange-gradient .desktop-card-event-btn.chosen, .redux-accent-orange-gradient .card-event-cfc-left.chosen {
+  background: var(--orange-gradient) !important;
+}
+
+.redux-accent-orange-gradient .more-icon.orange {
+  fill: var(--orange) !important;
+}
+
+/* .redux-accent-violet .right-bar-header .bet-btn:hover, .redux-accent-violet .right-bar-header .quote-btn:hover {
+  border-bottom: 1px solid var(--violet);
+} */
+
+.redux-accent-orange-gradient .desktop-live-container.selected, .redux-accent-orange-gradient .desktop-live-container:hover {
+  border-color: var(--orange);
+}
+
+.redux-accent-orange-gradient .desktop-left-bar ion-item:hover {
+  border-color: var(--orange);
+}
+
+.redux-accent-orange-gradient .btn-hl {
+  background: var(--orange-gradient);
+}
+
+.redux-accent-orange-gradient .btn-new-bet, .redux-accent-orange-gradient .take-loan {
+  background: var(--orange-gradient);
+}
+
+.redux-accent-orange-gradient .news-cards .card-single.active {
+  border-color: var(--orange);
+}
+
+.redux-accent-orange-gradient .news-cards .accent-color, .redux-accent-orange-gradient .card-single .accent-color, .redux-accent-orange-gradient .readmore, .redux-accent-orange-gradient .account-sidebar .user-card ion-select {
+  color: var(--orange);
+}
+
+.redux-accent-orange-gradient .orange-select ion-icon {
+  fill: var(--orange);
+  stroke: var(--orange);
+}
+
+.redux-accent-orange-gradient .account-page .orange-select p, .redux-accent-orange-gradient .wallet-page .orange-select p {
+  color: var(--orange);
+}
+
+.redux-accent-orange-gradient .wallet-tabs .active-tab {
+  background: var(--orange-gradient);
+  border-left-color: var(--orange-gradient-left-color);
+}
+
+.redux-accent-orange-gradient .wallet-tabs .active-tab::after {
+  border-left-color: var(--orange-gradient-right-color);
+}
+
+.redux-accent-orange-gradient .save-btn {
+  color: var(--orange);
+}
+
+.redux-accent-orange-gradient .interface-design-mode.active-theme {
+  border-color: var(--orange);
+}
+
+.redux-accent-orange-gradient .interface-textsize-list ion-radio {
+  --color-checked: var(--orange);
+}
+
+.redux-accent-orange-gradient .dealing-handicap-item.activated {
+  border-color: var(--orange);
+}
+
+.redux-accent-orange-gradient .outgoing-message, .redux-accent-orange-gradient .desktop-text-container {
+  /* background: linear-gradient(#BE3838, #CE7619 80%); */
+  background: var(--orange-gradient) !important;
+}
+
+.redux-accent-orange-gradient .outgoing-message svg {
+  fill: var(--orange-gradient-end) !important;
+}
+
+/*redux-accent-red-gradient*/
+
+.redux-accent-red-gradient .right-bar-footer .make-bet, .redux-accent-red-gradient .betslip-bet-buttons-container .bet-button.orange, .redux-accent-red-gradient .bet-buttons-container .make-bet {
+  background: var(--red-gradient) !important;
+}
+
+.redux-accent-red-gradient .match-money-line.chosen, .redux-accent-red-gradient .match-money-line:hover, .redux-accent-red-gradient .stake.chosen, .redux-accent-red-gradient .stake:hover, .redux-accent-red-gradient .desktop-card-event-btn:hover, .redux-accent-red-gradient .desktop-card-event-btn.chosen, .redux-accent-red-gradient .card-event-cfc-left.chosen {
+  background: var(--red-gradient) !important;
+}
+
+.redux-accent-red-gradient .more-icon.orange {
+  fill: var(--red) !important;
+}
+
+/* .redux-accent-violet .right-bar-header .bet-btn:hover, .redux-accent-violet .right-bar-header .quote-btn:hover {
+  border-bottom: 1px solid var(--violet);
+} */
+
+.redux-accent-red-gradient .desktop-live-container.selected, .redux-accent-red-gradient .desktop-live-container:hover {
+  border-color: var(--red);
+}
+
+.redux-accent-red-gradient .desktop-left-bar ion-item:hover {
+  border-color: var(--red);
+}
+
+.redux-accent-red-gradient .btn-hl {
+  background: var(--red-gradient);
+}
+
+.redux-accent-red-gradient .btn-new-bet, .redux-accent-red-gradient .take-loan {
+  background: var(--red-gradient);
+}
+
+.redux-accent-red-gradient .news-cards .card-single.active {
+  border-color: var(--red);
+}
+
+.redux-accent-red-gradient .news-cards .accent-color, .redux-accent-red-gradient .card-single .accent-color, .redux-accent-red-gradient .readmore, .redux-accent-red-gradient .account-sidebar .user-card ion-select {
+  color: var(--red);
+}
+
+.redux-accent-red-gradient .orange-select ion-icon {
+  fill: var(--red);
+  stroke: var(--red);
+}
+
+.redux-accent-red-gradient .account-page .orange-select p, .redux-accent-red-gradient .wallet-page .orange-select p {
+  color: var(--red);
+}
+
+.redux-accent-red-gradient .wallet-tabs .active-tab {
+  background: var(--red-gradient);
+  border-left-color: var(--red-gradient-left-color);
+}
+
+.redux-accent-red-gradient .wallet-tabs .active-tab::after {
+  border-left-color: var(--red-gradient-right-color);
+}
+
+.redux-accent-red-gradient .save-btn {
+  color: var(--red);
+}
+
+.redux-accent-red-gradient .interface-design-mode.active-theme {
+  border-color: var(--red);
+}
+
+.redux-accent-red-gradient .interface-textsize-list ion-radio {
+  --color-checked: var(--red);
+}
+
+.redux-accent-red-gradient .dealing-handicap-item.activated {
+  border-color: var(--red);
+}
+
+.redux-accent-red-gradient .outgoing-message, .redux-accent-red-gradient .desktop-text-container {
+  /* background: linear-gradient(#E13030, #F26CB4 85%); */
+  background: var(--red-gradient) !important;
+}
+
+.redux-accent-red-gradient .outgoing-message svg {
+  fill: var(--red-gradient-end) !important;
+}
+
+/*redux-accent-pink-gradient*/
+
+.redux-accent-pink-gradient .right-bar-footer .make-bet, .redux-accent-pink-gradient .betslip-bet-buttons-container .bet-button.orange, .redux-accent-pink-gradient .bet-buttons-container .make-bet {
+  background: var(--pink-gradient) !important;
+}
+
+.redux-accent-pink-gradient .match-money-line.chosen, .redux-accent-pink-gradient .match-money-line:hover, .redux-accent-pink-gradient .stake.chosen, .redux-accent-pink-gradient .stake:hover, .redux-accent-pink-gradient .desktop-card-event-btn:hover, .redux-accent-pink-gradient .desktop-card-event-btn.chosen, .redux-accent-pink-gradient .card-event-cfc-left.chosen {
+  background: var(--pink-gradient) !important;
+}
+
+.redux-accent-pink-gradient .more-icon.orange {
+  fill: var(--acpink) !important;
+}
+
+/* .redux-accent-violet .right-bar-header .bet-btn:hover, .redux-accent-violet .right-bar-header .quote-btn:hover {
+  border-bottom: 1px solid var(--violet);
+} */
+
+.redux-accent-pink-gradient .desktop-live-container.selected, .redux-accent-pink-gradient .desktop-live-container:hover {
+  border-color: var(--acpink);
+}
+
+.redux-accent-pink-gradient .desktop-left-bar ion-item:hover {
+  border-color: var(--acpink);
+}
+
+.redux-accent-pink-gradient .btn-hl {
+  background: var(--pink-gradient);
+}
+
+.redux-accent-pink-gradient .btn-new-bet, .redux-accent-pink-gradient .take-loan {
+  background: var(--pink-gradient);
+}
+
+.redux-accent-pink-gradient .news-cards .card-single.active {
+  border-color: var(--acpink);
+}
+
+.redux-accent-pink-gradient .news-cards .accent-color, .redux-accent-pink-gradient .card-single .accent-color, .redux-accent-pink-gradient .readmore, .redux-accent-pink-gradient .account-sidebar .user-card ion-select {
+  color: var(--acpink);
+}
+
+.redux-accent-pink-gradient .orange-select ion-icon {
+  fill: var(--acpink);
+  stroke: var(--acpink);
+}
+
+.redux-accent-pink-gradient .account-page .orange-select p, .redux-accent-pink-gradient .wallet-page .orange-select p {
+  color: var(--acpink);
+}
+
+.redux-accent-pink-gradient .wallet-tabs .active-tab {
+  background: var(--pink-gradient);
+  border-left-color: var(--pink-gradient-left-color);
+}
+
+.redux-accent-pink-gradient .wallet-tabs .active-tab::after {
+  border-left-color: var(--pink-gradient-right-color);
+}
+
+.redux-accent-pink-gradient .save-btn {
+  color: var(--acpink);
+}
+
+.redux-accent-pink-gradient .interface-design-mode.active-theme {
+  border-color: var(--acpink);
+}
+
+.redux-accent-pink-gradient .interface-textsize-list ion-radio {
+  --color-checked: var(--acpink);
+}
+
+.redux-accent-pink-gradient .dealing-handicap-item.activated {
+  border-color: var(--acpink);
+}
+
+.redux-accent-pink-gradient .outgoing-message, .redux-accent-pink-gradient .desktop-text-container {
+  /* background: linear-gradient(#F26CB4, #AF6CF2 85%); */
+  background: var(--pink-gradient) !important;
+}
+
+.redux-accent-pink-gradient .outgoing-message svg {
+  fill: var(--pink-gradient-end) !important;
+}
+
+/*redux-accent-violet-gradient*/
+
+.redux-accent-violet-gradient .right-bar-footer .make-bet, .redux-accent-violet-gradient .betslip-bet-buttons-container .bet-button.orange, .redux-accent-violet-gradient .bet-buttons-container .make-bet {
+  background: var(--violet-gradient) !important;
+}
+
+.redux-accent-violet-gradient .match-money-line.chosen, .redux-accent-violet-gradient .match-money-line:hover, .redux-accent-violet-gradient .stake.chosen, .redux-accent-violet-gradient .stake:hover, .redux-accent-violet-gradient .desktop-card-event-btn:hover, .redux-accent-violet-gradient .desktop-card-event-btn.chosen, .redux-accent-violet-gradient .card-event-cfc-left.chosen {
+  background: var(--violet-gradient) !important;
+}
+
+.redux-accent-violet-gradient .more-icon.orange {
+  fill: var(--violet) !important;
+}
+
+/* .redux-accent-violet .right-bar-header .bet-btn:hover, .redux-accent-violet .right-bar-header .quote-btn:hover {
+  border-bottom: 1px solid var(--violet);
+} */
+
+.redux-accent-violet-gradient .desktop-live-container.selected, .redux-accent-violet-gradient .desktop-live-container:hover {
+  border-color: var(--violet);
+}
+
+.redux-accent-violet-gradient .desktop-left-bar ion-item:hover {
+  border-color: var(--violet);
+}
+
+.redux-accent-violet-gradient .btn-hl {
+  background: var(--violet-gradient);
+}
+
+.redux-accent-violet-gradient .btn-new-bet, .redux-accent-violet-gradient .take-loan {
+  background: var(--violet-gradient);
+}
+
+.redux-accent-violet-gradient .news-cards .card-single.active {
+  border-color: var(--violet);
+}
+
+.redux-accent-violet-gradient .news-cards .accent-color, .redux-accent-violet-gradient .card-single .accent-color, .redux-accent-violet-gradient .readmore, .redux-accent-violet-gradient .account-sidebar .user-card ion-select {
+  color: var(--violet);
+}
+
+.redux-accent-violet-gradient .orange-select ion-icon {
+  fill: var(--violet);
+  stroke: var(--violet);
+}
+
+.redux-accent-violet-gradient .account-page .orange-select p, .redux-accent-violet-gradient .wallet-page .orange-select p {
+  color: var(--violet);
+}
+
+.redux-accent-violet-gradient .wallet-tabs .active-tab {
+  background: var(--violet-gradient);
+  border-left-color: var(--violet-gradient-left-color);
+}
+
+.redux-accent-violet-gradient .wallet-tabs .active-tab::after {
+  border-left-color: var(--violet-gradient-right-color);
+}
+
+.redux-accent-violet-gradient .save-btn {
+  color: var(--violet);
+}
+
+.redux-accent-violet-gradient .interface-design-mode.active-theme {
+  border-color: var(--violet);
+}
+
+.redux-accent-violet-gradient .interface-textsize-list ion-radio {
+  --color-checked: var(--violet);
+}
+
+.redux-accent-violet-gradient .dealing-handicap-item.activated {
+  border-color: var(--violet);
+}
+
+.redux-accent-violet-gradient .outgoing-message, .redux-accent-violet-gradient .desktop-text-container {
+  /* background: linear-gradient(#AF6CF2, #6C79F2 85%); */
+  background: var(--violet-gradient) !important;
+}
+
+.redux-accent-violet-gradient .outgoing-message svg {
+  fill: var(--violet-gradient-end) !important;
+}
+
+/*redux-accent-purple-gradient*/
+
+.redux-accent-purple-gradient .right-bar-footer .make-bet, .redux-accent-purple-gradient .betslip-bet-buttons-container .bet-button.orange, .redux-accent-purple-gradient .bet-buttons-container .make-bet {
+  background: var(--acpurple-gradient) !important;
+}
+
+.redux-accent-purple-gradient .match-money-line.chosen, .redux-accent-purple-gradient .match-money-line:hover, .redux-accent-purple-gradient .stake.chosen, .redux-accent-purple-gradient .stake:hover, .redux-accent-purple-gradient .desktop-card-event-btn:hover, .redux-accent-purple-gradient .desktop-card-event-btn.chosen, .redux-accent-purple-gradient .card-event-cfc-left.chosen {
+  background: var(--acpurple-gradient) !important;
+}
+
+.redux-accent-purple-gradient .more-icon.orange {
+  fill: var(--purple) !important;
+}
+
+/* .redux-accent-violet .right-bar-header .bet-btn:hover, .redux-accent-violet .right-bar-header .quote-btn:hover {
+  border-bottom: 1px solid var(--violet);
+} */
+
+.redux-accent-purple-gradient .desktop-live-container.selected, .redux-accent-purple-gradient .desktop-live-container:hover {
+  border-color: var(--purple);
+}
+
+.redux-accent-purple-gradient .desktop-left-bar ion-item:hover {
+  border-color: var(--purple);
+}
+
+.redux-accent-purple-gradient .btn-hl {
+  background: var(--acpurple-gradient);
+}
+
+.redux-accent-purple-gradient .btn-new-bet, .redux-accent-purple-gradient .take-loan {
+  background: var(--acpurple-gradient);
+}
+
+.redux-accent-purple-gradient .news-cards .card-single.active {
+  border-color: var(--purple);
+}
+
+.redux-accent-purple-gradient .news-cards .accent-color, .redux-accent-purple-gradient .card-single .accent-color, .redux-accent-purple-gradient .readmore, .redux-accent-purple-gradient .account-sidebar .user-card ion-select {
+  color: var(--purple);
+}
+
+.redux-accent-purple-gradient .orange-select ion-icon {
+  fill: var(--purple);
+  stroke: var(--purple);
+}
+
+.redux-accent-purple-gradient .account-page .orange-select p, .redux-accent-purple-gradient .wallet-page .orange-select p {
+  color: var(--purple);
+}
+
+.redux-accent-purple-gradient .wallet-tabs .active-tab {
+  background: var(--acpurple-gradient);
+  border-left-color: var(--acpurple-gradient-left-color);
+}
+
+.redux-accent-purple-gradient .wallet-tabs .active-tab::after {
+  border-left-color: var(--acpurple-gradient-right-color);
+}
+
+.redux-accent-purple-gradient .save-btn {
+  color: var(--purple);
+}
+
+.redux-accent-purple-gradient .interface-design-mode.active-theme {
+  border-color: var(--purple);
+}
+
+.redux-accent-purple-gradient .interface-textsize-list ion-radio {
+  --color-checked: var(--purple);
+}
+
+.redux-accent-purple-gradient .dealing-handicap-item.activated {
+  border-color: var(--purple);
+}
+
+.redux-accent-purple-gradient .outgoing-message, .redux-accent-purple-gradient .desktop-text-container {
+  /* background: linear-gradient(#6C79F2, #55B9E4 85%); */
+  background: var(--acpurple-gradient) !important;
+}
+
+.redux-accent-purple-gradient .outgoing-message svg {
+  fill: var(--acpurple-gradient-end) !important;
+}
+
+/*redux-accent-light-blue-gradient*/
+
+.redux-accent-light-blue-gradient .right-bar-footer .make-bet, .redux-accent-light-blue-gradient .betslip-bet-buttons-container .bet-button.orange, .redux-accent-light-blue-gradient .bet-buttons-container .make-bet {
+  background: var(--light-blue-gradient) !important;
+}
+
+.redux-accent-light-blue-gradient .match-money-line.chosen, .redux-accent-light-blue-gradient .match-money-line:hover, .redux-accent-light-blue-gradient .stake.chosen, .redux-accent-light-blue-gradient .stake:hover, .redux-accent-light-blue-gradient .desktop-card-event-btn:hover, .redux-accent-light-blue-gradient .desktop-card-event-btn.chosen, .redux-accent-light-blue-gradient .card-event-cfc-left.chosen {
+  background: var(--light-blue-gradient) !important;
+}
+
+.redux-accent-light-blue-gradient .more-icon.orange {
+  fill: var(--light-blue) !important;
+}
+
+/* .redux-accent-violet .right-bar-header .bet-btn:hover, .redux-accent-violet .right-bar-header .quote-btn:hover {
+  border-bottom: 1px solid var(--violet);
+} */
+
+.redux-accent-light-blue-gradient .desktop-live-container.selected, .redux-accent-light-blue-gradient .desktop-live-container:hover {
+  border-color: var(--light-blue);
+}
+
+.redux-accent-light-blue-gradient .desktop-left-bar ion-item:hover {
+  border-color: var(--light-blue);
+}
+
+.redux-accent-light-blue-gradient .btn-hl {
+  background: var(--light-blue-gradient);
+}
+
+.redux-accent-light-blue-gradient .btn-new-bet, .redux-accent-light-blue-gradient .take-loan {
+  background: var(--light-blue-gradient);
+}
+
+.redux-accent-light-blue-gradient .news-cards .card-single.active {
+  border-color: var(--light-blue);
+}
+
+.redux-accent-light-blue-gradient .news-cards .accent-color, .redux-accent-light-blue-gradient .card-single .accent-color, .redux-accent-light-blue-gradient .readmore, .redux-accent-light-blue-gradient .account-sidebar .user-card ion-select {
+  color: var(--light-blue);
+}
+
+.redux-accent-light-blue-gradient .orange-select ion-icon {
+  fill: var(--light-blue);
+  stroke: var(--light-blue);
+}
+
+.redux-accent-light-blue-gradient .account-page .orange-select p, .redux-accent-light-blue-gradient .wallet-page .orange-select p {
+  color: var(--light-blue);
+}
+
+.redux-accent-light-blue-gradient .wallet-tabs .active-tab {
+  background: var(--light-blue-gradient);
+  border-left-color: var(--blue-gradient-left-color);
+}
+
+.redux-accent-light-blue-gradient .wallet-tabs .active-tab::after {
+  border-left-color: var(--blue-gradient-right-color);
+}
+
+.redux-accent-light-blue-gradient .save-btn {
+  color: var(--light-blue);
+}
+
+.redux-accent-light-blue-gradient .interface-design-mode.active-theme {
+  border-color: var(--light-blue);
+}
+
+.redux-accent-light-blue-gradient .interface-textsize-list ion-radio {
+  --color-checked: var(--light-blue);
+}
+
+.redux-accent-light-blue-gradient .dealing-handicap-item.activated {
+  border-color: var(--light-blue);
+}
+
+.redux-accent-light-blue-gradient .outgoing-message, .redux-accent-light-blue-gradient .desktop-text-container {
+  /* background: linear-gradient(#55B9E4, #5DE26A 85%); */
+  background: var(--light-blue-gradient) !important;
+}
+
+.redux-accent-light-blue-gradient .outgoing-message svg {
+  fill: var(--light-blue-gradient-end) !important;
+}
+
+/*redux-accent-green-gradient*/
+
+.redux-accent-green-gradient .right-bar-footer .make-bet, .redux-accent-green-gradient .betslip-bet-buttons-container .bet-button.orange, .redux-accent-green-gradient .bet-buttons-container .make-bet {
+  background: var(--green-gradient) !important;
+}
+
+.redux-accent-green-gradient .match-money-line.chosen, .redux-accent-green-gradient .match-money-line:hover, .redux-accent-green-gradient .stake.chosen, .redux-accent-green-gradient .stake:hover, .redux-accent-green-gradient .desktop-card-event-btn:hover, .redux-accent-green-gradient .desktop-card-event-btn.chosen, .redux-accent-green-gradient .card-event-cfc-left.chosen {
+  background: var(--green-gradient) !important;
+}
+
+.redux-accent-green-gradient .more-icon.orange {
+  fill: var(--acgreen) !important;
+}
+
+/* .redux-accent-violet .right-bar-header .bet-btn:hover, .redux-accent-violet .right-bar-header .quote-btn:hover {
+  border-bottom: 1px solid var(--violet);
+} */
+
+.redux-accent-green-gradient .desktop-live-container.selected, .redux-accent-green-gradient .desktop-live-container:hover {
+  border-color: var(--acgreen);
+}
+
+.redux-accent-green-gradient .desktop-left-bar ion-item:hover {
+  border-color: var(--acgreen);
+}
+
+.redux-accent-green-gradient .btn-hl {
+  background: var(--green-gradient);
+}
+
+.redux-accent-green-gradient .btn-new-bet, .redux-accent-green-gradient .take-loan {
+  background: var(--green-gradient);
+}
+
+.redux-accent-green-gradient .news-cards .card-single.active {
+  border-color: var(--acgreen);
+}
+
+.redux-accent-green-gradient .news-cards .accent-color, .redux-accent-green-gradient .card-single .accent-color, .redux-accent-green-gradient .readmore, .redux-accent-green-gradient .account-sidebar .user-card ion-select {
+  color: var(--acgreen);
+}
+
+.redux-accent-green-gradient .orange-select ion-icon {
+  fill: var(--acgreen);
+  stroke: var(--acgreen);
+}
+
+.redux-accent-green-gradient .account-page .orange-select p, .redux-accent-green-gradient .wallet-page .orange-select p {
+  color: var(--acgreen);
+}
+
+.redux-accent-green-gradient .wallet-tabs .active-tab {
+  background: var(--green-gradient);
+  border-left-color: var(--green-gradient-left-color);
+}
+
+.redux-accent-green-gradient .wallet-tabs .active-tab::after {
+  border-left-color: var(--green-gradient-right-color);
+}
+
+.redux-accent-green-gradient .save-btn {
+  color: var(--acgreen);
+}
+
+.redux-accent-green-gradient .interface-design-mode.active-theme {
+  border-color: var(--acgreen);
+}
+
+.redux-accent-green-gradient .interface-textsize-list ion-radio {
+  --color-checked: var(--acgreen);
+}
+
+.redux-accent-green-gradient .dealing-handicap-item.activated {
+  border-color: var(--acgreen);
+}
+
+.redux-accent-green-gradient .outgoing-message, .redux-accent-green-gradient .desktop-text-container {
+  /* background: linear-gradient(#5DE26A, #CCDA30 85%); */
+  background: var(--green-gradient) !important;
+}
+
+.redux-accent-green-gradient .outgoing-message svg {
+  fill: var(--green-gradient-end) !important;
+}
+
+/*кнопка send в чате*/
+
+.redux-accent-red .send-button {
+  background: var(--red);
+}
+
+.redux-accent-pink .send-button {
+  background: var(--acpink);
+}
+
+.redux-accent-violet .send-button {
+  background: var(--violet);
+}
+
+.redux-accent-purple .send-button {
+  background: var(--purple);
+}
+
+.redux-accent-light-blue .send-button {
+  background: var(--light-blue);
+}
+
+.redux-accent-green .send-button {
+  background: var(--acgreen);
+}
+
+.redux-accent-orange-gradient .send-button {
+  background: var(--orange-gradient);
+}
+
+.redux-accent-red-gradient .send-button {
+  background: var(--red-gradient);
+}
+
+.redux-accent-pink-gradient .send-button {
+  background: var(--pink-gradient);
+}
+
+.redux-accent-violet-gradient .send-button {
+  background: var(--violet-gradient);
+}
+
+.redux-accent-purple-gradient .send-button {
+  background: var(--acpurple-gradient);
+}
+
+.redux-accent-light-blue-gradient .send-button {
+  background: var(--light-blue-gradient);
+}
+
+.redux-accent-green-gradient .send-button {
+  background: var(--green-gradient);
+}
+
+/* .send-button.redux-button-red {
+  background-color: var(--red);
+}
+
+.send-button.redux-button-purple {
+  background-color: var(--purple);
+}
+
+.send-button.redux-button-orange {
+  background-color: var(--orange);
+}
+
+.send-button.redux-button-green {
+  background-color: var(--acgreen);
+}
+
+.send-button.redux-button-pink {
+  background-color: var(--acpink);
+}
+
+.send-button.redux-button-light-blue {
+  background-color: var(--light-blue);
+}
+
+.send-button.redux-button-gold {
+  background-color: var(--gold);
+}
+
+.send-button.redux-button-violet {
+  background-color: var(--violet);
+} */
+
+/* Шрифт в чате */
+
+.chat-window.extra-small .message-text, .chat-window.extra-small .desktop-text-container, .chat-window.extra-small .desktop-incoming-text-container, .interface-textsize-view-text.extra-small, .message-text.extra-small {
+  font-size: .8rem
+}
+
+.chat-window.small .message-text, .chat-window.small .desktop-text-container, .chat-window.small .desktop-incoming-text-container, .interface-textsize-view-text.small, .message-text.small {
+  font-size: .9rem
+}
+
+.chat-window.large .message-text, .chat-window.large .desktop-text-container, .chat-window.large .desktop-incoming-text-container, .interface-textsize-view-text.large, .message-text.large {
+  font-size: 1.1rem
+}
+
+.chat-window.extra-large .message-text, .chat-window.extra-large .desktop-text-container, .chat-window.extra-large .desktop-incoming-text-container, .interface-textsize-view-text.extra-large, .message-text.extra-large {
+  font-size: 1.2rem
+}
+
+.message-time.extra-small {
+  font-size: 9.6px;
+}
+
+.message-time.small {
+  font-size: 10.8px;
+}
+
+.message-time.large {
+  font-size: 13.2px;
+}
+
+.message-time.extra-large {
+  font-size: 14.4px;
+}
+
+.desktop-message-time.extra-small {
+  font-size: 11.2px;
+}
+
+.desktop-message-time.small {
+  font-size: 12.6px;
+}
+
+.desktop-message-time.large {
+  font-size: 15.4px;
+}
+
+.desktop-message-time.extra-large {
+  font-size: 16.8px;
+}
+
+.interface-textsize-bubble.extra-small, .outgoing-message.extra-small, .incoming-message.extra-small, .desktop-text-container.extra-small, .desktop-incoming-text-container.extra-small {
+  padding: .4rem 1rem;
+  border-radius: 0.7rem;
+  -webkit-border-radius: 0.7rem;
+  -moz-border-radius: 0.7rem;
+  -ms-border-radius: 0.7rem;
+  -o-border-radius: 0.7rem;
+}
+
+.interface-textsize-bubble.small, .outgoing-message.small, .incoming-message.small, .desktop-text-container.small, .desktop-incoming-text-container.small {
+  padding: .5rem 1.1rem;
+  border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+}
+
+.interface-textsize-bubble.medium, .outgoing-message.medium, .incoming-message.medium, .desktop-text-container.medium, .desktop-incoming-text-container.medium {
+  padding: .6rem 1.2rem;
+  border-radius: 0.9rem;
+  -webkit-border-radius: 0.9rem;
+  -moz-border-radius: 0.9rem;
+  -ms-border-radius: 0.9rem;
+  -o-border-radius: 0.9rem;
+}
+
+.interface-textsize-bubble.large, .outgoing-message.large, .incoming-message.large, .desktop-text-container.large, .desktop-incoming-text-container.large {
+  padding: .7rem 1.3rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.interface-textsize-bubble.extra-large, .outgoing-message.extra-large, .incoming-message.extra-large, .desktop-text-container.extra-large, .desktop-incoming-text-container.extra-large {
+  padding: .8rem 1.4rem;
+  border-radius: 1.1rem;
+  -webkit-border-radius: 1.1rem;
+  -moz-border-radius: 1.1rem;
+  -ms-border-radius: 1.1rem;
+  -o-border-radius: 1.1rem;
+}
+
+
+/* Errors */
+
+/* .redux-accent-red .error-button {
+  --background: var(--red);
+} */
+
+@media screen and (min-width: 3400px) {
+  /* Шрифт в чате */
+  .chat-window.extra-small .message-text, .chat-window.extra-small .desktop-text-container, .chat-window.extra-small .desktop-incoming-text-container, .interface-textsize-view-text.extra-small, .message-text.extra-small {
+    font-size: 1.6rem
+  }
+  .chat-window.small .message-text, .chat-window.small .desktop-text-container, .chat-window.small .desktop-incoming-text-container, .interface-textsize-view-text.small, .message-text.small {
+    font-size: 1.8em
+  }
+  .chat-window.medium .message-text, .chat-window.medium .desktop-text-container, .chat-window.medium .desktop-incoming-text-container, .interface-textsize-view-text.medium, .message-text.medium {
+    font-size: 2em
+  }
+  .chat-window.large .message-text, .chat-window.large .desktop-text-container, .chat-window.large .desktop-incoming-text-container, .interface-textsize-view-text.large, .message-text.large {
+    font-size: 2.2rem
+  }
+  .chat-window.extra-large .message-text, .chat-window.extra-large .desktop-text-container, .chat-window.extra-large .desktop-incoming-text-container, .interface-textsize-view-text.extra-large, .message-text.extra-large {
+    font-size: 2.4em
+  }
+  .message-time.extra-small {
+    font-size: 19.2px;
+  }
+  .message-time.small {
+    font-size: 21.6px;
+  }
+  .message-time.medium {
+    font-size: 24px;
+  }
+  .message-time.large {
+    font-size: 26.4px;
+  }
+  .message-time.extra-large {
+    font-size: 28.8px;
+  }
+  .desktop-message-time.extra-small {
+    font-size: 22.4.2px;
+  }
+  .desktop-message-time.small {
+    font-size: 25.2px;
+  }
+  .desktop-message-time.large {
+    font-size: 30.8px;
+  }
+  .desktop-message-time.extra-large {
+    font-size: 33.6px;
+  }
+  .interface-textsize-bubble.extra-small, .outgoing-message.extra-small, .incoming-message.extra-small, .desktop-text-container.extra-small, .desktop-incoming-text-container.extra-small {
+    padding: .8rem 2rem;
+    border-radius: 1.6rem;
+    -webkit-border-radius: 1.6rem;
+    -moz-border-radius: 1.6rem;
+    -ms-border-radius: 1.6rem;
+    -o-border-radius: 1.6rem;
+  }
+  .interface-textsize-bubble.small, .outgoing-message.small, .incoming-message.small, .desktop-text-container.small, .desktop-incoming-text-container.small {
+    padding: 1rem 2.2rem;
+    border-radius: 1.8rem;
+    -webkit-border-radius: 1.8rem;
+    -moz-border-radius: 1.8rem;
+    -ms-border-radius: 1.8rem;
+    -o-border-radius: 1.8rem;
+  }
+  .interface-textsize-bubble.medium, .outgoing-message.medium, .incoming-message.medium, .desktop-text-container.medium, .desktop-incoming-text-container.medium {
+    padding: 1.2rem 2.4rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+  }
+  .interface-textsize-bubble.large, .outgoing-message.large, .incoming-message.large, .desktop-text-container.large, .desktop-incoming-text-container.large {
+    padding: 1.4rem 2.6rem;
+    border-radius: 2.2rem;
+    -webkit-border-radius: 2.2rem;
+    -moz-border-radius: 2.2rem;
+    -ms-border-radius: 2.2rem;
+    -o-border-radius: 2.2rem;
+  }
+  .interface-textsize-bubble.extra-large, .outgoing-message.extra-large, .incoming-message.extra-large, .desktop-text-container.extra-large, .desktop-incoming-text-container.extra-large {
+    padding: 1.6rem 2.8rem;
+    border-radius: 2.4rem;
+    -webkit-border-radius: 2.4rem;
+    -moz-border-radius: 2.4rem;
+    -ms-border-radius: 2.4rem;
+    -o-border-radius: 2.4rem;
+  }
+}

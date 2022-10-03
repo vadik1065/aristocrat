@@ -1,0 +1,112 @@
+ion-menu {
+  --background: transparent;
+  --width: 355px;
+  margin-top: 64px;
+}
+
+ion-menu ion-content {
+  --ion-background-color: var(--ion-menu-color);
+}
+
+ion-menu ion-list.list-md {
+  padding: 0;
+}
+
+ion-menu .btn-container {
+  display: flex;
+  width: 100%;
+  margin-top: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ion-menu ion-item {
+  --background-activated: #C56226;
+  --background-activated-opacity: 1;
+  --background-hover: #C56226;
+  --background-hover-opacity: 1;
+  --ripple-color: #C56226;
+}
+
+ion-menu ion-item:hover {
+  --background: #C56226;
+}
+
+ion-menu .menu-links-mobile ion-item {
+  --inner-padding-start: 25px;
+} */
+
+.main-menu a {
+  width: 100%;
+  height: 66px;
+  padding-left: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.main-menu .menu-upper a {
+  padding-left: 0;
+}
+
+/* 
+.main-menu a:hover {
+  background: #C56226;
+  color: #ffffff;
+} */
+
+.menu-upper {
+  height: 74px;
+  width: 100%;
+}
+
+ion-menu .logout-btn {
+  flex-grow: 1;
+  margin: 20px 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-upper {
+    display: none;
+  }
+  .settings-card:last-child .settings-card-name {
+    color: transparent;
+  }
+}
+
+ion-menu .menu-right-links-mobile img {
+  max-height: 25.5px;
+  margin-right: 15px;
+}
+
+.menu-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--ion-menu-color);
+}
+
+ion-menu .top-segment-container {
+  padding: 0 10px;
+}
+
+ion-menu .mob-settings-container ion-segment {
+  background: var(--nineth-background);
+  margin-bottom: 13px;
+}
+
+ion-menu .mob-settings-container ion-segment-button {
+  /* --indicator-color: var(--segment-bg-gray); */
+  --border-radius: 4px;
+}
+
+ion-menu .mob-settings-container .top-segment-container ion-segment {
+  background: var(--second-background);
+}
+
+/* body:not(.dark) ion-menu .mob-settings-container .top-segment-container ion-segment-button {
+  --indicator-color: var(--segment-bg-gray);
+  color: var(--ion-color-primary);
+} */

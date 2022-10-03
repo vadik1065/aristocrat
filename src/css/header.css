@@ -1,0 +1,389 @@
+.main-header {
+  margin-bottom: 13px;
+  display: flex;
+  position: fixed;
+  transform: translateZ(1px);
+  --background: var(--first-background);
+  box-shadow: var(--shadow);
+  z-index: 100;
+}
+
+.desktop-header {
+  height: 64px;
+  margin: 0;
+  margin-right: 60px;
+  align-items: center;
+}
+
+.main-header .header-logo svg {
+  height: 60px;
+  margin: 0;
+  fill: var(--logo-color);
+}
+
+.main-header .mobile-header .header-logo {
+  max-width: 200px;
+}
+
+.main-header .mobile-header .header-logo svg {
+  max-width: 147px;
+  width: 147px;
+}
+
+.main-header .header-logo img {
+  /* height: 64px; */
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1381px) {
+  .desktop-header ion-buttons {
+    display: none;
+  }
+}
+
+.desktop-header ion-buttons {
+  height: 100%;
+  margin-right: 20px;
+}
+
+.desktop-header .header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 200px;
+  width: 200px;
+}
+
+.desktop-header .links {
+  height: 100%;
+  width: 100%;
+  /* max-width: 420px; */
+  max-width: 620px;
+  padding-bottom: 12px;
+  align-items: flex-end;
+}
+
+.desktop-header .links div {
+  width: auto;
+  display: block;
+  box-sizing: border-box;
+  transition: .3s;
+  text-align: center;
+  flex: 1 1 auto;
+}
+
+.desktop-header .links a {
+  padding: 7px 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--ion-color-primary);
+  border-radius: 5px;
+  /* -webkit-transition: .3s;
+  transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s; */
+}
+
+.desktop-header .links a.active {
+  color: white
+}
+
+.desktop-header .links a:hover {
+  opacity: .5;
+  /* border-bottom: 1px solid var(--orange); */
+  /* opacity: 1 */
+}
+
+.desktop-header .links .active {
+  background: var(--orange);
+}
+
+.menu-buttons-container {
+  height: 100%;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.desktop-header .menu-buttons-container {
+  width: auto;
+  margin: 0;
+  margin-left: auto;
+}
+
+.desktop-header .menu-buttons-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid transparent;
+}
+
+.menu-buttons-wrapper div {
+  width: 27px;
+  height: 27px;
+  /* background: var(--header-icon-bgr); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: .3s;
+}
+
+.desktop-header .menu-buttons-container .menu-buttons-wrapper div {
+  width: 21px;
+  height: 21px;
+  margin: 0 12px;
+  cursor: pointer;
+}
+
+/* .desktop-header .menu-buttons-container .menu-buttons-wrapper div img {
+  height: 100%;
+} */
+
+.menu-buttons-wrapper .menu-theme-color img {
+  height: 100%;
+}
+
+.desktop-header .menu-buttons-container .menu-buttons-wrapper div:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.menu-buttons-wrapper.picked div {
+  /* background: var(--orange); */
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+}
+
+.menu-buttons-wrapper svg {
+  width: 56%;
+  height: 56%;
+  fill: var(--header-icon-color);
+  transition: .3s;
+}
+
+/* .menu-buttons-wrapper div:hover {
+  background: var(--orange);
+} */
+
+.menu-buttons-wrapper div:hover svg, .menu-buttons-wrapper.picked svg {
+  fill: #ffffff;
+}
+
+.desktop-header .my-account-container-header {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid transparent;
+}
+
+.desktop-header .my-account-header-inner {
+  width: 100%;
+  padding: 0 25px;
+  border-left: 1px solid var(--segment-border);
+  border-right: 1px solid var(--segment-border);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.desktop-header .my-account-header-inner .my-account-image {
+  width: 21px;
+  height: 21px;
+  margin-right: 7px;
+  /* background: var(--header-icon-bgr); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: .3s;
+}
+
+.desktop-header .my-account-image svg {
+  width: auto;
+  height: 57%;
+  fill: var(--header-icon-color);
+  transition: .3s;
+}
+
+.desktop-header .my-account-text {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.desktop-header .wallet-container-header {
+  height: 100%;
+  align-items: center;
+  border-bottom: 1px solid transparent;
+}
+
+.desktop-header .wallet-header-inner {
+  width: 100%;
+  padding: 0 25px;
+  justify-content: center;
+  align-items: center;
+  /* cursor: pointer; */
+}
+
+.wallet-header-inner img {
+  fill: var(--header-wallet-icon);
+  height: 21px;
+  margin-right: 7px;
+  transition: .3s;
+}
+
+.desktop-header .wallet-header-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* .desktop-header .my-account-header-inner:hover .my-account-image, .desktop-header .active.my-account-container-header .my-account-image {
+  background: var(--orange);
+} */
+
+.desktop-header .my-account-header-inner:hover .my-account-image {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.desktop-header .active .my-account-image svg, .desktop-header .my-account-header-inner:hover svg {
+  fill: #ffffff;
+}
+
+/* .desktop-header .wallet-header-inner:hover img {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+} */
+
+.desktop-header .wallet-header-inner:hover svg, .desktop-header .active.wallet-container-header img {
+  fill: var(--orange);
+}
+
+@media screen and (min-width: 1381px) {
+  .desktop-header .menu-buttons-wrapper.picked {
+    border-bottom-color: var(--orange);
+  }
+  .desktop-header .active.my-account-container-header, .desktop-header .active.wallet-container-header {
+    border-bottom-color: var(--orange);
+  }
+}
+
+/* Mobile Header */
+
+.mobile-header {
+  height: 64px
+}
+
+.mobile-header .logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-header .logo-container.header-plain {
+  background: var(--first-background);
+}
+
+@media screen and (max-width: 1380px) {
+  /* Header */
+  .desktop-header {
+    margin-right: 0;
+  }
+  .desktop-header .header-logo {
+    margin-left: 0;
+  }
+  .desktop-header .links {
+    display: none;
+  }
+  .desktop-header .menu-buttons-container .menu-buttons-wrapper div {
+    margin: 0 7px;
+  }
+  .desktop-header .my-account-header-inner, .desktop-header .wallet-header-inner {
+    padding: 0 15px;
+  }
+  .desktop-header .my-account-header-inner {
+    border: none;
+  }
+  .desktop-header .active.my-account-container-header, .desktop-header .active.wallet-container-header, .menu-buttons-wrapper.picked {
+    background-color: var(--fourth-background);
+  }
+}
+
+@media screen and (min-width: 3400px) {
+  /* Header */
+  .desktop-header {
+    height: 134px;
+  }
+  /* .main-header .header-logo img {
+    height: 125px;
+  } */
+  .desktop-header .header-logo {
+    width: 400px;
+    max-width: 400px;
+    margin-left: 40px;
+    margin-right: 80px;
+  }
+  .desktop-header .links {
+    max-width: 1400px;
+  }
+  .desktop-header .links a {
+    font-size: 36px;
+    height: 60px;
+  }
+  .desktop-header .links a:hover {
+    border-width: 4px;
+  }
+  .desktop-header .menu-buttons-container .menu-buttons-wrapper div {
+    width: 54px;
+    height: 54px;
+    margin: 0 30px;
+  }
+  .menu-buttons-container {
+    padding: 0 40px;
+  }
+  .desktop-header .my-account-container-header {
+    border-bottom-width: 4px;
+  }
+  .desktop-header .my-account-header-inner {
+    padding: 0 50px;
+  }
+  .desktop-header .my-account-header-inner .my-account-image {
+    width: 54px;
+    height: 54px;
+    margin-right: 18px;
+  }
+  .desktop-header .my-account-text {
+    font-size: 36px;
+  }
+  .desktop-header .wallet-container-header {
+    border-bottom-width: 4px;
+  }
+  .desktop-header .wallet-header-inner {
+    padding: 0 50px;
+  }
+  .desktop-header .wallet-header-inner img {
+    height: 54px;
+    margin-right: 18px;
+  }
+  .desktop-header .wallet-header-text {
+    font-size: 36px;
+  }
+}

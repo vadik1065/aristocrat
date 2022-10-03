@@ -1,0 +1,314 @@
+.settings-backdrop {
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index: 1;
+   background: rgba(0, 0, 0, .3);
+   cursor: pointer;
+}
+
+#settingsModal {
+   height: calc(100% - 75px);
+   position: absolute;
+   top: 64px;
+   right: 60px;
+   z-index: 100;
+}
+
+.settings-container {
+   width: 650px;
+   height: 100%;
+   padding: 20px 40px;
+   background: var(--first-background);
+   border-radius: 0px 0px 5px 5px;
+   overflow: auto;
+}
+
+/* System Settings */
+
+.settings-card {
+   margin-top: 60px;
+}
+
+.settings-card:first-child, .settings-card:nth-child(2) {
+   margin-top: 0;
+}
+
+.settings-cards-list {
+   margin-top: 50px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.settings-card-toggler {
+   align-items: center;
+   justify-content: space-between;
+}
+
+.settings-card-toggler .settings-card-name {
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.settings-card-toggle-option {
+   display: flex;
+}
+
+.settings-card-toggle-option ion-label::before {
+   min-width: 34px;
+   min-height: 34px;
+   width: 34px;
+   height: 34px;
+   content: '';
+   margin-left: 5px;
+   display: block;
+   background: var(--orange);
+   border-radius: 3px;
+   position: absolute;
+   left: 0;
+   top: 8px;
+}
+
+.settings-card-toggle-option ion-label {
+   display: flex !important;
+   margin-left: 50px !important;
+}
+
+.settings-card-toggle-option::part(native) {
+   padding-left: 2px;
+}
+
+.settings-card-toggle-option.purple ion-label::before {
+   background: var(--purple);
+}
+
+.settings-card-toggle-option.green ion-label::before {
+   background: var(--old-acgreen);
+}
+
+.settings-card-toggle-option.red ion-label::before {
+   background: var(--old-red);
+}
+
+.settings-card-toggle-option.magenta ion-label::before {
+   background: var(--magenta);
+}
+
+.settings-card-toggle-option.light-blue ion-label::before {
+   background: var(--old-light-blue);
+}
+
+.settings-card-toggle-option.gold ion-label::before {
+   background: var(--gold);
+}
+
+.settings-card-toggle-option.violet ion-label::before {
+   background: var(--violet);
+}
+
+.settings-card-hideable {
+   width: 255px;
+   height: auto;
+   margin-top: 20px;
+   transition: .3s;
+}
+
+.settings-card-hideable ion-segment {
+   margin: 6px 0 22px;
+}
+
+.settings-card-toggle.accent-color, .settings-card-toggle.settings-send-button {
+   --padding-start: 4px;
+}
+
+.accent-color::part(text), .settings-send-button::part(text) {
+   display: flex;
+   align-items: center;
+}
+
+.accent-color::part(text)::before, .settings-send-button::part(text)::before {
+   width: 34px;
+   height: 34px;
+   content: '';
+   margin-top: -2px;
+   margin-right: 12px;
+   display: block;
+   background: var(--orange);
+   border-radius: 3px;
+}
+
+/* Leagues */
+
+.settings-container .sport-games-select {
+   margin-top: 30px;
+}
+
+.card-leagues-element:last-child {
+   border-radius: 0 0 10px 10px;
+}
+
+/* Market */
+
+.market-settings-container {
+   margin-top: 35px;
+}
+
+.market-settings-line {
+   display: flex;
+   align-items: center;
+   margin: 0px auto;
+}
+
+.market-settings-line .toggle-card {
+   margin: 10px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+   /* Settings */
+   .settings-container {
+      width: 460px;
+      padding: 15px 22px;
+      right: 85px;
+   }
+   .settings-container .top-segment ion-segment-button ion-label {
+      font-size: 13px;
+   }
+   .settings-cards-list {
+      margin-top: 20px;
+   }
+   .settings-card {
+      margin-top: 30px;
+   }
+   .settings-card-hideable {
+      width: 188px;
+      margin-top: 13px;
+   }
+   .settings-card-toggler .settings-card-name {
+      font-size: 14px;
+   }
+   .accent-color::part(text)::before, .settings-send-button::part(text)::before {
+      width: 23px;
+      height: 23px;
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .toggler {
+      display: none;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   /* Settings */
+   .settings-container .top-segment ion-segment-button ion-label, ion-menu .top-segment ion-segment-button ion-label {
+      font-size: 13px;
+   }
+   .settings-cards-list {
+      margin-top: 0;
+      display: block;
+   }
+   .settings-card {
+      height: auto;
+      padding: 15px 20px;
+      margin: 2px auto;
+      background: var(--second-background);
+      overflow: hidden;
+   }
+   .settings-card.open {
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+   }
+   .settings-card:last-child {
+      margin-bottom: 0;
+   }
+   .toggler {
+      width: 10px;
+      height: 6px;
+      margin-top: -5px;
+      fill: currentColor;
+   }
+   .open .toggler {
+      transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+   }
+   .settings-card-hideable {
+      width: 100%;
+      display: none;
+   }
+   .open .settings-card-hideable {
+      display: block;
+   }
+   .settings-leagues-card ion-item {
+      --background: transparent;
+   }
+   .settings-leagues-top {
+      display: none;
+   }
+   .settings-leagues-card-leagues button {
+      padding: 0;
+   }
+   .market-settings-container {
+      margin-top: 25px;
+      padding: 0 10px;
+   }
+}
+
+@media screen and (min-width: 3400px) {
+   #settingsModal {
+      top: 134px;
+      right: 365px;
+   }
+   .settings-container {
+      width: 1000px;
+      padding: 30px 50px;
+   }
+   .settings-card {
+      margin-top: 100px;
+   }
+   .settings-card {
+      margin-top: 60px;
+   }
+   .settings-card-toggler .settings-card-name {
+      font-size: 30px;
+   }
+   .settings-card-hideable {
+      margin-top: 40px;
+   }
+   .settings-card-hideable {
+      width: 410px;
+   }
+   .accent-color::part(text)::before, .settings-send-button::part(text)::before {
+      width: 50px;
+      height: 50px;
+      margin-right: 20px;
+   }
+   .settings-card-toggle.accent-color, .settings-card-toggle.settings-send-button {
+      --padding-start: 10px;
+   }
+   /* Leagues */
+   .settings-container .sport-games-select {
+      min-width: 340px;
+      height: 68px;
+      font-size: 27px;
+      padding-left: 30px;
+      margin-top: 50px;
+   }
+   .sport-games-select::after {
+      width: 30px;
+      height: 14px;
+      right: 20px;
+   }
+   /* Market */
+   .market-settings-container {
+      margin-top: 60px;
+   }
+   .market-settings-line .toggle-card {
+      margin: 20px 0px;
+   }
+}
